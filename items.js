@@ -184,14 +184,14 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         description: 'A cover sent from Bandar Naseri (Ahvaz) to Millvile NJ, sent via Mohammreh on 18/1/24 and Baghdad with airmail. The cover is tied with 2 1kr Ahmad Shah portrait issue of 1911 with control overprint, for a total of 2kr (1kr postage + 1kr air fee).',
         id: '40167',
     },
-    "": {
-        title: '',
-        description: '',
-        id: '',
+    "f-reg-1": {
+        title: '12 Chahi',
+        description: 'A registered cover sent from Tehran on 8/11/13 to London, received on 18/12/13  tied by 2 12ch Ahmad Shah portrait issue of 1911.',
+        id: '40037',
     },
-    "": {
-        title: '',
+    "f-reg-2": {
+        title: '15 Chahi',
         description: '',
-        id: '',
+        id: '40201',
     },
 }
