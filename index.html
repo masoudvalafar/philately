@@ -168,7 +168,15 @@
             </div>
 
             <button type="button" class="collapsible">Insurance</button>
-            <div class="content"></div>
+            <div class="content" id="insurance-content">
+                <p>This service provided insurance for when the letter contained money. The insurance was 1% of the
+                    total money being sent.</p>
+
+                <script>
+                    addItem(items["insurance-1"], 'insurance-content');
+                </script>
+
+            </div>
 
             <h4>3 - Charity Tax</h4>
             <p>During certain period, due to natural disaster, a charity was tax imposed for internal letters in some
@@ -179,6 +187,7 @@
                 <p>1 Chahi charity tax was imposed in Tehran during XX/XX/XX to XX/XX/XX. </p>
                 <script>
                     addItem(items["tehran-charity-1"], 'tehran-charity-content');
+                    addItem(items["tehran-charity-2"], 'tehran-charity-content');
                 </script>
             </div>
 
@@ -186,7 +195,12 @@
             <div class="content"></div>
 
             <button type="button" class="collapsible">Tabriz</button>
-            <div class="content"></div>
+            <div class="content" id="tabriz-charity-content">
+                <p>Tabriz charity tax was imposed during XX/XX/XX to XX/XX/XX.</p>
+                <script>
+                    addItem(items["tabriz-charity-1"], 'tabriz-charity-content');
+                </script>
+            </div>
 
             <button type="button" class="collapsible">Khoy</button>
             <div class="content"></div>

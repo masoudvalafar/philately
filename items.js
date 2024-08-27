@@ -6,8 +6,19 @@ const items = {
     },
     "tehran-charity-1": {
         id: '40024',
-        title: 'Tehran charity',
+        title: 'Tehran charity type 1',
         description: "A registered cover sent from Hamedan to Tehran, received on 10/1/19. The cover is franked with two Ahmad Shah portrait issue of 1911 and one 1ch charity stamp. The note potentially by the post masters shows the rate for the cover is 95 (dinar) equal to 19 Chahi.",
+    },
+    "tehran-charity-2": {
+        title: 'Tehran charity type 2',
+        description: 'A cover sent from Tehran on 5/4/13 to Kerman on 19/5/18. The cover is franked with 6ch Ahmad Shah portrait issue of 1911 and 1ch charity with “kheirieh” handstamp.',
+        id: '40089',
+    },
+    "tabriz-charity-1": {
+        title: '1 Chahi',
+        description: 'A cover sent from Tauris on 21/6/19 to Tehran, received on 25/6/19 franked with 6ch provisional issue of 1919 with 1ch charity stamp of Tabriz famine releif issue. \
+This cover was also bears Dunterforce censorship mark(CP- 84).',
+        id: '40049',
     },
     "intra-city-1": {
         id: '40165',
@@ -126,6 +137,17 @@ const items = {
                         1kr Ahmad Shah portrait \
                         issue of 1911, 2ch for intra - city rate, 12ch for registration and 6ch for the return receipt.',
         id: '40072',
+    },
+    "insurance-1": {
+        title: '',
+        description: '"An insured AR cover containing 3 Tooman from Kazvin sent on 30/2/1916 to Tehran, received on 5/3/16. The cover is tied with 3ch Ahmad Shah portrait issue of 1911, 1kr Coat of Arms issue of 1909 with 1333 Hedgira overprint and 13ch Coat of Arms issue of 1909 revalued to 12ch. \
+How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 6ch insurance(3T * 200 = 600ch total money-- > 1 % or 1ch is the insurance cost) + 1ch for wax"',
+        id: '40092',
+    },
+    "": {
+        title: '',
+        description: '',
+        id: '',
     },
     "": {
         title: '',
