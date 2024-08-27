@@ -8,6 +8,8 @@
     <title>Ahmad Shah Era Postal History</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script src="helper.js"></script>
+    <script src="items.js"></script>
 </head>
 
 <body>
@@ -38,22 +40,12 @@
             </ul>
 
             <button type="button" class="collapsible">Intra city</button>
-            <div class="content">
+            <div class="content" id="intra-city-content">
                 <p>The rate of sending a cover to a destination within the same city was 2 Chahi for the whole era.</p>
 
-                <div class="item">
-                    <p class="item-title">2 Chahi</p>
-                    <p>A intra-city cover from recht sent on 8/7/1916, tied by 2ch Ahmad Shah portrait issue of 1911.
-                    </p>
-                    <div class="row">
-                        <div class="column">
-                            <img src="./images/40165_front.jpg" style="width:100%">
-                        </div>
-                        <div class="column">
-                            <img src="./images/40165_back.jpg" style="width:100%">
-                        </div>
-                    </div>
-                </div>
+                <script>
+                    addItem(items["intra-city-1"], 'intra-city-content');
+                </script>
             </div>
 
             <button type="button" class="collapsible">Local</button>
@@ -68,198 +60,55 @@
                 </ul>
 
                 <button type="button" class="collapsible">Before 22/5/1916</button>
-                <div class="content">
+
+                <div class="content" id="local-before-content">
                     <p>
                         The rate for local letters in this era was 2 Chahi.
                     </p>
 
-                    <div class="item">
-                        <p class="item-title">2 Chahi</p>
-                        <p>
-                        </p>
-                        <div class="row">
-                            <div class="column">
-                                <img src="./images/40174_front.jpg" style="width:100%">
-                            </div>
-                            <div class="column">
-                                <img src="./images/40174_back.jpg" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
+                    <script>
+                        addItem(items["local-1"], 'local-before-content');
+                    </script>
                 </div>
 
                 <button type="button" class="collapsible">After 22/5/1916</button>
-                <div class="content">
+                <div class="content" id='local-after-content'>
                     <p>From this date, the rate increased to 3 Chahi and stayed the same until the end of the
                         era.</p>
-                    <div class="item">
-                        <p class="item-title">3 Chahi</p>
-                        <p>
-                        </p>
-                        <div class="row">
-                            <div class="column">
-                                <img src="./images/40119_front.jpg" style="width:100%">
-                            </div>
-                            <div class="column">
-                                <img src="./images/40119_back.jpg" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
+
+                    <script>
+                        addItem(items["local-2"], 'local-after-content');
+                    </script>
                 </div>
             </div>
 
             <button type="button" class="collapsible">Country</button>
             <div class="content">
                 <button type="button" class="collapsible">Outside of 10/08/1921 to 06/10/1921 period</button>
-                <div class="content">
+                <div class="content" id='country-outside-content'>
                     <p>In this period, the rate of a letter up to 2 Miskal was 6 Chahi. For each extra Miskal the rate
                         would go up by 3 Chahi.</p>
 
-                    <div class="item">
-                        <p class="item-title">6 Chahi</p>
-                        <p>A cover sent from Ram Hormoz on 21/4/14 to Bushire, received on 4/5/14. The
-                            cover was routed through Bandar Naseri on 23/4/14 and then Mohammareh on 29/4/14. It is tied
-                            to the 6ch Ahmad Shah portrait issue of 1911.</p>
-                        <div class="row">
-                            <div class="column">
-                                <img src="./images/40150_front.jpg" style="width:100%">
-                            </div>
-                            <div class="column">
-                                <img src="./images/40150_back.jpg" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <p class="item-title">9 Chahi</p>
-                        <p>A cover sent from Bouchir to Kerman, recived on 1/6/1915. The cover went thrugh Shiraz on
-                            13/5/15 and Yezd on 22/5/15. It
-                            is tied by 9ch Coat of Arms issue of 1909 with 1333 Hedgira overprint (the dotted variety).
-                        </p>
-                        <div class="row">
-                            <div class="column">
-                                <img src="./images/40098_front.jpg" style="width:100%">
-                            </div>
-                            <div class="column">
-                                <img src="./images/40098_back.jpg" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="item">
-                        <p class="item-title">12 Chahi</p>
-                        <p>A cover from Kerman sent on 3/4/1911 to Yezd, tied by a 10ch Coat of Arms issue of 1909 and 2
-                            registeration labels used
-                            as 1ch.</p>
-                        <div class="row">
-                            <div class="column">
-                                <img src="./images/40156_front.jpg" style="width:100%">
-                            </div>
-                            <div class="column">
-                                <img src="./images/40156_back.jpg" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <p class="item-title">15 Chahi</p>
-                        <p>A cover sent from Tehran on 27/1/10 to Kerman, received on 14/2/10, franked with 6ch and 9ch
-                            Coat of Arms issue of 1909.
-                            The 15ch rate of the cover shows that the cover was 5 misghal.</p>
-                        <div class="row">
-                            <div class="column">
-                                <img src="./images/40097_front.jpg" style="width:100%">
-                            </div>
-                            <div class="column">
-                                <img src="./images/40097_back.jpg" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <p class="item-title">21 Chahi</p>
-                        <p>A cover from Yezd sent on 16/6/21 to Kerman received on 25/6/21, tied with seven 3ch Ahmad
-                            Shah
-                            portrait issue of 1911.</p>
-                        <div class="row">
-                            <div class="column">
-                                <img src="./images/40143_front.jpg" style="width:100%">
-                            </div>
-                            <div class="column">
-                                <img src="./images/40143_back.jpg" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <p class="item-title">30 Chahi</p>
-                        <p>A cover sent from Bandar Naseri on 4/1/23 to Isfahan, recieved on 5/2/23, tied with fifteen
-                            2ch
-                            Ahmad Shah portrait issue of
-                            1911.</p>
-                        <div class="row">
-                            <div class="column">
-                                <img src="./images/40145_front.jpg" style="width:100%">
-                            </div>
-                            <div class="column">
-                                <img src="./images/40145_back.jpg" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <p class="item-title">45 Chahi</p>
-                        <p></p>
-                        <div class="row">
-                            <div class="column">
-                                <img src="./images/40185_front.jpg" style="width:100%">
-                            </div>
-                            <div class="column">
-                                <img src="./images/40185_back.jpg" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="item">
-                        <p class="item-title">51 Chahi</p>
-                        <p>A cover sent from Yezd on 7/4/21 to Kerman, received on 17/5/21. The manuscript and the
-                            postmark on the cover show that
-                            it was mistakenly rounted to Bandar Abbas and was forwarded to Kerman from there. The cover
-                            is tied with one 1ch, one 2ch
-                            and eight 6ch Ahmad Shah portrait issue of 1911 for a total of 30ch (This cover weighed 17
-                            Miskal).</p>
-                        <div class="row">
-                            <div class="column">
-                                <img src="./images/40144_front.jpg" style="width:100%">
-                            </div>
-                            <div class="column">
-                                <img src="./images/40144_back.jpg" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
+                    <script>
+                        addItem(items["country-1"], 'country-outside-content');
+                        addItem(items["country-2"], 'country-outside-content');
+                        addItem(items["country-3"], 'country-outside-content');
+                        addItem(items["country-4"], 'country-outside-content');
+                        addItem(items["country-5"], 'country-outside-content');
+                        addItem(items["country-6"], 'country-outside-content');
+                        addItem(items["country-7"], 'country-outside-content');
+                        addItem(items["country-8"], 'country-outside-content');
+                    </script>
                 </div>
 
                 <button type="button" class="collapsible">Within 10/08/1921 to 06/10/1921 period</button>
-                <div class="content">
+                <div class="content" id='country-within-content'>
                     <p>In this period, the rate of a letter up to 2 Miskal was 10 Chahi. For each extra Miskal 5 Chahi
                         was added to the rate.</p>
 
-                    <div class="item">
-                        <p class="item-title">10 Chahi</p>
-                        <p></p>
-                        <div class="row">
-                            <div class="column">
-                                <img src="./images/40192_front.jpg" style="width:100%">
-                            </div>
-                            <div class="column">
-                                <img src="./images/40192_back.jpg" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
+                    <script>
+                        addItem(items["country-9"], 'country-within-content');
+                    </script>
                 </div>
 
             </div>
@@ -277,113 +126,45 @@
             <button type="button" class="collapsible">Registeration</button>
             <div class="content">
                 <button type="button" class="collapsible">Before 22/5/1916</button>
-                <div class="content">
+                <div class="content" id="registeration-before-content">
                     <p>The registeration rate at this time was 16 Chahi.</p>
 
-                    <div class="item">
-                        <p class="item-title">16 chahi</p>
-                        <p>A registered cover sent from Koum on 1/6/1910 to Tehran, received on 4/6/1910. The cover is
-                            franked with 2 10ch Coat of
-                            Arms issue of 1909 and one 2ch coat of arms issue of 1909 for a total of 22ch, 16ch
-                            registration and 6ch postal rate.</p>
-                        <div class="row">
-                            <div class="column">
-                                <img src="./images/40140_front.jpg" style="width:100%">
-                            </div>
-                            <div class="column">
-                                <img src="./images/40140_back.jpg" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
+                    <script>
+                        addItem(items["register-1"], 'registeration-before-content');
+                    </script>
                 </div>
 
                 <button type="button" class="collapsible">Between 22/5/1916 and 10/08/1921</button>
-                <div class="content">
+                <div class="content" id='registeration-bet-16-22-content'>
                     <p>The registeration rate was decreased to 12 Chahi.</p>
 
-                    <div class="item">
-                        <p class="item-title">12 chahi</p>
-                        <p>A registered cover sent from Tajrish to Torshiz. Upon arrival in Tehran the postal clerk
-                            noticed the postage due and
-                            added this note: "postage due. Added a stamp in the central office". The cover is tied with
-                            2ch and 10ch Ahmad Shah
-                            portrait issue of 1911 and 10ch Coat of arms issue of 1909 revalued to 3ch with 1335
-                            handstamp and 9ch Coat of Arms
-                            issue of 1909 revalued to 1ch with 1335 Hedgira handstamp and a 2ch Ahmad Shah portrait
-                            issue of 1911 which is tied with
-                            Tehran postmark, for a total of 18ch, 6 ch postal rate and 12ch registration.</p>
-                        <div class="row">
-                            <div class="column">
-                                <img src="./images/40112_front.jpg" style="width:100%">
-                            </div>
-                            <div class="column">
-                                <img src="./images/40112_back.jpg" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
+                    <script>
+                        addItem(items["register-2"], 'registeration-bet-16-22-content');
+                    </script>
                 </div>
 
                 <button type="button" class="collapsible">Between 10/08/1921 and 06/10/1921</button>
                 <div class="content"></div>
 
                 <button type="button" class="collapsible">After 06/10/1921</button>
-                <div class="content">
+                <div class="content" id="registeration-after-content">
                     <p>The registeration rate was decreased yet again to 12 Chahi.</p>
 
-                    <div class="item">
-                        <p class="item-title">12 chahi</p>
-                        <p></p>
-                        <div class="row">
-                            <div class="column">
-                                <img src="./images/40209_front.jpg" style="width:100%">
-                            </div>
-                            <div class="column">
-                                <img src="./images/40209_back.jpg" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
+                    <script>
+                        addItem(items["register-3"], 'registeration-after-content');
+                    </script>
                 </div>
             </div>
 
             <button type="button" class="collapsible">Advice of receipt (AR)</button>
-            <div class="content">
+            <div class="content" id="ar-content">
                 <p>To ask for a receipt to get sent back to the sender from the receiver cost 6 Chahi for the whole era.
                 </p>
 
-                <div class="item">
-                    <p class="item-title">Country letter with AR</p>
-                    <p>A registered cover with AR sent from Kazvin on 18/7/20 to Isfahan, received on 26/7/20. the cover
-                        arrived in Tehran on
-                        20/7/20 and left Tehran the next day on 21/7/20. This cover is franked with 24ch Ahmad Shah
-                        portrait issue of 1911. The
-                        cover also shows CP-38 "Audited by censor number 3" censorship cachet.</p>
-                    <div class="row">
-                        <div class="column">
-                            <img src="./images/40080_front.jpg" style="width:100%">
-                        </div>
-                        <div class="column">
-                            <img src="./images/40080_back.jpg" style="width:100%">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <p class="item-title">Intra city letter with AR</p>
-                    <p>A registered cover with AR sent from Tehran on 3/7/1917 to Tehran. The cover is franked with a
-                        1kr Ahmad Shah portrait
-                        issue of 1911, 2ch for intra-city rate, 12ch for registration and 6ch for the return receipt.
-                    </p>
-                    <div class="row">
-                        <div class="column">
-                            <img src="./images/40072_front.jpg" style="width:100%">
-                        </div>
-                        <div class="column">
-                            <img src="./images/40072_back.jpg" style="width:100%">
-                        </div>
-                    </div>
-                </div>
-
+                <script>
+                    addItem(items["ar-1"], 'ar-content');
+                    addItem(items["ar-2"], 'ar-content');
+                </script>
             </div>
 
             <button type="button" class="collapsible">Insurance</button>
@@ -394,21 +175,11 @@
                 cities.</p>
 
             <button type="button" class="collapsible">Tehran</button>
-            <div class="content">
+            <div class="content" id="tehran-charity-content">
                 <p>1 Chahi charity tax was imposed in Tehran during XX/XX/XX to XX/XX/XX. </p>
-
-                <div class="item">
-                    <p class="item-title"></p>
-                    <p></p>
-                    <div class="row">
-                        <div class="column">
-                            <img src="./images/40024_front.jpg" style="width:100%">
-                        </div>
-                        <div class="column">
-                            <img src="./images/40024_back.jpg" style="width:100%">
-                        </div>
-                    </div>
-                </div>
+                <script>
+                    addItem(items["tehran-charity-1"], 'tehran-charity-content');
+                </script>
             </div>
 
             <button type="button" class="collapsible">Racht</button>

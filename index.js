@@ -16,3 +16,14 @@ function addCollapsibleListener(coll) {
         });
     }
 }
+
+function addItem(item, elem) {
+    const div = document.createElement(elem);
+
+    div.className = 'item-div';
+    div.innerHTML = `<p>1 Chahi charity tax was imposed in Tehran during XX/XX/XX to XX/XX/XX. </p>`;
+
+    document.getElementById('bbb').appendChild(div);
+
+}
+

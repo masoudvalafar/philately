@@ -1,0 +1,135 @@
+const items = {
+    "": {
+        title: '',
+        description: '',
+        id: '',
+    },
+    "tehran-charity-1": {
+        id: '40024',
+        title: 'Tehran charity',
+        description: "A registered cover sent from Hamedan to Tehran, received on 10/1/19. The cover is franked with two Ahmad Shah portrait issue of 1911 and one 1ch charity stamp. The note potentially by the post masters shows the rate for the cover is 95 (dinar) equal to 19 Chahi.",
+    },
+    "intra-city-1": {
+        id: '40165',
+        title: '2 Chahi',
+        description: 'A intra-city cover from recht sent on 8/7/1916, tied by 2ch Ahmad Shah portrait issue of 1911.'
+    },
+    "local-1": {
+        id: '40174',
+        title: '2 Chahi',
+        description: '',
+    },
+    "local-2": {
+        id: '40119',
+        title: '3 Chahi',
+        description: '',
+    },
+    "country-1": {
+        id: '40150',
+        title: '6 Chahi',
+        description: "A cover sent from Ram Hormoz on 21/4/14 to Bushire, received on 4/5/14. The \
+                            cover was routed through Bandar Naseri on 23/4/14 and then Mohammareh on 29/4/14. It is tied \
+                            to the 6ch Ahmad Shah portrait issue of 1911.",
+    },
+    "country-2": {
+        title: '9 Chahi',
+        description: 'A cover sent from Bouchir to Kerman, recived on 1/6/1915. The cover went thrugh Shiraz on \
+                            13/5/15 and Yezd on 22/5/15. It \
+                            is tied by 9ch Coat of Arms issue of 1909 with 1333 Hedgira overprint(the dotted variety).',
+        id: '40098',
+    },
+    "country-3": {
+        title: '12 Chahi',
+        description: 'A cover from Kerman sent on 3/4/1911 to Yezd, tied by a 10ch Coat of Arms issue of 1909 and 2 \
+                            registeration labels used \
+                            as 1ch.',
+        id: '40156',
+    },
+    "country-4": {
+        title: '15 Chahi',
+        description: 'A cover sent from Tehran on 27/1/10 to Kerman, received on 14/2/10, franked with 6ch and 9ch \
+                            Coat of Arms issue of 1909. \
+                            The 15ch rate of the cover shows that the cover was 5 misghal.',
+        id: '40097',
+    },
+    "country-5": {
+        title: '21 Chahi',
+        description: 'A cover from Yezd sent on 16/6/21 to Kerman received on 25/6/21, tied with seven 3ch Ahmad \
+                            Shah \
+                            portrait issue of 1911.',
+        id: '40143',
+    },
+    "country-6": {
+        title: '30 Chahi',
+        description: 'A cover sent from Bandar Naseri on 4/1/23 to Isfahan, recieved on 5/2/23, tied with fifteen \
+                            2ch Ahmad Shah portrait issue of 1911.',
+        id: '40145',
+    },
+    "country-7": {
+        title: '45 Chahi',
+        description: '',
+        id: '40185',
+    },
+    "country-8": {
+        title: '51 Chahi',
+        description: 'A cover sent from Yezd on 7/4/21 to Kerman, received on 17/5/21. The manuscript and the \
+                            postmark on the cover show that \
+                            it was mistakenly rounted to Bandar Abbas and was forwarded to Kerman from there.The cover \
+                            is tied with one 1ch, one 2ch \
+                            and eight 6ch Ahmad Shah portrait issue of 1911 for a total of 30ch(This cover weighed 17 \
+                            Miskal).',
+        id: '40144',
+    },
+    "country-9": {
+        title: '10 Chahi',
+        description: '',
+        id: '40192',
+    },
+    "register-1": {
+        title: '16 chahi',
+        description: 'A registered cover sent from Koum on 1/6/1910 to Tehran, received on 4/6/1910. The cover is \
+                            franked with 2 10ch Coat of \
+                            Arms issue of 1909 and one 2ch coat of arms issue of 1909 for a total of 22ch, 16ch \
+                            registration and 6ch postal rate.',
+        id: '40140',
+    },
+    "register-2": {
+        title: '12 chahi',
+        description: 'A registered cover sent from Tajrish to Torshiz. Upon arrival in Tehran the postal clerk \
+                            noticed the postage due and \
+                            added this note: "postage due. Added a stamp in the central office".The cover is tied with \
+                            2ch and 10ch Ahmad Shah \
+                            portrait issue of 1911 and 10ch Coat of arms issue of 1909 revalued to 3ch with 1335 \
+                            handstamp and 9ch Coat of Arms \
+                            issue of 1909 revalued to 1ch with 1335 Hedgira handstamp and a 2ch Ahmad Shah portrait \
+                            issue of 1911 which is tied with \
+                            Tehran postmark, for a total of 18ch, 6 ch postal rate and 12ch registration.',
+        id: '40112',
+    },
+    "register-3": {
+        title: '12 chahi',
+        description: '',
+        id: '40209',
+    },
+    "ar-1": {
+        title: 'Country letter with AR',
+        description: 'A registered cover with AR sent from Kazvin on 18/7/20 to Isfahan, received on 26/7/20. the cover \
+                        arrived in Tehran on \
+                        20/7/20 and left Tehran the next day on 21/7/20.This cover is franked with 24ch Ahmad Shah \
+                        portrait issue of 1911. The \
+                        cover also shows CP- 38 "Audited by censor number 3" censorship cachet.',
+        id: '40080',
+    },
+    "ar-2": {
+        title: 'Intra city letter with AR',
+        description: 'A registered cover with AR sent from Tehran on 3/7/1917 to Tehran. The cover is franked with a \
+                        1kr Ahmad Shah portrait \
+                        issue of 1911, 2ch for intra - city rate, 12ch for registration and 6ch for the return receipt.',
+        id: '40072',
+    },
+    "": {
+        title: '',
+        description: '',
+        id: '',
+    },
+}
