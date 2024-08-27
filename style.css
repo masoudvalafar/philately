@@ -47,7 +47,7 @@
 
 .column {
     float: left;
-    width: 33.33%;
+    width: 48.5%;
     padding: 5px;
 }
 
@@ -73,4 +73,8 @@
     background: #1abc9c;
     color: white;
     font-size: 30px;
+}
+
+.list {
+    padding-bottom: 10px;
 }
