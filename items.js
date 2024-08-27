@@ -145,29 +145,29 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         id: '40092',
     },
     "foreign-rate-1": {
-        title: '13 Ch',
+        title: '13 Chahi',
         description: 'A cover sent from Kerman to Escher, received on 8/12/11, tied by 3ch and 10ch Ahmad Shah portrait issue of 1911. The cover was sent through Bendar Abbas port.',
         id: '40038',
     },
-    "": {
-        title: '',
-        description: '',
-        id: '',
+    "foreign-rate-2": {
+        title: '12 Chahi',
+        description: 'A cover sent from Tauris on 17/1?/1913 to Anvers, received on 26/11/1913. The cover is tied with 12ch Ahmad Shah portrait issue of 1911.',
+        id: '40124',
     },
-    "": {
-        title: '',
-        description: '',
-        id: '',
+    "foreign-rate-3": {
+        title: '20 Chahi',
+        description: 'A cover sent from Mohammreh on 16/8/25 to London, tied with 3kr Ahmad Shah portrait issue of 1911 with control overprint revalued to 1kr with typeset overprint.',
+        id: '40168',
     },
-    "": {
+    "foreign-rate-4": {
         title: '',
-        description: '',
-        id: '',
+        description: 'A cover from Bouchir sent on 12/8/23 to Manchester, received on 3/9/23, tied with 2 20kr Ahmad Shah portrait issue of 1911 with control overprint revalued to 10ch with typeset overprints.',
+        id: '40155',
     },
-    "": {
-        title: '',
+    "foreign-rate-5": {
+        title: '15 Chahi',
         description: '',
-        id: '',
+        id: '40207',
     },
     "": {
         title: '',
