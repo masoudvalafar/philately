@@ -217,43 +217,82 @@
                 section 4.</p>
 
             <h4>1 - Foreign letter rate</h4>
-            <button type="button" class="collapsible">Rate</button>
-            <div class="content" id="foreign-rate-content">
-                <p>The foreign letter rate changed several times during this era.</p>
 
-                <button type="button" class="collapsible">Before 29/11/1913</button>
-                <div class="content" id="f-r-before-content">
+            <p>The foreign letter rate changed several times during this era.</p>
+
+            <button type="button" class="collapsible">Before 29/11/1913</button>
+            <div class="content" id="f-r-before-content">
+                <script>
+                    addItem(items["foreign-rate-1"], 'f-r-before-content');
+                </script>
+            </div>
+
+            <button type="button" class="collapsible">Between 29/11/1913 and 08/08/1921</button>
+            <div class="content" id="f-r-bet-13-21-content">
+                <script>
+                    addItem(items["foreign-rate-2"], 'f-r-bet-13-21-content');
+                </script>
+            </div>
+
+            <button type="button" class="collapsible">Between 08/08/1921 and 20/08/1925</button>
+            <div class="content" id="f-r-bet-21-25-content">
+                <script>
+                    addItem(items["foreign-rate-3"], 'f-r-bet-21-25-content');
+                    addItem(items["foreign-rate-4"], 'f-r-bet-21-25-content');
+                </script>
+            </div>
+
+            <button type="button" class="collapsible">After 20/08/1925</button>
+            <div class="content" id="f-r-after-content">
+                <script>
+                    addItem(items["foreign-rate-5"], 'f-r-after-content');
+                </script>
+            </div>
+
+
+            <h4>2 - Special Premiums</h4>
+            <p>Toward the end of the era, there was two more options available to senders on how to send their letters.
+            </p>
+            <button type="button" class="collapsible">Overland Mail</button>
+            <div class="content" id="overland-content">
+                <p>Overland Mail was a service that would expediate delivery of parcels to Europe by carrying them in an
+                    armored vehicle through the desert from Baghdad to Haifa. Senders from Iran that wanted to use this
+                    service had to pay its premium.
+                </p>
+
+
+                <script>
+                    addItem(items['overland-1'], 'overland-content');
+                </script>
+            </div>
+
+            <button type="button" class="collapsible">Air Mail</button>
+            <div class="content" id="air-content">
+                <p>The Basra-Cairo air route become available in 1922. Senders could pay the extra air fee
+                    for their letters to go to Basra and then go to Cairo by air and then get shipped to its
+                    final destination.
+                </p>
+
+                <button type="button" class="collapsible">Before 1924</button>
+                <div class="content" id="air-before-1924-content">
                     <script>
-                        addItem(items["foreign-rate-1"], 'f-r-before-content');
+                        addItem(items['f-air-1'], 'air-before-1924-content');
                     </script>
                 </div>
 
-                <button type="button" class="collapsible">Between 29/11/1913 and 08/08/1921</button>
-                <div class="content" id="f-r-bet-13-21-content">
+                <button type="button" class="collapsible">1924 and after</button>
+                <div class="content" id="air-after-1924-content">
                     <script>
-                        addItem(items["foreign-rate-2"], 'f-r-bet-13-21-content');
-                    </script>
-                </div>
-
-                <button type="button" class="collapsible">Between 08/08/1921 and 20/08/1925</button>
-                <div class="content" id="f-r-bet-21-25-content">
-                    <script>
-                        addItem(items["foreign-rate-3"], 'f-r-bet-21-25-content');
-                        addItem(items["foreign-rate-4"], 'f-r-bet-21-25-content');
-                    </script>
-                </div>
-
-                <button type="button" class="collapsible">After 20/08/1925</button>
-                <div class="content" id="f-r-after-content">
-                    <script>
-                        addItem(items["foreign-rate-5"], 'f-r-after-content');
+                        addItem(items['f-air-2'], 'air-after-1924-content');
                     </script>
                 </div>
             </div>
 
-            <h4>2 - Special Premiums</h4>
+
+
             <h4>3 - Extra services</h4>
             <h4>4 - Out of ordinary letters</h4>
+            tabriz to Mashad!
 
         </div>
 

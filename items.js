@@ -156,7 +156,7 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
     },
     "foreign-rate-3": {
         title: '20 Chahi',
-        description: 'A cover sent from Mohammreh on 16/8/25 to London, tied with 3kr Ahmad Shah portrait issue of 1911 with control overprint revalued to 1kr with typeset overprint.',
+        description: 'A cover sent from Mohammreh on 16/8/25 to London, tied with 30kr Ahmad Shah portrait issue of 1911 with control overprint revalued to 1kr with typeset overprint.',
         id: '40168',
     },
     "foreign-rate-4": {
@@ -168,6 +168,21 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         title: '15 Chahi',
         description: '',
         id: '40207',
+    },
+    "overland-1": {
+        title: '',
+        description: '',
+        id: '40172',
+    },
+    "f-air-1": {
+        title: '2 Kran',
+        description: 'An airmail cover sent from Tehran on ?/10/22 to Berne (Swiss) with Baghdad-Cairo airmail. The cover is tied with 3kr Ahmad Shah portrait issue of 1911.',
+        id: '40104',
+    },
+    "f-air-2": {
+        title: '1 Kran',
+        description: 'A cover sent from Bandar Naseri (Ahvaz) to Millvile NJ, sent via Mohammreh on 18/1/24 and Baghdad with airmail. The cover is tied with 2 1kr Ahmad Shah portrait issue of 1911 with control overprint, for a total of 2kr (1kr postage + 1kr air fee).',
+        id: '40167',
     },
     "": {
         title: '',
