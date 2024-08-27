@@ -144,6 +144,31 @@ This cover was also bears Dunterforce censorship mark(CP- 84).',
 How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 6ch insurance(3T * 200 = 600ch total money-- > 1 % or 1ch is the insurance cost) + 1ch for wax"',
         id: '40092',
     },
+    "foreign-rate-1": {
+        title: '13 Ch',
+        description: 'A cover sent from Kerman to Escher, received on 8/12/11, tied by 3ch and 10ch Ahmad Shah portrait issue of 1911. The cover was sent through Bendar Abbas port.',
+        id: '40038',
+    },
+    "": {
+        title: '',
+        description: '',
+        id: '',
+    },
+    "": {
+        title: '',
+        description: '',
+        id: '',
+    },
+    "": {
+        title: '',
+        description: '',
+        id: '',
+    },
+    "": {
+        title: '',
+        description: '',
+        id: '',
+    },
     "": {
         title: '',
         description: '',
