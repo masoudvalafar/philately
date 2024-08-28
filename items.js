@@ -229,9 +229,14 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         description: 'Cover from Karbala to Tehran, franked with a 1909 1pi blue (Scott #154), cancelled with "Kerbala 19 0910" postmark. On arrival in Tehran, postage due marking and some instructions to collect the postage due was added to the cover by the postal clerk. The postage due was 1kr and got collected using 1kr Coat of Arms issue of 1909 which was tied to the cover with Tehran 1.X.10 postmark.',
         id: '40138',
     },
-    "": {
-        title: '',
+    "education-7": {
+        title: 'Soltan Abad Bazar postage paid marking',
         description: '',
-        id: '',
+        id: '40122',
+    },
+    "education-8": {
+        title: 'Cancelled in a separate sheet',
+        description: '',
+        id: '40070',
     },
 }
