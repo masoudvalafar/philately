@@ -199,4 +199,20 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         description: 'A cover sent from Tauris on ?/9/12 to Meched, received on 21/9/12. Normally this cover would travel internally through Tehran with 6ch postal rate, however due to domestic turmoil in Iran it was sent through Russia with 13ch rate. The cover is tied with three 3ch and four 1ch Ahmad Shah portrait issue of 1911 with the Officiel handstamp.',
         id: '40127',
     },
+    "education-1": {
+        title: '',
+        description: '',
+        id: '40157',
+    },
+    "education-2": {
+        title: '',
+        description: '',
+        id: '40153',
+    },
+    "education-3": {
+        title: '',
+        description: '',
+        id: '40034',
+    },
+
 }
