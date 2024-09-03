@@ -274,12 +274,12 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         description: '',
         id: '40005',
     },
-    "6chahi-4": {
+    "6chahi-674": {
         title: '#674',
         description: '',
         id: '40007',
     },
-    "6chahi-5": {
+    "6chahi-673": {
         title: '#673',
         description: '',
         id: '40008',
@@ -328,6 +328,16 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         title: '#457',
         description: '',
         id: '40033',
+    },
+    "6chahi-631": {
+        title: '#631',
+        description: '',
+        id: '40048',
+    },
+    "6chahi-687": {
+        title: '#687',
+        description: '',
+        id: '40050',
     },
 
 }
