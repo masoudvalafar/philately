@@ -504,4 +504,14 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         description: '',
         id: '40203',
     },
+    "forge-1": {
+        title: '',
+        description: '',
+        id: 'forge1',
+    },
+    "forge-2": {
+        title: '',
+        description: '',
+        id: 'forge2',
+    },
 }
