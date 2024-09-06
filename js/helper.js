@@ -21,7 +21,7 @@ function getMenus(activeMenu) {
         ["Home", "./index.html"],
         ["Education", "./education.html"],
         ["Rate", "./rate.html"],
-        // ["Forgeries", "./forgery.html"],
+        ["Forgeries", "./forgery.html"],
         ["Collection", "./collection.html"],
         ["Resources", "./resources.html"],
     ]
