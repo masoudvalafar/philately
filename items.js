@@ -14,6 +14,11 @@ const items = {
         description: 'A cover sent from Tehran on 5/4/13 to Kerman on 19/5/18. The cover is franked with 6ch Ahmad Shah portrait issue of 1911 and 1ch charity with “kheirieh” handstamp.',
         id: '40089',
     },
+    "tehran-charity-3": {
+        title: 'Tehran charity type 3',
+        description: '1ch of Ahmad Shah portrait 1909 is used as charity stamp',
+        id: '40226',
+    },
     "tabriz-charity-1": {
         title: '1 Chahi',
         description: 'A cover sent from Tauris on 21/6/19 to Tehran, received on 25/6/19 franked with 6ch provisional issue of 1919 with 1ch charity stamp of Tabriz famine releif issue. \
@@ -95,6 +100,16 @@ This cover was also bears Dunterforce censorship mark(CP- 84).',
         title: '10 Chahi',
         description: '',
         id: '40192',
+    },
+    "country-10": {
+        title: '63 Chahi',
+        description: '',
+        id: '40225',
+    },
+    "country-11": {
+        title: '15 Chahi',
+        description: '',
+        id: '40224',
     },
     "register-1": {
         title: '16 chahi',
