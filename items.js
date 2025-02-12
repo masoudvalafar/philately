@@ -564,4 +564,14 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         description: '7/2/1911 a registered cover from Tehran to Isfahanfranked with two 1kr and a 9ch Coat of Arms issue of 1909. The cover also bears the Tehran control mark (CP-04)',
         id: '40183',
     },
+    "coa-10ch": {
+        title: '',
+        description: 'A cover from Kerman sent on 3/4/1911 to Yezd, tied by a 10ch Coat of Arms issue of 1909 and two registeration labels used as 1ch.',
+        id: '40156',
+    },
+    "coa-26ch": {
+        title: '',
+        description: 'A registered cover from Recht sent on 21/1/1910 to Tehran, received on 25/1/10, tied with 2ch and 26ch Coat of Arms issue of 1909 for a total of 28ch (16R + 6 + 3 + 3)',
+        id: '40158',
+    },
 }
