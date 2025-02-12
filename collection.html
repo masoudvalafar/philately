@@ -280,7 +280,29 @@
                 </ol>
 
             </div>
+            <button type="button" class="collapsible">All stamps on documents</button>
+            <div class="content" id="ondoc-content">
+                <button type="button" class="collapsible">Coat of Arms</button>
+                <div class="content" id="coa-content">
+                    <ul id="coa-list">
+                        <li>
+                            <p>1 Chahi orange and maroon - Persiphila #421</p>
+                            <script>
+                                addItem(items["coa-1ch"], 'coa-list');
+                            </script>
+                        </li>
+                        <li>
+                            <p>2 Chahi violet and maroon - Persiphila #422</p>
+                            <script>
+                                addItem(items["coa-2ch"], 'coa-list');
+                            </script>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
         </div>
+
     </main>
     <script src="./js/index.js"></script>
 </body>
