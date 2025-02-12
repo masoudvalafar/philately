@@ -549,4 +549,19 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         description: 'A registered cover sent from Koum on 1/6/1910 to Tehran, received on 4/6/1910. The cover is franked with two 10ch and one a 2ch coat of arms issue of 1909 for a total of 22ch, 16ch registration and 6ch postal rate. ',
         id: '40140',
     },
+    "coa-3ch": {
+        title: '',
+        description: '12/3/1910 Tehran to Isfahan a cover weiging more than 22 Miskals',
+        id: '40235',
+    },
+    "coa-6ch": {
+        title: '',
+        description: 'A cover sent from Tehran on 27/01/1910 to Yezd, franked with 6ch Coat of arms issue of 1909. The cover is endorsed with the blue Tehran "Momayezi Shod" control mark (CP-01).',
+        id: '40129',
+    },
+    "coa-9ch": {
+        title: '',
+        description: '7/2/1911 a registered cover from Tehran to Isfahanfranked with two 1kr and a 9ch Coat of Arms issue of 1909. The cover also bears the Tehran control mark (CP-04)',
+        id: '40183',
+    },
 }
