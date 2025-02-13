@@ -541,7 +541,7 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
     },
     "coa-1ch": {
         title: '',
-        description: '4/3/1911 a registered cover from Tehran to Isfahan franked with 1ch, 3ch, 6ch, and 1kr Coat of Arms issue of 1909. There seems be a mistake in the cover rate (either 16 + 15 or 16 + 12 are the legitimate values). The cover also bears the Tehran control mark CP-03.',
+        description: '4/3/1911 a cover from Tehran to Isfahan franked with 1ch, 3ch, 6ch, and 1kr Coat of Arms issue of 1909. The cover also bears the Tehran control mark CP-03. Sometimes, receivers would add notes on the cover and the "nomre" manuscript in farsi seems to be added by the receiver.',
         id: '40198',
     },
     "coa-2ch": {
@@ -574,4 +574,85 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         description: 'A registered cover from Recht sent on 21/1/1910 to Tehran, received on 25/1/10, tied with 2ch and 26ch Coat of Arms issue of 1909 for a total of 28ch (16R + 6 + 3 + 3)',
         id: '40158',
     },
+    "coa-1kr": {
+        title: '',
+        description: '18/9/1910 a cover from Kerbala to Tehran with postage due mark. In Tehran a 1kr Coat of Arms issue of 1909 was added to the cover.',
+        id: '40138',
+    },
+    "coa-2kr": {
+        title: '',
+        description: '',
+        id: '45014',
+    },
+    "coa-3kr": {
+        title: '',
+        description: '12/3/1910 Tehran to Isfahan a cover weiging more than 22 Miskals.',
+        id: '40235',
+    },
+    "coa-4kr": {
+        title: '',
+        description: '',
+        id: '45015',
+    },
+    "coa-5kr": {
+        title: '',
+        description: '',
+        id: '45014',
+    },
+    "coa-10kr": {
+        title: '',
+        description: '',
+        id: '45014',
+    },
+    "coa-20kr": {
+        title: '',
+        description: '',
+        id: '45021',
+    },
+    "small-portrait-1ch-1": {
+        title: '',
+        description: 'A cover from Dalaki to Schiraz, received on 15/12/17. The cover is franked with 1ch and 5ch Ahmad Shah portrait issue of 1911.',
+        id: '40022',
+    },
+    "small-portrait-1ch-2": {
+        title: '',
+        description: 'A cover sent from Yezd on 7/4/21 to Kerman, received on 17/5/21. The manuscript and the postmark on the cover show that it was mistakenly rounted to Bandar Abbas and was forwarded to Kerman from there. The cover is tied with a 1ch, a 2ch and eight 6ch Ahmad Shah portrait issue of 1911 for a total of 30ch (This cover weighed 17 Miskal)',
+        id: '40144',
+    },
+    "small-portrait-1ch-3": {
+        title: '',
+        description: 'This cover was sent from Tauris on 16/1/22 to Tehran. The cover arrived in Tehran on 12/2/22 but was returned to Tauris due to the reciever moving to Europe. As such, the cover was returned to Tauris on 1/3/22. However, on 8/3/22 it was returned to Tehran yet again as the sender had moved to Tehran from Tauris. It was received in Tehran on 25/3/22 and was delivered to the original sender. The cover is franked with a 1ch, a 2ch, and a 3ch Ahmad Shah portrait issue of 1911 for 6ch.',
+        id: '40162',
+    },
+    "small-portrait-1ch-4": {
+        title: '',
+        description: 'TBD',
+        id: '40181',
+    },
+    "small-portrait-1ch-5": {
+        title: '',
+        description: 'TBD',
+        id: '40226',
+    },
+    "small-portrait-1ch-6": {
+        title: '',
+        description: 'TBD',
+        id: '40229',
+    },
+    "small-portrait-1ch-7": {
+        title: '',
+        description: 'TBD',
+        id: '40230',
+    },
+    "": {
+        title: '',
+        description: '',
+        id: '',
+    },
+    "": {
+        title: '',
+        description: '',
+        id: '',
+    },
+
 }
