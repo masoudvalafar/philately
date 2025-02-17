@@ -16,6 +16,15 @@ function addItem(item, elem) {
     document.getElementById(elem).appendChild(div);
 }
 
+function addStamp(divName, buttonName, id) {
+    const div = document.createElement('div');
+    div.innerHTML += `<button type="button" class="collapsible">${buttonName}</button>`;
+    div.innerHTML += `<div class="content" id=${id}>`
+    div.innerHTML += `</div>`;
+    document.getElementById(divName).appendChild(div);
+
+}
+
 function getMenus(activeMenu) {
     const pages = [
         ["Home", "./index.html"],
