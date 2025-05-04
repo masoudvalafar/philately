@@ -1,0 +1,155 @@
+<!DOCTYPE html >
+    <html>
+    <head>
+    <title>Image Component Example </title>
+<style>
+        .image - component {
+    border: 1px solid #ccc;
+    margin - bottom: 20px;
+    padding: 15px;
+    border - radius: 5px;
+}
+
+  .component - title {
+    font - size: 1.5em;
+    font - weight: bold;
+    margin - bottom: 10px;
+}
+
+  .component - description {
+    margin - bottom: 15px;
+    color: #555;
+}
+
+  .image - container {
+    display: flex;
+    flex - wrap: wrap;
+    gap: 10px;
+}
+
+  .image - item {
+    flex: 0 0 calc(33.33 % - 10px); /* Adjust width as needed */
+    margin - bottom: 10px;
+    border: 1px solid #eee;
+    border - radius: 3px;
+    overflow: hidden; /* To contain image and description */
+}
+
+  .image - item img {
+    display: block;
+    width: 100 %;
+    height: auto;
+}
+
+  .image - description {
+    padding: 8px;
+    font - size: 0.9em;
+    color: #777;
+    text - align: center;
+}
+
+/* Responsive adjustments (optional) */
+@media(max - width: 768px) {
+    .image - item {
+        flex: 0 0 calc(50 % - 10px);
+    }
+}
+
+@media(max - width: 480px) {
+    .image - item {
+        flex: 0 0 100 %;
+    }
+}
+</style>
+    </head>
+    < body >
+
+    <div id="components-container" >
+        </div>
+
+        <script>
+function createImageComponent(title, description, images) {
+    const component = document.createElement('div');
+    component.classList.add('image-component');
+
+    const titleElement = document.createElement('h2');
+    titleElement.classList.add('component-title');
+    titleElement.textContent = title;
+    component.appendChild(titleElement);
+
+    const descriptionElement = document.createElement('p');
+    descriptionElement.classList.add('component-description');
+    descriptionElement.textContent = description;
+    component.appendChild(descriptionElement);
+
+    const imageContainer = document.createElement('div');
+    imageContainer.classList.add('image-container');
+    component.appendChild(imageContainer);
+
+    images.forEach(imageInfo => {
+        const imageItem = document.createElement('div');
+        imageItem.classList.add('image-item');
+
+        const imgElement = document.createElement('img');
+        imgElement.src = imageInfo.url;
+        imgElement.alt = imageInfo.alt || ''; // Add alt text for accessibility
+        imageItem.appendChild(imgElement);
+
+        if (imageInfo.description) {
+            const imageDescription = document.createElement('p');
+            imageDescription.classList.add('image-description');
+            imageDescription.textContent = imageInfo.description;
+            imageItem.appendChild(imageDescription);
+        }
+
+        imageContainer.appendChild(imageItem);
+    });
+
+    return component;
+}
+
+// Example usage:
+const componentsData = [
+    {
+        title: "Beautiful Landscapes",
+        description: "A collection of stunning landscape photographs from around the world.",
+        images: [
+            { url: "https://via.placeholder.com/300/008000/FFFFFF?Text=Landscape+1", description: "Rolling hills at sunset" },
+            { url: "https://via.placeholder.com/300/0000FF/FFFFFF?Text=Landscape+2", description: "Snow-capped mountains" },
+            { url: "https://via.placeholder.com/300/FFA500/FFFFFF?Text=Landscape+3", description: "Desert oasis" },
+            { url: "https://via.placeholder.com/300/800080/FFFFFF?Text=Landscape+4" } // No description
+        ]
+    },
+    {
+        title: "Amazing Wildlife",
+        description: "Captivating images of animals in their natural habitats.",
+        images: [
+            { url: "https://via.placeholder.com/300/FF0000/FFFFFF?Text=Wildlife+1", description: "Majestic lion" },
+            { url: "https://via.placeholder.com/300/00FFFF/000000?Text=Wildlife+2", description: "Colorful parrot" },
+            { url: "https://via.placeholder.com/300/C0C0C0/000000?Text=Wildlife+3" }
+        ]
+    },
+    {
+        title: "City Adventures",
+        description: "Exploring the vibrant streets and iconic landmarks of different cities.",
+        images: [
+            { url: "https://via.placeholder.com/300/FFFF00/000000?Text=City+1", description: "Busy city street" },
+            { url: "https://via.placeholder.com/300/008080/FFFFFF?Text=City+2", description: "Famous landmark" }
+        ]
+    }
+];
+
+const componentsContainer = document.getElementById('components-container');
+
+componentsData.forEach(componentData => {
+    const component = createImageComponent(
+        componentData.title,
+        componentData.description,
+        componentData.images
+    );
+    componentsContainer.appendChild(component);
+});
+</script>
+
+    </body>
+    </html>

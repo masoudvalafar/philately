@@ -804,20 +804,25 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         description: 'TBD',
         id: '45030',
     },
-    "small-portrait-3ch2-1": {
+    "small-portrait-3ch1-4": {
         title: '',
         description: 'TBD',
         id: '40092',
     },
-    "small-portrait-3ch2-2": {
+    "small-portrait-3ch1-5": {
         title: '',
         description: 'TBD',
         id: '40119',
     },
-    "small-portrait-3ch2-3": {
+    "small-portrait-3ch1-6": {
         title: '',
         description: 'TBD',
         id: '40143',
+    },
+    "small-portrait-3ch1-7": {
+        title: '',
+        description: 'TBD',
+        id: '40243',
     },
 
     "": {
