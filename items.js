@@ -894,4 +894,49 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         description: 'TBD',
         id: '40016',
     },
+    "1333-hedgira-2ch-1": {
+        title: '',
+        description: 'TBD',
+        id: '40139',
+    },
+    "1333-hedgira-3ch-1": {
+        title: '',
+        description: 'TBD',
+        id: '40074',
+    },
+    "1333-hedgira-3ch-2": {
+        title: '',
+        description: 'TBD',
+        id: '40095',
+    },
+    "1333-hedgira-6ch-1": {
+        title: '',
+        description: 'TBD',
+        id: '40013',
+    },
+    "1333-hedgira-9ch-2": {
+        title: '',
+        description: 'TBD',
+        id: '40098',
+    },
+    "1333-hedgira-9ch-1": {
+        title: '',
+        description: 'TBD',
+        id: '40011',
+    },
+    "1333-hedgira-10ch-1": {
+        title: '',
+        description: 'TBD',
+        id: '40115',
+    },
+    "1333-hedgira-1kr-1": {
+        title: '',
+        description: 'TBD',
+        id: '40092',
+    },
+    "1333-hedgira-1kr-2": {
+        title: '',
+        description: 'TBD',
+        id: '40139',
+    },
 }
