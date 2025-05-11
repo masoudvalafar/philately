@@ -939,4 +939,44 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         description: 'TBD',
         id: '40139',
     },
+    "1916-coronation-1ch-1": {
+        title: '',
+        description: 'TBD',
+        id: '40106',
+    },
+    "1916-coronation-3ch-1": {
+        title: '',
+        description: 'TBD',
+        id: '40220',
+    },
+    "1916-coronation-6ch-1": {
+        title: '',
+        description: 'TBD',
+        id: '40111',
+    },
+    "1916-coronation-6ch-2": {
+        title: '',
+        description: 'TBD',
+        id: '40161',
+    },
+    "1916-coronation-10ch-1": {
+        title: '',
+        description: 'TBD',
+        id: '45033',
+    },
+    "1916-coronation-10ch-2": {
+        title: '',
+        description: 'TBD',
+        id: '45035',
+    },
+    "1916-coronation-5ch-1": {
+        title: '',
+        description: 'TBD',
+        id: '45036',
+    },
+    "1916-coronation-1kr-1": {
+        title: '',
+        description: 'TBD',
+        id: '45032',
+    },
 }
