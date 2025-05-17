@@ -1064,4 +1064,24 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         description: '',
         id: '40109',
     },
+    "1337-surcharge-content-3ch-1": {
+        title: '',
+        description: '',
+        id: '40019',
+    },
+    "1337-surcharge-content-3ch-2": {
+        title: '',
+        description: '',
+        id: '40114',
+    },
+    "1337-surcharge-content-6chon10ch-1": {
+        title: '',
+        description: '',
+        id: '40018',
+    },
+    "1337-surcharge-content-6chon1kr-1": {
+        title: '',
+        description: '',
+        id: '40078',
+    },
 }
