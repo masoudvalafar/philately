@@ -1174,4 +1174,34 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         description: '',
         id: '40168',
     },
+    "second-portrait-content-1ch-1": {
+        title: '',
+        description: '',
+        id: '40103',
+    },
+    "second-portrait-content-1ch-2": {
+        title: '',
+        description: '',
+        id: '40172',
+    },
+    "second-portrait-content-1ch-3": {
+        title: '',
+        description: '',
+        id: '40201',
+    },
+    "second-portrait-content-1ch-4": {
+        title: '',
+        description: '',
+        id: '40206',
+    },
+    "second-portrait-content-2ch-1": {
+        title: '',
+        description: '',
+        id: '40179',
+    },
+    "second-portrait-content-2ch-2": {
+        title: '',
+        description: '',
+        id: '40221',
+    },
 }
