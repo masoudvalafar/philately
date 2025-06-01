@@ -1304,7 +1304,7 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         description: '',
         id: '40183',
     },
-    "cp-07-1": {
+    "cp-04-3": {
         title: '',
         description: '',
         id: '40198',
@@ -1373,6 +1373,11 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         title: '',
         description: '',
         id: '40240',
+    },
+    "cp-65-1": {
+        title: '',
+        description: '',
+        id: '200003',
     },
     "cp-79-1": {
         title: '',
