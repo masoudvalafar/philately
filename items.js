@@ -1419,4 +1419,9 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         description: '',
         id: '40166',
     },
+    "mixed-franking-1": {
+        title: '',
+        description: '',
+        id: '100011',
+    },
 }
