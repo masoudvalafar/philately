@@ -1349,6 +1349,11 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         description: '',
         id: '40136',
     },
+    "cp-34-1": {
+        title: '',
+        description: '',
+        id: '40260',
+    },
     "cp-37-1": {
         title: '',
         description: '',
@@ -1443,6 +1448,11 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
         title: '',
         description: '',
         id: '40166',
+    },
+    "cp-103-1": {
+        title: '',
+        description: '',
+        id: '40259',
     },
     "mixed-franking-1": {
         title: '',
