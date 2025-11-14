@@ -426,7 +426,7 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
     },
     "6chahi-597": {
         title: '#597',
-        description: '',
+        description: 'November 23rd, 1919 - Cover from Dalaki to Shiraz franked with two 10ch Ahmad Shah portrait issue of 1911 revalued to 3ch with 1335 handstamp, cancelled with beautiful Dalaki postmark (پستخانه مبارکه دالکی).',
         id: '40085',
     },
     "6chahi-455": {
@@ -1056,7 +1056,7 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
     },
     "1335-fp-3chon10ch-1": {
         title: '',
-        description: 'TBD',
+        description: 'November 23rd, 1919 - Cover from Dalaki to Shiraz franked with two 10ch Ahmad Shah portrait issue of 1911 revalued to 3ch with 1335 handstamp, cancelled with beautiful Dalaki postmark (پستخانه مبارکه دالکی).',
         id: '40085',
     },
     "1335-fp-6chon12ch-1": {
