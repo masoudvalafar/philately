@@ -557,7 +557,11 @@
    "stamps": "13ch Ahmad Shah portrait issue of 1911"
   },
   "100001": {
-   "kind": "Postcard"
+   "kind": "Postcard",
+   "to": "Manchester, England",
+   "sent": "1910-12-14",
+   "stamps": "4ch reply postal card, uprated with two 3ch Coat of Arms issue stamps",
+   "text": "The reply half of a Persian postal card. The message is headed Shiraz; the card was posted at Tehran on 14 December 1910."
   },
   "40283": {
    "kind": "Cover",
