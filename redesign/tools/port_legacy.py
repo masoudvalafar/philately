@@ -39,7 +39,7 @@ def port(name, skip_titles=()):
     title = None
     # scripts -> x-item placeholders
     for sc in main.find_all("script"):
-        keys = re.findall(r'addItem\(items\["([^"]+)"\]', sc.string or "")
+        keys = re.findall(r'addItem\(items\[["\']([^"\']+)["\']\]', sc.string or "")
         frag = "".join(f'<x-item key="{k}"></x-item>' for k in keys)
         sc.replace_with(BeautifulSoup(frag, "html.parser"))
     hmap = {"h2": 1, "h3": 2, "h4": 3, "h5": 4}
