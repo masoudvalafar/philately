@@ -70,6 +70,11 @@
   "Label": {
    "name": "Preprinted censor label",
    "meaning": "British preprinted label used at Bushire"
+  },
+  "MBA": {
+   "name": "Mellat-e Bandar Abbas",
+   "meaning": "ملت بندرعباس, “the nation of Bandar Abbas”",
+   "place": "Bandar Abbas"
   }
  },
  "strikes": [
@@ -510,6 +515,12 @@
    "",
    "200011",
    "unattributed"
+  ],
+  [
+   "MBA",
+   "",
+   "30010",
+   "bandar-abbas"
   ]
  ],
  "covers": {
@@ -1184,9 +1195,100 @@
    "rate": "6 chahis",
    "stamps": "6ch Ahmad Shah portrait issue of 1911",
    "text": "With the British preprinted censor label."
+  },
+  "30010": {
+   "kind": "Cover",
+   "from": "Bandar Abbas",
+   "to": "Isfahan",
+   "sent": "1909-04-13",
+   "received": "1909-05-06",
+   "rate": "12 chahis",
+   "stamps": "Block of four 3ch Lion stamps of the Mohammad Ali Shah era",
+   "text": "Sent to the merchants Khusrow Shah Jehan & Brothers in Isfahan during the Minor Tyranny, and sealed on the back by the Bandar Abbas nationalists.",
+   "name_fa": {
+    "from": "بندرعباس",
+    "to": "اصفهان"
+   },
+   "context_title": "Bandar Abbas in 1908–1909",
+   "context": "In June 1908 Mohammad Ali Shah shelled the Majlis and ruled without a parliament until July 1909, the period known as the Minor Tyranny. Constitutionalists took control in several provincial towns; at nearby Bushehr they rose in March 1909. Bandar Abbas already had an active anjoman (local council) in 1908: British reports record that in June and July it forced the karguzar, the Foreign Ministry agent, out of office. This cover left Bandar Abbas a month after the Bushehr rising and three months before the constitutionalists took Tehran.",
+   "features": [
+    {
+     "side": "back",
+     "x": 0.8,
+     "y": 0.74,
+     "box": [
+      0.67,
+      0.58,
+      0.93,
+      0.9
+     ],
+     "censor": true,
+     "title": "Mellat-e Bandar Abbas",
+     "text": "The large oval mark of the Bandar Abbas nationalists, ملت بندرعباس, struck in black over the flap."
+    },
+    {
+     "side": "back",
+     "x": 0.545,
+     "y": 0.4,
+     "box": [
+      0.32,
+      0.27,
+      0.78,
+      0.78
+     ],
+     "title": "Franking: 4 × 3ch = 12ch",
+     "text": "A block of four 3 chahi Lion stamps, tied by the Bandar Abbas departure postmark."
+    },
+    {
+     "side": "back",
+     "x": 0.14,
+     "y": 0.55,
+     "box": [
+      0.03,
+      0.38,
+      0.25,
+      0.74
+     ],
+     "title": "Receipt note",
+     "text": "The recipient’s manuscript note of arrival, dated 1327."
+    },
+    {
+     "side": "front",
+     "x": 0.38,
+     "y": 0.55,
+     "box": [
+      0.26,
+      0.44,
+      0.5,
+      0.68
+     ],
+     "title": "Manuscript date",
+     "text": "۲۲ ربیع‌الاول ۱۳۲۷, 22 Rabi al-Awwal 1327 (13 April 1909)."
+    },
+    {
+     "side": "front",
+     "x": 0.66,
+     "y": 0.66,
+     "box": [
+      0.54,
+      0.46,
+      0.82,
+      0.88
+     ],
+     "title": "Arrival, Isfahan",
+     "text": "ISPAHAN receiving postmark, 6 May 1909."
+    }
+   ]
   }
  },
  "sources": [
+  {
+   "id": "bandar-abbas",
+   "name": "Bandar Abbas nationalists",
+   "name_fa": "ملت بندرعباس",
+   "color": "#2f6f6a",
+   "text": "During the Minor Tyranny of 1908–1909, after Mohammad Ali Shah closed the Majlis, the constitutionalists of Bandar Abbas sealed mail with an oval mark reading ملت بندرعباس (Mellat-e Bandar Abbas, “the nation of Bandar Abbas”)."
+  },
   {
    "id": "persian",
    "name": "Persian Government",

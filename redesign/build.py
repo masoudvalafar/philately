@@ -35,7 +35,7 @@ EVENTS = [(1911.9, "1911: Majles closed"), (1914.6, "1914: war begins"),
           (1915.6, "1915: Bushire occupied"), (1918.1, "1918: Dunsterforce"),
           (1921.15, "1921: the coup"), (1925.8, "1925: Qajars deposed")]
 TOWN_FA = {
-    "Tehran": "تهران", "Tabriz": "تبریز", "Qazvin": "قزوین", "Hamadan": "همدان", "Isfahan": "اصفهان",
+    "Tehran": "تهران", "Tabriz": "تبریز", "Qazvin": "قزوین", "Hamadan": "همدان", "Isfahan": "اصفهان", "Bandar Abbas": "بندرعباس",
     "Shiraz": "شیراز", "Bushire": "بوشهر", "Rasht": "رشت", "Senneh": "سنه", "Kermanshah": "کرمانشاه",
     "Meched": "مشهد", "Neishabur": "نیشابور", "Yezd": "یزد", "Qom": "قم", "Sultanabad": "سلطان‌آباد",
     "Kazerun": "کازرون", "Behbahan": "بهبهان", "Ram Hormoz": "رامهرمز", "Zanjan": "زنجان",
