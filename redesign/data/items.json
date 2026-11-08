@@ -1408,5 +1408,25 @@
   "title": "",
   "description": "",
   "id": "40200"
+ },
+ "small-portrait-13ch-1": {
+  "title": "13 chahi on a cover to London, 1911",
+  "description": "A cover mailed from Urmia (ارومیه) to London, England, franked with the 13 chahi Ahmad Shah portrait issue of 1911. It bears a Tauris (تبریز) transit postmark dated 8 June 1911. Notably, the stamp lacks the \"Officiel / رسمی\" overprint.",
+  "id": "40255"
+ },
+ "1333-hedgira-1ch-1": {
+  "title": "1 chahi on a cover from Tehran to Yazd, 1915",
+  "description": "A domestic cover from Tehran to Yazd, 8/4/1915, arriving 21/4/1915, franked 21 chahi with the 1 chahi and 1 kran stamps of the 1333 Hedgira issue.",
+  "id": "40298"
+ },
+ "1919-provisional-content-1ch-1": {
+  "title": "1 chahi on a document from Torbat-e Heydarieh",
+  "description": "A document from Torbat-e Heydarieh franked 51 chahi: the 10 chahi and 2 kran values of the 1911 portrait issue with a 1 chahi of the 1919 zinc plate provisional issue.",
+  "id": "40252"
+ },
+ "second-portrait-content-9ch-1": {
+  "title": "9 chahi on an Overland Mail cover to England, 1925",
+  "description": "A cover from Mohammareh to Gateshead-on-Tyne, England, sent by Overland Mail via Baghdad and Haifa in December 1925 and received 14 January 1926. It is franked 29 chahi with the 9 chahi and 1 kran values of the second portrait issue.",
+  "id": "40302"
  }
 }
