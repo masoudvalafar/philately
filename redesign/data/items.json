@@ -1428,5 +1428,30 @@
   "title": "9 chahi on an Overland Mail cover to England, 1925",
   "description": "A cover from Mohammareh to Gateshead-on-Tyne, England, sent by Overland Mail via Baghdad and Haifa in December 1925 and received 14 January 1926. It is franked 29 chahi with the 9 chahi and 1 kran values of the second portrait issue.",
   "id": "40302"
+ },
+ "coa-13ch": {
+  "title": "13 chahi on a cover from Shiraz to Yazd, 1914",
+  "description": "A cover from Shiraz to Yazd, received 6/9/1914, franked with the 13 chahi Coat of Arms issue of 1909.",
+  "id": "40251"
+ },
+ "1915-coronation-10ch-3": {
+  "title": "10 chahi Coronation on a Trésorerie Générale envelope",
+  "description": "A Trésorerie Générale de Perse envelope addressed to Monsieur Denis, Contrôleur des Finances, at Recht, franked with the 10 chahi Coronation stamp and a Recht postmark. These covers were made as souvenirs of the coronation and were never sent through the post.",
+  "id": "40258"
+ },
+ "control-content-2kr-1": {
+  "title": "2 kran on a cover from Tehran to Berlin, 1923",
+  "description": "A cover from Hajj Rasul Qazanchi in Tehran to H. R. Qazantzay, Kurfürstendamm 163, Berlin, sent 31/5/1923, franked with the 2 kran Control issue.",
+  "id": "40242"
+ },
+ "control-content-3kr-1": {
+  "title": "3 kran on a cover from Shabestar to Meiningen, 1923",
+  "description": "A cover from Shabestar to Meiningen, Germany, franked 60 chahi with the 3 kran Control issue: the 1 kran foreign letter rate plus 2 kran for extra weight.",
+  "id": "40182"
+ },
+ "provisional-1925-content-2ch-2": {
+  "title": "2 chahi on a cover to Tehran",
+  "description": "A cover to Tehran franked 6 chahi: a pair of the 2 chahi 1925 provisional issue with a pair of the 1 chahi second portrait issue.",
+  "id": "40265"
  }
 }
