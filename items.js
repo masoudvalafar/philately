@@ -56,9 +56,7 @@ This cover was also bears Dunterforce censorship mark(CP- 84).',
     },
     "country-3": {
         title: '12 Chahi',
-        description: 'A cover from Kerman sent on 3/4/1911 to Yezd, tied by a 10ch Coat of Arms issue of 1909 and 2 \
-                            registeration labels used \
-                            as 1ch.',
+        description: 'Internal cover sent from Kerman  on 3/4/1911 to Yezd, franked with a 10ch Coat of Arms issue of 1909 and two registration labels used as 1ch for a total of 12 Chahis. Usage of registration label as 1ch stamp during Ahmad Shah era is extremely rare.',
         id: '40156',
     },
     "country-4": {
@@ -571,7 +569,7 @@ How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 
     },
     "coa-10ch": {
         title: '',
-        description: 'A cover from Kerman sent on 3/4/1911 to Yezd, tied by a 10ch Coat of Arms issue of 1909 and two registeration labels used as 1ch.',
+        description: 'Internal cover sent from Kerman  on 3/4/1911 to Yezd, franked with a 10ch Coat of Arms issue of 1909 and two registration labels used as 1ch for a total of 12 Chahis. Usage of registration label as 1ch stamp during Ahmad Shah era is extremely rare.',
         id: '40156',
     },
     "coa-26ch": {

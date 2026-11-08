@@ -1,392 +1,203 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ahmad Shah Era Postal History</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <script src="./js/helper.js"></script>
-    <script src="items.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Postal rates · Persian Postal History</title>
+<meta name="description" content="A study of the rates of postal items during the Ahmad Shah era, 1909–1925, each shown on a cover that paid it.">
+<link rel="stylesheet" href="assets/site.css">
+<script>document.documentElement.classList.add("js")</script>
 </head>
-
 <body>
-    <main id="main-main">
-        <div class="header">
-            <h4>Dedicated to the study of</h4>
-            <h1>Iran Postal History</h1>
-        </div>
-
-        <script>
-            getMenus("Rate");
-        </script>
-
-        <div class="main-content">
-            <h2>A study of rates of postal items during Ahmad Shah era (1909 - 1925)</h2>
-
-            <h3>Letters</h3>
-
-            <button type="button" class="collapsible">Domestic</button>
-            <div class="content">
-                <p> Three things could impact the rate of an domestic cover: 1- the distance to destination, 2-
-                    additional services, and 3- charity tax. In the next three sections we investigate each one of these
-                    in
-                    more detail. In the 4th section, I present items that do not conform with the rules provided in
-                    section
-                    1 to 3.</p>
-
-
-                <h4>1 - Distance</h4>
-                <p>The basic rate of covers was determined based on the distance between the source and the destination:
-                </p>
-                <ul class="list">
-                    <li>Intra city: the destination city is the same as the sender's</li>
-                    <li>Local: the destination city is less than 2 Farsakh (roughly 6.5km) away</li>
-                    <li>Country: more than 2 Farsakh</li>
-                </ul>
-
-                <button type="button" class="collapsible">Intra city</button>
-                <div class="content" id="intra-city-content">
-                    <p>The rate of sending a cover to a destination within the same city was 2 Chahi for the whole era.
-                    </p>
-
-                    <script>
-                        addItem(items["intra-city-1"], 'intra-city-content');
-                    </script>
-                </div>
-
-                <button type="button" class="collapsible">Local</button>
-                <div class="content">
-
-                    <p>
-                        List of cities with local rates:
-                    </p>
-                    <ul class="list">
-                        <li> Tehran <-> Shemiran </li>
-                        <li> Recht <-> Enzeli</li>
-                    </ul>
-
-                    <button type="button" class="collapsible">Before 22/5/1916</button>
-
-                    <div class="content" id="local-before-content">
-                        <p>
-                            The rate for local letters in this era was 2 Chahi.
-                        </p>
-
-                        <script>
-                            addItem(items["local-1"], 'local-before-content');
-                        </script>
-                    </div>
-
-                    <button type="button" class="collapsible">After 22/5/1916</button>
-                    <div class="content" id='local-after-content'>
-                        <p>From this date, the rate increased to 3 Chahi and stayed the same until the end of the
-                            era.</p>
-
-                        <script>
-                            addItem(items["local-2"], 'local-after-content');
-                        </script>
-                    </div>
-                </div>
-
-                <button type="button" class="collapsible">Country</button>
-                <div class="content">
-                    <button type="button" class="collapsible">Outside of 10/08/1921 to 06/10/1921 period</button>
-                    <div class="content" id='country-outside-content'>
-                        <p>In this period, the rate of a letter up to 2 Miskal was 6 Chahi. For each extra Miskal the
-                            rate
-                            would go up by 3 Chahi.</p>
-
-                        <script>
-                            addItem(items["country-1"], 'country-outside-content');
-                            addItem(items["country-2"], 'country-outside-content');
-                            addItem(items["country-3"], 'country-outside-content');
-                            addItem(items["country-4"], 'country-outside-content');
-                            addItem(items["country-5"], 'country-outside-content');
-                            addItem(items["country-6"], 'country-outside-content');
-                            addItem(items["country-7"], 'country-outside-content');
-                            addItem(items["country-8"], 'country-outside-content');
-                            addItem(items["country-10"], 'country-outside-content');
-                        </script>
-                    </div>
-
-                    <button type="button" class="collapsible">Within 10/08/1921 to 06/10/1921 period</button>
-                    <div class="content" id='country-within-content'>
-                        <p>In this period, the rate of a letter up to 2 Miskal was 10 Chahi. For each extra Miskal 5
-                            Chahi
-                            was added to the rate.</p>
-
-                        <script>
-                            addItem(items["country-9"], 'country-within-content');
-                            addItem(items["country-11"], 'country-within-content');
-                        </script>
-                    </div>
-
-                </div>
-
-                <h4>2 - Additional Services</h4>
-                <p>There were other services available to the sender to request:</p>
-                <ul class="list">
-                    <li>registration: The sender receives a receipt that the letter is delivered to the post office.
-                        [is
-                        there more to this?]</li>
-                    <li>Advice of receipt (AR): a receipt to be sent to the original sender once the receiver receives
-                        the
-                        letter.</li>
-                    <li>Insurance: A tax for insuring the letter for sending money.</li>
-                </ul>
-
-                <button type="button" class="collapsible">registration</button>
-                <div class="content">
-                    <button type="button" class="collapsible">Before 22/5/1916</button>
-                    <div class="content" id="registration-before-content">
-                        <p>The registration rate at this time was 16 Chahi.</p>
-
-                        <script>
-                            addItem(items["register-1"], 'registration-before-content');
-                        </script>
-                    </div>
-
-                    <button type="button" class="collapsible">Between 22/5/1916 and 10/08/1921</button>
-                    <div class="content" id='registration-bet-16-22-content'>
-                        <p>The registration rate was decreased to 12 Chahi.</p>
-
-                        <script>
-                            addItem(items["register-2"], 'registration-bet-16-22-content');
-                        </script>
-                    </div>
-
-                    <button type="button" class="collapsible">Between 10/08/1921 and 06/10/1921</button>
-                    <div class="content"></div>
-
-                    <button type="button" class="collapsible">After 06/10/1921</button>
-                    <div class="content" id="registration-after-content">
-                        <p>The registration rate was decreased yet again to 12 Chahi.</p>
-
-                        <script>
-                            addItem(items["register-3"], 'registration-after-content');
-                        </script>
-                    </div>
-                </div>
-
-                <button type="button" class="collapsible">Advice of receipt (AR)</button>
-                <div class="content" id="ar-content">
-                    <p>To ask for a receipt to get sent back to the sender from the receiver cost 6 Chahi for the whole
-                        era.
-                    </p>
-
-                    <script>
-                        addItem(items["ar-1"], 'ar-content');
-                        addItem(items["ar-2"], 'ar-content');
-                    </script>
-                </div>
-
-                <button type="button" class="collapsible">Insurance</button>
-                <div class="content" id="insurance-content">
-                    <p>This service provided insurance for when the letter contained money. The insurance was 1% of the
-                        total money being sent.</p>
-
-                    <script>
-                        addItem(items["insurance-1"], 'insurance-content');
-                    </script>
-
-                </div>
-
-                <h4>3 - Charity Tax</h4>
-                <p>During certain period, due to natural disaster, a charity was tax imposed for domestic letters in
-                    some
-                    cities.</p>
-
-                <button type="button" class="collapsible">Tehran</button>
-                <div class="content" id="tehran-charity-content">
-                    <p>
-                        1 Chahi charity tax was imposed in Tehran during XX/XX/XX to XX/XX/XX.
-                    </p>
-                    <script>
-                        addItem(items["tehran-charity-1"], 'tehran-charity-content');
-                        addItem(items["tehran-charity-2"], 'tehran-charity-content');
-                        addItem(items["tehran-charity-3"], 'tehran-charity-content');
-
-                    </script>
-                </div>
-
-                <button type="button" class="collapsible">Racht</button>
-                <div class="content"></div>
-
-                <button type="button" class="collapsible">Tabriz</button>
-                <div class="content" id="tabriz-charity-content">
-                    <p>Tabriz charity tax was imposed during XX/XX/XX to XX/XX/XX.</p>
-                    <script>
-                        addItem(items["tabriz-charity-1"], 'tabriz-charity-content');
-                    </script>
-                </div>
-
-                <button type="button" class="collapsible">Khoy</button>
-                <div class="content"></div>
-
-
-                <h4>4 - Out of ordinary letters</h4>
-            </div>
-
-            <button type="button" class="collapsible">Foreign</button>
-            <div class="content">
-                <p>The foreign letters cost is consisted of three factors: 1- the basic rate, 2- special premiums, and
-                    3-
-                    extra services.
-                    In the next three sections I go through each one of them and then I go through out of ordinary cases
-                    in
-                    section 4.</p>
-
-                <h4>1 - Foreign letter rate</h4>
-
-                <p>The foreign letter rate changed several times during this era.</p>
-
-                <button type="button" class="collapsible">Before 29/11/1913</button>
-                <div class="content" id="f-r-before-content">
-                    <script>
-                        addItem(items["foreign-rate-1"], 'f-r-before-content');
-                    </script>
-                </div>
-
-                <button type="button" class="collapsible">Between 29/11/1913 and 08/08/1921</button>
-                <div class="content" id="f-r-bet-13-21-content">
-                    <script>
-                        addItem(items["foreign-rate-2"], 'f-r-bet-13-21-content');
-                    </script>
-                </div>
-
-                <button type="button" class="collapsible">Between 08/08/1921 and 20/08/1925</button>
-                <div class="content" id="f-r-bet-21-25-content">
-                    <script>
-                        addItem(items["foreign-rate-3"], 'f-r-bet-21-25-content');
-                        addItem(items["foreign-rate-4"], 'f-r-bet-21-25-content');
-                    </script>
-                </div>
-
-                <button type="button" class="collapsible">After 20/08/1925</button>
-                <div class="content" id="f-r-after-content">
-                    <script>
-                        addItem(items["foreign-rate-5"], 'f-r-after-content');
-                    </script>
-                </div>
-
-
-                <h4>2 - Special Premiums</h4>
-                <p>Toward the end of the era, there was two more options available to senders on how to send their
-                    letters.
-                </p>
-                <button type="button" class="collapsible">Overland Mail</button>
-                <div class="content" id="overland-content">
-                    <p>Overland Mail was a service that would expediate delivery of parcels to Europe by carrying them
-                        in an
-                        armored vehicle through the desert from Baghdad to Haifa. Senders from Iran that wanted to use
-                        this
-                        service had to pay its premium.
-                    </p>
-
-
-                    <script>
-                        addItem(items['overland-1'], 'overland-content');
-                    </script>
-                </div>
-
-                <button type="button" class="collapsible">Air Mail</button>
-                <div class="content" id="air-content">
-                    <p>The Basra-Cairo air route become available in 1922. Senders could pay the extra air fee
-                        for their letters to go to Basra and then go to Cairo by air and then get shipped to its
-                        final destination.
-                    </p>
-
-                    <button type="button" class="collapsible">Before 1924</button>
-                    <div class="content" id="air-before-1924-content">
-                        <script>
-                            addItem(items['f-air-1'], 'air-before-1924-content');
-                        </script>
-                    </div>
-
-                    <button type="button" class="collapsible">1924 and after</button>
-                    <div class="content" id="air-after-1924-content">
-                        <script>
-                            addItem(items['f-air-2'], 'air-after-1924-content');
-                        </script>
-                    </div>
-                </div>
-
-
-
-                <h4>3 - Extra services</h4>
-                <p> The two main services available to senders were registration and Advice of receipt (AR).</p>
-                <button type="button" class="collapsible">registration</button>
-                <div class="content" id="f-registration-content">
-
-                    <button type="button" class="collapsible">Before 29/11/1913</button>
-                    <div class="content" id="f-registration-before-content">
-                    </div>
-
-                    <button type="button" class="collapsible">Between 29/11/1913 and 08/08/1921</button>
-                    <div class="content" id="f-registration-between-content">
-                        <p>The registration rate at between 29/11/1913 and 08/08/1921 was 12 Chahi.</p>
-                        <script>
-                            addItem(items['f-reg-1'], 'f-registration-between-content');
-                        </script>
-                    </div>
-
-                    <button type="button" class="collapsible">After 08/08/1921</button>
-                    <div class="content" id="f-registration-after-content">
-                        <script>
-                            addItem(items['f-reg-2'], 'f-registration-after-content');
-                        </script>
-                    </div>
-
-                </div>
-
-                <button type="button" class="collapsible">Advice of receipt (AR)</button>
-                <div class="content" id="f-ar-content"></div>
-
-
-                <h4>4 - Out of ordinary letters</h4>
-                <button type="button" class="collapsible">Domestic covers routed through other countries</button>
-                <div class="content" id="f-outofordinary-content">
-                    <p>During the civil war and the Russian occupation of Tabriz, some of the letters From
-                        Tabriz were routed through Russia and the foreign rate applied to them despite being sent
-                        to a city in Iran.</p>
-                    <script>
-                        addItem(items['f-outofordinary-1'], 'f-outofordinary-content');
-                    </script>
-                </div>
-
-
-            </div>
-
-            <h3>Postcards (To be completed)</h3>
-
-            <button type="button" class="collapsible">Domestic</button>
-            <div class="content">
-                <button type="button" class="collapsible">Before 27/07/1921</button>
-                <div class="content" id="pc-i-content">
-                    <p>The rate of cover before 27/7/21 was 2 Chahi.</p>
-                    <script>
-                        addItem(items['rate-pc-1'], 'pc-i-content');
-                    </script>
-                </div>
-
-                <button type="button" class="collapsible">After 27/07/1921</button>
-                <div class="content"></div>
-
-            </div>
-            <button type="button" class="collapsible">Foreign</button>
-            <div class="content"></div>
-
-            <h3>Imprimes and wrappers (To be completed)</h3>
-            <h3>Open letters (To be completed)</h3>
-            <h3>Waybills (To be completed)</h3>
-        </div>
-
-    </main>
-    <script src="./js/index.js"></script>
-
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+  <div class="wrap masthead__inner">
+    <a class="wordmark" href="index.html"><span>Persian Postal History</span><span class="wordmark__fa" lang="fa" dir="rtl">تاریخ پستی ایران</span></a>
+    <nav class="nav" aria-label="Main"><a href="index.html">Home</a><a href="education.html">Education</a><a href="rate.html" aria-current="page">Rates</a><a href="censors.html">Censors</a><a href="forgery.html">Forgeries</a><a href="collection.html">Collection</a><a href="resources.html">Resources</a></nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="wrap pagehead">
+  <h1 class="display">Postal rates</h1>
+  <p class="lead">A study of the rates of postal items during the Ahmad Shah era, 1909–1925, each shown on a cover that paid it.</p>
+</section>
+<div class="wrap doc doc--toc">
+  <nav class="toc" aria-label="On this page"><details open><summary>On this page</summary><ol><li class="toc__l2"><a href="#letters">Letters</a></li><li class="toc__l3"><a href="#domestic">Domestic</a></li><li class="toc__l3"><a href="#foreign">Foreign</a></li><li class="toc__l2"><a href="#postcards-to-be-completed">Postcards (To be completed)</a></li><li class="toc__l3"><a href="#domestic-2">Domestic</a></li><li class="toc__l3"><a href="#foreign-2">Foreign</a></li><li class="toc__l2"><a href="#imprimes-and-wrappers-to-be-completed">Imprimes and wrappers (To be completed)</a></li><li class="toc__l2"><a href="#open-letters-to-be-completed">Open letters (To be completed)</a></li><li class="toc__l2"><a href="#waybills-to-be-completed">Waybills (To be completed)</a></li></ol></details></nav>
+  <article class="doc__body"><h2 id="letters">Letters</h2>
+<section class="sec" id="domestic">
+<h3>Domestic</h3>
+<p>Three things could impact the rate of an domestic cover: 1- the distance to destination, 2- additional services, and 3- charity tax. In the next three sections we investigate each one of these in more detail. In the 4th section, I present items that do not conform with the rules provided in section 1 to 3.</p>
+<h4 id="1-distance">1 - Distance</h4>
+<p>The basic rate of covers was determined based on the distance between the source and the destination:</p>
+<ul>
+<li>Intra city: the destination city is the same as the sender's</li>
+<li>Local: the destination city is less than 2 Farsakh (roughly 6.5km) away</li>
+<li>Country: more than 2 Farsakh</li>
+</ul>
+<section class="sec" id="intra-city">
+<h5>Intra city</h5>
+<p>The rate of sending a cover to a destination within the same city was 2 Chahi for the whole era.</p><div class="items"><article class="item" id="item-intra-city-1"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40165_front.jpg" data-zoom><img src="img/m/40165_front.jpg" alt="Front of item 40165" width="900" height="779" loading="lazy"></a><a class="scan__link" href="images/40165_back.jpg" data-zoom><img src="img/m/40165_back.jpg" alt="Back of item 40165" width="900" height="777" loading="lazy"></a></div><div class="item__body"><p class="item__title">2 Chahi</p><p class="item__id">Item 40165</p><p>A intra-city cover from recht sent on 8/7/1916, tied by 2ch Ahmad Shah portrait issue of 1911.</p></div></article></div></section>
+<section class="sec" id="local">
+<h5>Local</h5>
+<p>List of cities with local rates:</p>
+<ul>
+<li>Tehran &lt;-&gt; Shemiran</li>
+<li>Recht &lt;-&gt; Enzeli</li>
+</ul>
+<section class="sec" id="before-22-5-1916">
+<h6>Before 22/5/1916</h6>
+<p>The rate for local letters in this era was 2 Chahi.</p><div class="items"><article class="item" id="item-local-1"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40174_front.jpg" data-zoom><img src="img/m/40174_front.jpg" alt="Front of item 40174" width="900" height="729" loading="lazy"></a><a class="scan__link" href="images/40174_back.jpg" data-zoom><img src="img/m/40174_back.jpg" alt="Back of item 40174" width="900" height="727" loading="lazy"></a></div><div class="item__body"><p class="item__title">2 Chahi</p><p class="item__id">Item 40174</p></div></article></div></section>
+<section class="sec" id="after-22-5-1916">
+<h6>After 22/5/1916</h6>
+<p>From this date, the rate increased to 3 Chahi and stayed the same until the end of the era.</p><div class="items"><article class="item" id="item-local-2"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40119_front.jpg" data-zoom><img src="img/m/40119_front.jpg" alt="Front of item 40119" width="900" height="786" loading="lazy"></a><a class="scan__link" href="images/40119_back.jpg" data-zoom><img src="img/m/40119_back.jpg" alt="Back of item 40119" width="900" height="788" loading="lazy"></a></div><div class="item__body"><p class="item__title">3 Chahi</p><p class="item__id">Item 40119</p></div></article></div></section>
+</section>
+<section class="sec" id="country">
+<h5>Country</h5>
+<section class="sec" id="outside-of-10-08-1921-to-06-10-1921-period">
+<h6>Outside of 10/08/1921 to 06/10/1921 period</h6>
+<p>In this period, the rate of a letter up to 2 Miskal was 6 Chahi. For each extra Miskal the rate would go up by 3 Chahi.</p><div class="items"><article class="item" id="item-country-1"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40150_front.jpg" data-zoom><img src="img/m/40150_front.jpg" alt="Front of item 40150" width="900" height="698" loading="lazy"></a><a class="scan__link" href="images/40150_back.jpg" data-zoom><img src="img/m/40150_back.jpg" alt="Back of item 40150" width="900" height="697" loading="lazy"></a></div><div class="item__body"><p class="item__title">6 Chahi</p><p class="item__id">Item 40150</p><p>A cover sent from Ram Hormoz on 21/4/14 to Bushire, received on 4/5/14. The cover was routed through Bandar Naseri on 23/4/14 and then Mohammareh on 29/4/14. It is tied to the 6ch Ahmad Shah portrait issue of 1911.</p></div></article><article class="item" id="item-country-2"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40098_front.jpg" data-zoom><img src="img/m/40098_front.jpg" alt="Front of item 40098" width="900" height="745" loading="lazy"></a><a class="scan__link" href="images/40098_back.jpg" data-zoom><img src="img/m/40098_back.jpg" alt="Back of item 40098" width="900" height="747" loading="lazy"></a></div><div class="item__body"><p class="item__title">9 Chahi</p><p class="item__id">Item 40098</p><p>A cover sent from Bouchir to Kerman, recived on 1/6/1915. The cover went thrugh Shiraz on 13/5/15 and Yezd on 22/5/15. It is tied by 9ch Coat of Arms issue of 1909 with 1333 Hedgira overprint(the dotted variety).</p></div></article><article class="item" id="item-country-3"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40156_front.jpg" data-zoom><img src="img/m/40156_front.jpg" alt="Front of item 40156" width="900" height="724" loading="lazy"></a><a class="scan__link" href="images/40156_back.jpg" data-zoom><img src="img/m/40156_back.jpg" alt="Back of item 40156" width="900" height="731" loading="lazy"></a></div><div class="item__body"><p class="item__title">12 Chahi</p><p class="item__id">Item 40156</p><p>Internal cover sent from Kerman on 3/4/1911 to Yezd, franked with a 10ch Coat of Arms issue of 1909 and two registration labels used as 1ch for a total of 12 Chahis. Usage of registration label as 1ch stamp during Ahmad Shah era is extremely rare.</p></div></article><article class="item" id="item-country-4"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40097_front.jpg" data-zoom><img src="img/m/40097_front.jpg" alt="Front of item 40097" width="900" height="724" loading="lazy"></a><a class="scan__link" href="images/40097_back.jpg" data-zoom><img src="img/m/40097_back.jpg" alt="Back of item 40097" width="900" height="721" loading="lazy"></a></div><div class="item__body"><p class="item__title">15 Chahi</p><p class="item__id">Item 40097</p><p>A cover sent from Tehran on 27/1/10 to Kerman, received on 14/2/10, franked with 6ch and 9ch Coat of Arms issue of 1909. The 15ch rate of the cover shows that the cover was 5 misghal.</p></div></article><article class="item" id="item-country-5"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40143_front.jpg" data-zoom><img src="img/m/40143_front.jpg" alt="Front of item 40143" width="900" height="706" loading="lazy"></a><a class="scan__link" href="images/40143_back.jpg" data-zoom><img src="img/m/40143_back.jpg" alt="Back of item 40143" width="900" height="725" loading="lazy"></a></div><div class="item__body"><p class="item__title">21 Chahi</p><p class="item__id">Item 40143</p><p>A cover from Yezd sent on 16/6/21 to Kerman received on 25/6/21, tied with seven 3ch Ahmad Shah portrait issue of 1911.</p></div></article><article class="item" id="item-country-6"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40145_front.jpg" data-zoom><img src="img/m/40145_front.jpg" alt="Front of item 40145" width="900" height="722" loading="lazy"></a><a class="scan__link" href="images/40145_back.jpg" data-zoom><img src="img/m/40145_back.jpg" alt="Back of item 40145" width="900" height="724" loading="lazy"></a></div><div class="item__body"><p class="item__title">30 Chahi</p><p class="item__id">Item 40145</p><p>A cover sent from Bandar Naseri on 4/1/23 to Isfahan, recieved on 5/2/23, tied with fifteen 2ch Ahmad Shah portrait issue of 1911.</p></div></article><article class="item" id="item-country-7"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40185_front.jpg" data-zoom><img src="img/m/40185_front.jpg" alt="Front of item 40185" width="900" height="635" loading="lazy"></a><a class="scan__link" href="images/40185_back.jpg" data-zoom><img src="img/m/40185_back.jpg" alt="Back of item 40185" width="900" height="658" loading="lazy"></a></div><div class="item__body"><p class="item__title">45 Chahi</p><p class="item__id">Item 40185</p></div></article><article class="item" id="item-country-8"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40144_front.jpg" data-zoom><img src="img/m/40144_front.jpg" alt="Front of item 40144" width="900" height="740" loading="lazy"></a><a class="scan__link" href="images/40144_back.jpg" data-zoom><img src="img/m/40144_back.jpg" alt="Back of item 40144" width="900" height="740" loading="lazy"></a></div><div class="item__body"><p class="item__title">51 Chahi</p><p class="item__id">Item 40144</p><p>A cover sent from Yezd on 7/4/21 to Kerman, received on 17/5/21. The manuscript and the postmark on the cover show that it was mistakenly rounted to Bandar Abbas and was forwarded to Kerman from there.The cover is tied with one 1ch, one 2ch and eight 6ch Ahmad Shah portrait issue of 1911 for a total of 30ch(This cover weighed 17 Miskal).</p></div></article><article class="item" id="item-country-10"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40225_front.jpg" data-zoom><img src="img/m/40225_front.jpg" alt="Front of item 40225" width="900" height="748" loading="lazy"></a><a class="scan__link" href="images/40225_back.jpg" data-zoom><img src="img/m/40225_back.jpg" alt="Back of item 40225" width="900" height="750" loading="lazy"></a></div><div class="item__body"><p class="item__title">63 Chahi</p><p class="item__id">Item 40225</p></div></article></div></section>
+<section class="sec" id="within-10-08-1921-to-06-10-1921-period">
+<h6>Within 10/08/1921 to 06/10/1921 period</h6>
+<p>In this period, the rate of a letter up to 2 Miskal was 10 Chahi. For each extra Miskal 5 Chahi was added to the rate.</p><div class="items"><article class="item" id="item-country-9"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40192_front.jpg" data-zoom><img src="img/m/40192_front.jpg" alt="Front of item 40192" width="900" height="738" loading="lazy"></a><a class="scan__link" href="images/40192_back.jpg" data-zoom><img src="img/m/40192_back.jpg" alt="Back of item 40192" width="900" height="744" loading="lazy"></a></div><div class="item__body"><p class="item__title">10 Chahi</p><p class="item__id">Item 40192</p></div></article><article class="item" id="item-country-11"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40224_front.jpg" data-zoom><img src="img/m/40224_front.jpg" alt="Front of item 40224" width="862" height="760" loading="lazy"></a><a class="scan__link" href="images/40224_back.jpg" data-zoom><img src="img/m/40224_back.jpg" alt="Back of item 40224" width="862" height="754" loading="lazy"></a></div><div class="item__body"><p class="item__title">15 Chahi</p><p class="item__id">Item 40224</p></div></article></div></section>
+</section>
+<h4 id="2-additional-services">2 - Additional Services</h4>
+<p>There were other services available to the sender to request:</p>
+<ul>
+<li>registration: The sender receives a receipt that the letter is delivered to the post office. [is there more to this?]</li>
+<li>Advice of receipt (AR): a receipt to be sent to the original sender once the receiver receives the letter.</li>
+<li>Insurance: A tax for insuring the letter for sending money.</li>
+</ul>
+<section class="sec" id="registration">
+<h5>registration</h5>
+<section class="sec" id="before-22-5-1916-2">
+<h6>Before 22/5/1916</h6>
+<p>The registration rate at this time was 16 Chahi.</p><div class="items"><article class="item" id="item-register-1"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40140_front.jpg" data-zoom><img src="img/m/40140_front.jpg" alt="Front of item 40140" width="900" height="768" loading="lazy"></a><a class="scan__link" href="images/40140_back.jpg" data-zoom><img src="img/m/40140_back.jpg" alt="Back of item 40140" width="900" height="774" loading="lazy"></a></div><div class="item__body"><p class="item__title">16 chahi</p><p class="item__id">Item 40140</p><p>A registered cover sent from Koum on 1/6/1910 to Tehran, received on 4/6/1910. The cover is franked with 2 10ch Coat of Arms issue of 1909 and one 2ch coat of arms issue of 1909 for a total of 22ch, 16ch registration and 6ch postal rate.</p></div></article></div></section>
+<section class="sec" id="between-22-5-1916-and-10-08-1921">
+<h6>Between 22/5/1916 and 10/08/1921</h6>
+<p>The registration rate was decreased to 12 Chahi.</p><div class="items"><article class="item" id="item-register-2"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40112_front.jpg" data-zoom><img src="img/m/40112_front.jpg" alt="Front of item 40112" width="900" height="710" loading="lazy"></a><a class="scan__link" href="images/40112_back.jpg" data-zoom><img src="img/m/40112_back.jpg" alt="Back of item 40112" width="900" height="708" loading="lazy"></a></div><div class="item__body"><p class="item__title">12 chahi</p><p class="item__id">Item 40112</p><p>A registered cover sent from Tajrish to Torshiz. Upon arrival in Tehran the postal clerk noticed the postage due and added this note: &quot;postage due. Added a stamp in the central office&quot;.The cover is tied with 2ch and 10ch Ahmad Shah portrait issue of 1911 and 10ch Coat of arms issue of 1909 revalued to 3ch with 1335 handstamp and 9ch Coat of Arms issue of 1909 revalued to 1ch with 1335 Hedgira handstamp and a 2ch Ahmad Shah portrait issue of 1911 which is tied with Tehran postmark, for a total of 18ch, 6 ch postal rate and 12ch registration.</p></div></article></div></section>
+<section class="sec" id="between-10-08-1921-and-06-10-1921">
+<h6>Between 10/08/1921 and 06/10/1921</h6>
+<p class="empty">No example in the collection yet.</p>
+</section>
+<section class="sec" id="after-06-10-1921">
+<h6>After 06/10/1921</h6>
+<p>The registration rate was decreased yet again to 12 Chahi.</p><div class="items"><article class="item" id="item-register-3"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40209_front.jpg" data-zoom><img src="img/m/40209_front.jpg" alt="Front of item 40209" width="900" height="736" loading="lazy"></a><a class="scan__link" href="images/40209_back.jpg" data-zoom><img src="img/m/40209_back.jpg" alt="Back of item 40209" width="900" height="735" loading="lazy"></a></div><div class="item__body"><p class="item__title">12 chahi</p><p class="item__id">Item 40209</p></div></article></div></section>
+</section>
+<section class="sec" id="advice-of-receipt-ar">
+<h5>Advice of receipt (AR)</h5>
+<p>To ask for a receipt to get sent back to the sender from the receiver cost 6 Chahi for the whole era.</p><div class="items"><article class="item" id="item-ar-1"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40080_front.jpg" data-zoom><img src="img/m/40080_front.jpg" alt="Front of item 40080" width="900" height="782" loading="lazy"></a><a class="scan__link" href="images/40080_back.jpg" data-zoom><img src="img/m/40080_back.jpg" alt="Back of item 40080" width="900" height="761" loading="lazy"></a></div><div class="item__body"><p class="item__title">Country letter with AR</p><p class="item__id">Item 40080</p><p>A registered cover with AR sent from Kazvin on 18/7/20 to Isfahan, received on 26/7/20. the cover arrived in Tehran on 20/7/20 and left Tehran the next day on 21/7/20.This cover is franked with 24ch Ahmad Shah portrait issue of 1911. The cover also shows CP- 38 &quot;Audited by censor number 3&quot; censorship cachet.</p><a class="item__link" href="covers/40080.html?from=persian">See this cover in Censors</a></div></article><article class="item" id="item-ar-2"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40072_front.jpg" data-zoom><img src="img/m/40072_front.jpg" alt="Front of item 40072" width="900" height="737" loading="lazy"></a><a class="scan__link" href="images/40072_back.jpg" data-zoom><img src="img/m/40072_back.jpg" alt="Back of item 40072" width="900" height="775" loading="lazy"></a></div><div class="item__body"><p class="item__title">Intra city letter with AR</p><p class="item__id">Item 40072</p><p>A registered cover with AR sent from Tehran on 3/7/1917 to Tehran. The cover is franked with a 1kr Ahmad Shah portrait issue of 1911, 2ch for intra - city rate, 12ch for registration and 6ch for the return receipt.</p></div></article></div></section>
+<section class="sec" id="insurance">
+<h5>Insurance</h5>
+<p>This service provided insurance for when the letter contained money. The insurance was 1% of the total money being sent.</p><div class="items"><article class="item" id="item-insurance-1"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40092_front.jpg" data-zoom><img src="img/m/40092_front.jpg" alt="Front of item 40092" width="900" height="749" loading="lazy"></a><a class="scan__link" href="images/40092_back.jpg" data-zoom><img src="img/m/40092_back.jpg" alt="Back of item 40092" width="900" height="734" loading="lazy"></a></div><div class="item__body"><p class="item__title">Item 40092</p><p>&quot;An insured AR cover containing 3 Tooman from Kazvin sent on 30/2/1916 to Tehran, received on 5/3/16. The cover is tied with 3ch Ahmad Shah portrait issue of 1911, 1kr Coat of Arms issue of 1909 with 1333 Hedgira overprint and 13ch Coat of Arms issue of 1909 revalued to 12ch. How is insurance calculated? 6 postage rate + 16ch registration + 6ch receipt + 6ch insurance(3T * 200 = 600ch total money-- &gt; 1 % or 1ch is the insurance cost) + 1ch for wax&quot;</p></div></article></div></section>
+<h4 id="3-charity-tax">3 - Charity Tax</h4>
+<p>During certain period, due to natural disaster, a charity was tax imposed for domestic letters in some cities.</p>
+<section class="sec" id="tehran">
+<h5>Tehran</h5>
+<p>1 Chahi charity tax was imposed in Tehran during XX/XX/XX to XX/XX/XX.</p><div class="items"><article class="item" id="item-tehran-charity-1"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40024_front.jpg" data-zoom><img src="img/m/40024_front.jpg" alt="Front of item 40024" width="900" height="761" loading="lazy"></a><a class="scan__link" href="images/40024_back.jpg" data-zoom><img src="img/m/40024_back.jpg" alt="Back of item 40024" width="900" height="757" loading="lazy"></a></div><div class="item__body"><p class="item__title">Tehran charity type 1</p><p class="item__id">Item 40024</p><p>A registered cover sent from Hamedan to Tehran, received on 10/1/19. The cover is franked with two Ahmad Shah portrait issue of 1911 and one 1ch charity stamp. The note potentially by the post masters shows the rate for the cover is 95 (dinar) equal to 19 Chahi.</p><a class="item__link" href="covers/40024.html?from=british-north">See this cover in Censors</a></div></article><article class="item" id="item-tehran-charity-2"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40089_front.jpg" data-zoom><img src="img/m/40089_front.jpg" alt="Front of item 40089" width="900" height="705" loading="lazy"></a><a class="scan__link" href="images/40089_back.jpg" data-zoom><img src="img/m/40089_back.jpg" alt="Back of item 40089" width="900" height="737" loading="lazy"></a></div><div class="item__body"><p class="item__title">Tehran charity type 2</p><p class="item__id">Item 40089</p><p>A cover sent from Tehran on 5/4/13 to Kerman on 19/5/18. The cover is franked with 6ch Ahmad Shah portrait issue of 1911 and 1ch charity with “kheirieh” handstamp.</p></div></article><article class="item" id="item-tehran-charity-3"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40226_front.jpg" data-zoom><img src="img/m/40226_front.jpg" alt="Front of item 40226" width="900" height="735" loading="lazy"></a><a class="scan__link" href="images/40226_back.jpg" data-zoom><img src="img/m/40226_back.jpg" alt="Back of item 40226" width="900" height="723" loading="lazy"></a></div><div class="item__body"><p class="item__title">Tehran charity type 3</p><p class="item__id">Item 40226</p><p>1ch of Ahmad Shah portrait 1909 is used as charity stamp</p></div></article></div></section>
+<section class="sec" id="racht">
+<h5>Racht</h5>
+<p class="empty">No example in the collection yet.</p>
+</section>
+<section class="sec" id="tabriz">
+<h5>Tabriz</h5>
+<p>Tabriz charity tax was imposed during XX/XX/XX to XX/XX/XX.</p><div class="items"><article class="item" id="item-tabriz-charity-1"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40049_front.jpg" data-zoom><img src="img/m/40049_front.jpg" alt="Front of item 40049" width="900" height="691" loading="lazy"></a><a class="scan__link" href="images/40049_back.jpg" data-zoom><img src="img/m/40049_back.jpg" alt="Back of item 40049" width="900" height="697" loading="lazy"></a></div><div class="item__body"><p class="item__title">1 Chahi</p><p class="item__id">Item 40049</p><p>A cover sent from Tauris on 21/6/19 to Tehran, received on 25/6/19 franked with 6ch provisional issue of 1919 with 1ch charity stamp of Tabriz famine releif issue. This cover was also bears Dunterforce censorship mark(CP- 84).</p><a class="item__link" href="covers/40049.html?from=british-north">See this cover in Censors</a></div></article></div></section>
+<section class="sec" id="khoy">
+<h5>Khoy</h5>
+<p class="empty">No example in the collection yet.</p>
+</section>
+<h4 id="4-out-of-ordinary-letters">4 - Out of ordinary letters</h4>
+</section>
+<section class="sec" id="foreign">
+<h3>Foreign</h3>
+<p>The foreign letters cost is consisted of three factors: 1- the basic rate, 2- special premiums, and 3- extra services. In the next three sections I go through each one of them and then I go through out of ordinary cases in section 4.</p>
+<h4 id="1-foreign-letter-rate">1 - Foreign letter rate</h4>
+<p>The foreign letter rate changed several times during this era.</p>
+<section class="sec" id="before-29-11-1913">
+<h5>Before 29/11/1913</h5><div class="items"><article class="item" id="item-foreign-rate-1"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40038_front.jpg" data-zoom><img src="img/m/40038_front.jpg" alt="Front of item 40038" width="900" height="746" loading="lazy"></a><a class="scan__link" href="images/40038_back.jpg" data-zoom><img src="img/m/40038_back.jpg" alt="Back of item 40038" width="900" height="742" loading="lazy"></a></div><div class="item__body"><p class="item__title">13 Chahi</p><p class="item__id">Item 40038</p><p>A cover sent from Kerman to Escher, received on 8/12/11, tied by 3ch and 10ch Ahmad Shah portrait issue of 1911. The cover was sent through Bendar Abbas port.</p></div></article></div></section>
+<section class="sec" id="between-29-11-1913-and-08-08-1921">
+<h5>Between 29/11/1913 and 08/08/1921</h5><div class="items"><article class="item" id="item-foreign-rate-2"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40124_front.jpg" data-zoom><img src="img/m/40124_front.jpg" alt="Front of item 40124" width="900" height="729" loading="lazy"></a><a class="scan__link" href="images/40124_back.jpg" data-zoom><img src="img/m/40124_back.jpg" alt="Back of item 40124" width="900" height="733" loading="lazy"></a></div><div class="item__body"><p class="item__title">12 Chahi</p><p class="item__id">Item 40124</p><p>A cover sent from Tauris on 17/1?/1913 to Anvers, received on 26/11/1913. The cover is tied with 12ch Ahmad Shah portrait issue of 1911.</p></div></article></div></section>
+<section class="sec" id="between-08-08-1921-and-20-08-1925">
+<h5>Between 08/08/1921 and 20/08/1925</h5><div class="items"><article class="item" id="item-foreign-rate-3"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40168_front.jpg" data-zoom><img src="img/m/40168_front.jpg" alt="Front of item 40168" width="900" height="534" loading="lazy"></a><a class="scan__link" href="images/40168_back.jpg" data-zoom><img src="img/m/40168_back.jpg" alt="Back of item 40168" width="900" height="541" loading="lazy"></a></div><div class="item__body"><p class="item__title">20 Chahi</p><p class="item__id">Item 40168</p><p>A cover sent from Mohammreh on 16/8/25 to London, tied with 30kr Ahmad Shah portrait issue of 1911 with control overprint revalued to 1kr with typeset overprint.</p></div></article><article class="item" id="item-foreign-rate-4"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40155_front.jpg" data-zoom><img src="img/m/40155_front.jpg" alt="Front of item 40155" width="900" height="727" loading="lazy"></a><a class="scan__link" href="images/40155_back.jpg" data-zoom><img src="img/m/40155_back.jpg" alt="Back of item 40155" width="900" height="729" loading="lazy"></a></div><div class="item__body"><p class="item__title">Item 40155</p><p>A cover from Bouchir sent on 12/8/23 to Manchester, received on 3/9/23, tied with 2 20kr Ahmad Shah portrait issue of 1911 with control overprint revalued to 10ch with typeset overprints.</p></div></article></div></section>
+<section class="sec" id="after-20-08-1925">
+<h5>After 20/08/1925</h5><div class="items"><article class="item" id="item-foreign-rate-5"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40207_front.jpg" data-zoom><img src="img/m/40207_front.jpg" alt="Front of item 40207" width="900" height="756" loading="lazy"></a><a class="scan__link" href="images/40207_back.jpg" data-zoom><img src="img/m/40207_back.jpg" alt="Back of item 40207" width="900" height="756" loading="lazy"></a></div><div class="item__body"><p class="item__title">15 Chahi</p><p class="item__id">Item 40207</p></div></article></div></section>
+<h4 id="2-special-premiums">2 - Special Premiums</h4>
+<p>Toward the end of the era, there was two more options available to senders on how to send their letters.</p>
+<section class="sec" id="overland-mail">
+<h5>Overland Mail</h5>
+<p>Overland Mail was a service that would expediate delivery of parcels to Europe by carrying them in an armored vehicle through the desert from Baghdad to Haifa. Senders from Iran that wanted to use this service had to pay its premium.</p>
+</section>
+<section class="sec" id="air-mail">
+<h5>Air Mail</h5>
+<p>The Basra-Cairo air route become available in 1922. Senders could pay the extra air fee for their letters to go to Basra and then go to Cairo by air and then get shipped to its final destination.</p>
+<section class="sec" id="before-1924">
+<h6>Before 1924</h6>
+<p class="empty">No example in the collection yet.</p>
+</section>
+<section class="sec" id="1924-and-after">
+<h6>1924 and after</h6>
+<p class="empty">No example in the collection yet.</p>
+</section>
+</section>
+<h4 id="3-extra-services">3 - Extra services</h4>
+<p>The two main services available to senders were registration and Advice of receipt (AR).</p>
+<section class="sec" id="registration-2">
+<h5>registration</h5>
+<section class="sec" id="before-29-11-1913-2">
+<h6>Before 29/11/1913</h6>
+<p class="empty">No example in the collection yet.</p>
+</section>
+<section class="sec" id="between-29-11-1913-and-08-08-1921-2">
+<h6>Between 29/11/1913 and 08/08/1921</h6>
+<p>The registration rate at between 29/11/1913 and 08/08/1921 was 12 Chahi.</p>
+</section>
+<section class="sec" id="after-08-08-1921">
+<h6>After 08/08/1921</h6>
+<p class="empty">No example in the collection yet.</p>
+</section>
+</section>
+<section class="sec" id="advice-of-receipt-ar-2">
+<h5>Advice of receipt (AR)</h5>
+<p class="empty">No example in the collection yet.</p>
+</section>
+<h4 id="4-out-of-ordinary-letters-x">4 - Out of ordinary letters</h4>
+<section class="sec" id="domestic-covers-routed-through-other-countries">
+<h5>Domestic covers routed through other countries</h5>
+<p>During the civil war and the Russian occupation of Tabriz, some of the letters From Tabriz were routed through Russia and the foreign rate applied to them despite being sent to a city in Iran.</p>
+</section>
+</section>
+<h2 id="postcards-to-be-completed">Postcards (To be completed)</h2>
+<section class="sec" id="domestic-2">
+<h3>Domestic</h3>
+<section class="sec" id="before-27-07-1921">
+<h4>Before 27/07/1921</h4>
+<p>The rate of cover before 27/7/21 was 2 Chahi.</p>
+</section>
+<section class="sec" id="after-27-07-1921">
+<h4>After 27/07/1921</h4>
+<p class="empty">No example in the collection yet.</p>
+</section>
+</section>
+<section class="sec" id="foreign-2">
+<h3>Foreign</h3>
+<p class="empty">No example in the collection yet.</p>
+</section>
+<h2 id="imprimes-and-wrappers-to-be-completed">Imprimes and wrappers (To be completed)</h2>
+<h2 id="open-letters-to-be-completed">Open letters (To be completed)</h2>
+<h2 id="waybills-to-be-completed">Waybills (To be completed)</h2>
+</article>
+</div>
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <p>Ahmad Shah era postal history, 1909–1925, from the collection of Masoud Valafar.</p>
+    <p>Corrections and additions are welcome: <a href="mailto:mvalafar84@gmail.com">mvalafar84@gmail.com</a></p>
+  </div>
+</footer>
+<dialog class="zoom" aria-label="Enlarged scan">
+  <form method="dialog"><button class="zoom__close">Close</button></form>
+  <div class="zoom__stage fit"><img alt=""></div>
+</dialog>
+<script src="assets/site.js" defer></script>
 </body>
-
 </html>

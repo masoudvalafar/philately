@@ -1,0 +1,1252 @@
+{
+ "reference": {
+  "title": "Censor & Control Markings of Iran, 1910–1946",
+  "author": "Mossavar-Rahmani",
+  "url": "https://books.apple.com/us/book/censor-control-markings-of-iran-1910-1946/id1596507008"
+ },
+ "marks": {
+  "CP-01": {
+   "meaning": "ممیزی شد (momayezi shod), “inspected”, Tehran",
+   "place": "Tehran"
+  },
+  "CP-04": {
+   "meaning": "Tehran control mark",
+   "place": "Tehran"
+  },
+  "CP-10": {},
+  "CP-11": {},
+  "CP-12": {},
+  "CP-13": {
+   "place": "Qazvin"
+  },
+  "CP-15": {},
+  "CP-22": {
+   "meaning": "Shiraz",
+   "place": "Shiraz"
+  },
+  "CP-27": {
+   "meaning": "Kazerun",
+   "place": "Kazerun"
+  },
+  "CP-28": {},
+  "CP-30": {},
+  "CP-34": {},
+  "CP-35": {},
+  "CP-37": {},
+  "CP-38": {
+   "meaning": "“Audited by censor number 3”",
+   "place": "Tehran censor number 3"
+  },
+  "CP-39": {
+   "meaning": "“Audited by censor number 4”",
+   "place": "Tehran censor number 4"
+  },
+  "CP-40": {
+   "meaning": "Tehran censor number 5",
+   "place": "Tehran censor number 5"
+  },
+  "CP-42": {},
+  "CP-56": {},
+  "CP-65": {},
+  "CP-72": {},
+  "CP-78": {},
+  "CP-79": {
+   "meaning": "British censor, Bushire",
+   "place": "Bushire"
+  },
+  "CP-81": {},
+  "CP-84": {
+   "meaning": "Dunsterforce",
+   "place": "Dunsterforce"
+  },
+  "CP-85": {},
+  "CP-88": {},
+  "CP-90": {},
+  "CP-95": {},
+  "CP-96": {},
+  "CP-97": {},
+  "CP-98": {},
+  "CP-103": {},
+  "Label": {
+   "name": "Preprinted censor label",
+   "meaning": "British preprinted label used at Bushire"
+  }
+ },
+ "strikes": [
+  [
+   "CP-01",
+   "blue",
+   "40129",
+   "persian"
+  ],
+  [
+   "CP-04",
+   "",
+   "40130",
+   "persian"
+  ],
+  [
+   "CP-04",
+   "",
+   "40183",
+   "persian"
+  ],
+  [
+   "CP-04",
+   "",
+   "40198",
+   "persian"
+  ],
+  [
+   "CP-04",
+   "",
+   "40277",
+   "persian"
+  ],
+  [
+   "CP-04",
+   "",
+   "100001",
+   "persian"
+  ],
+  [
+   "CP-10",
+   "",
+   "40283",
+   "persian"
+  ],
+  [
+   "CP-11",
+   "",
+   "40173",
+   "persian"
+  ],
+  [
+   "CP-11",
+   "",
+   "40282",
+   "persian"
+  ],
+  [
+   "CP-11",
+   "",
+   "40284",
+   "persian"
+  ],
+  [
+   "CP-12",
+   "blue",
+   "40313",
+   "persian"
+  ],
+  [
+   "CP-12",
+   "blue",
+   "40314",
+   "persian"
+  ],
+  [
+   "CP-12",
+   "blue",
+   "40320",
+   "persian"
+  ],
+  [
+   "CP-13",
+   "black",
+   "40113",
+   "persian"
+  ],
+  [
+   "CP-13",
+   "black",
+   "40164",
+   "persian"
+  ],
+  [
+   "CP-13",
+   "black",
+   "40253",
+   "persian"
+  ],
+  [
+   "CP-15",
+   "",
+   "40309",
+   "persian"
+  ],
+  [
+   "CP-10",
+   "black",
+   "40229",
+   "persian"
+  ],
+  [
+   "CP-30",
+   "",
+   "40229",
+   "persian"
+  ],
+  [
+   "CP-30",
+   "",
+   "40136",
+   "persian"
+  ],
+  [
+   "CP-30",
+   "",
+   "40261",
+   "persian"
+  ],
+  [
+   "CP-30",
+   "",
+   "40301",
+   "persian"
+  ],
+  [
+   "CP-30",
+   "black",
+   "40322",
+   "persian"
+  ],
+  [
+   "CP-30",
+   "blue",
+   "40321",
+   "persian"
+  ],
+  [
+   "CP-30",
+   "blue",
+   "40323",
+   "persian"
+  ],
+  [
+   "CP-22",
+   "",
+   "40101",
+   "persian"
+  ],
+  [
+   "CP-34",
+   "",
+   "40260",
+   "persian"
+  ],
+  [
+   "CP-35",
+   "",
+   "40305",
+   "persian"
+  ],
+  [
+   "CP-35",
+   "",
+   "40306",
+   "persian"
+  ],
+  [
+   "CP-38",
+   "",
+   "40080",
+   "persian"
+  ],
+  [
+   "CP-39",
+   "",
+   "40071",
+   "persian"
+  ],
+  [
+   "CP-39",
+   "",
+   "40105",
+   "persian"
+  ],
+  [
+   "CP-39",
+   "",
+   "40137",
+   "persian"
+  ],
+  [
+   "CP-40",
+   "",
+   "40036",
+   "persian"
+  ],
+  [
+   "CP-40",
+   "",
+   "40250",
+   "persian"
+  ],
+  [
+   "CP-27",
+   "",
+   "40101",
+   "kazerun"
+  ],
+  [
+   "CP-28",
+   "black",
+   "40229",
+   "russian"
+  ],
+  [
+   "CP-98",
+   "",
+   "40108",
+   "russian"
+  ],
+  [
+   "CP-98",
+   "",
+   "40271",
+   "russian"
+  ],
+  [
+   "CP-103",
+   "",
+   "40259",
+   "ottoman"
+  ],
+  [
+   "Label",
+   "",
+   "40002",
+   "british-south"
+  ],
+  [
+   "Label",
+   "",
+   "40315",
+   "british-south"
+  ],
+  [
+   "CP-78",
+   "",
+   "40310",
+   "british-south"
+  ],
+  [
+   "CP-79",
+   "",
+   "40012",
+   "british-south"
+  ],
+  [
+   "CP-79",
+   "",
+   "40042",
+   "british-south"
+  ],
+  [
+   "CP-79",
+   "",
+   "40148",
+   "british-south"
+  ],
+  [
+   "CP-79",
+   "",
+   "40160",
+   "british-south"
+  ],
+  [
+   "CP-79",
+   "",
+   "40230",
+   "british-south"
+  ],
+  [
+   "CP-79",
+   "",
+   "40280",
+   "british-south"
+  ],
+  [
+   "CP-37",
+   "",
+   "40245",
+   "indian-fpo"
+  ],
+  [
+   "CP-81",
+   "",
+   "40024",
+   "british-north"
+  ],
+  [
+   "CP-81",
+   "",
+   "40028",
+   "british-north"
+  ],
+  [
+   "CP-84",
+   "",
+   "40047",
+   "british-north"
+  ],
+  [
+   "CP-84",
+   "",
+   "40049",
+   "british-north"
+  ],
+  [
+   "CP-84",
+   "",
+   "40114",
+   "british-north"
+  ],
+  [
+   "CP-84",
+   "",
+   "40248",
+   "british-north"
+  ],
+  [
+   "CP-85",
+   "",
+   "40319",
+   "british-north"
+  ],
+  [
+   "CP-85",
+   "",
+   "200012",
+   "british-north"
+  ],
+  [
+   "CP-88",
+   "",
+   "40257",
+   "british-north"
+  ],
+  [
+   "CP-95",
+   "black",
+   "40300",
+   "british-north"
+  ],
+  [
+   "CP-95",
+   "black",
+   "40316",
+   "british-north"
+  ],
+  [
+   "CP-95",
+   "black",
+   "40317",
+   "british-north"
+  ],
+  [
+   "CP-95",
+   "black",
+   "40318",
+   "british-north"
+  ],
+  [
+   "CP-95",
+   "blue",
+   "40239",
+   "british-north"
+  ],
+  [
+   "CP-95",
+   "",
+   "200006",
+   "british-north"
+  ],
+  [
+   "CP-96",
+   "",
+   "40135",
+   "british-north"
+  ],
+  [
+   "CP-96",
+   "",
+   "40166",
+   "british-north"
+  ],
+  [
+   "CP-97",
+   "",
+   "40260",
+   "british-north"
+  ],
+  [
+   "CP-56",
+   "",
+   "40240",
+   "reza-khan"
+  ],
+  [
+   "CP-72",
+   "",
+   "40312",
+   "reza-khan"
+  ],
+  [
+   "CP-42",
+   "",
+   "200007",
+   "unattributed"
+  ],
+  [
+   "CP-65",
+   "",
+   "200003",
+   "unattributed"
+  ],
+  [
+   "CP-90",
+   "",
+   "200011",
+   "unattributed"
+  ]
+ ],
+ "covers": {
+  "40129": {
+   "kind": "Cover",
+   "from": "Tehran",
+   "to": "Yezd",
+   "sent": "1910-01-27",
+   "rate": "6 chahis",
+   "stamps": "6ch Coat of Arms issue of 1909",
+   "text": "Endorsed with the blue Tehran “Momayezi shod” control mark."
+  },
+  "40130": {
+   "kind": "Cover",
+   "from": "Tehran",
+   "to": "Qom",
+   "sent": "1911-11-16",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911",
+   "text": "Bears the Tehran control mark."
+  },
+  "40183": {
+   "kind": "Registered cover",
+   "from": "Tehran",
+   "to": "Isfahan",
+   "year": "1911",
+   "rate": "49 chahis",
+   "stamps": "Coat of Arms issue of 1909"
+  },
+  "40198": {
+   "kind": "Cover",
+   "from": "Tehran",
+   "to": "Isfahan",
+   "sent": "1911-03-04",
+   "rate": "30 chahis",
+   "stamps": "1ch, 3ch, 6ch and 1kr Coat of Arms issue of 1909",
+   "text": "Bears the Tehran control mark. Similar to 40235: the “nomre” manuscript seems to have been added by the receiver, so this cover was probably not registered."
+  },
+  "40277": {
+   "kind": "Cover",
+   "from": "Tehran",
+   "to": "London",
+   "sent": "1911-11-08",
+   "rate": "13 chahis",
+   "stamps": "13ch Ahmad Shah portrait issue of 1911"
+  },
+  "100001": {
+   "kind": "Postcard"
+  },
+  "40283": {
+   "kind": "Cover",
+   "from": "Hamadan",
+   "to": "Tehran",
+   "sent": "1912-02-05",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911"
+  },
+  "40229": {
+   "kind": "Cover",
+   "from": "Hamadan",
+   "to": "Isfahan",
+   "sent": "1917-04-26",
+   "received": "1917-05-09",
+   "rate": "6 chahis",
+   "stamps": "1ch and 5ch Ahmad Shah portrait issue of 1911",
+   "text": "Read by three censors on one journey: two Persian marks and one attributed to Russian forces.",
+   "name_fa": {
+    "from": "همدان",
+    "to": "اصفهان"
+   },
+   "features": [
+    {
+     "side": "front",
+     "x": 0.185,
+     "y": 0.145,
+     "box": [
+      0.06,
+      0.08,
+      0.31,
+      0.26
+     ],
+     "title": "Manuscript date",
+     "text": "۱۷ رجب ۱۳۳۵, 17 Rajab 1335 in the Hijri calendar."
+    },
+    {
+     "side": "front",
+     "x": 0.435,
+     "y": 0.23,
+     "box": [
+      0.34,
+      0.1,
+      0.73,
+      0.37
+     ],
+     "title": "Departure, Hamadan",
+     "text": "HAMADAN DEPART, 26 April 1917."
+    },
+    {
+     "side": "front",
+     "x": 0.66,
+     "y": 0.27,
+     "box": [
+      0.58,
+      0.14,
+      0.76,
+      0.38
+     ],
+     "censor": true,
+     "title": "Boxed mark",
+     "text": "A faint boxed handstamp beside the departure postmark, one of the three censor marks recorded on this cover."
+    },
+    {
+     "side": "front",
+     "x": 0.796,
+     "y": 0.71,
+     "box": [
+      0.72,
+      0.63,
+      0.87,
+      0.79
+     ],
+     "censor": true,
+     "title": "Oval mark",
+     "text": "An oval handstamp lettered HAMADAN, one of the three censor marks recorded on this cover."
+    },
+    {
+     "side": "front",
+     "x": 0.47,
+     "y": 0.8,
+     "box": [
+      0.29,
+      0.56,
+      0.66,
+      0.93
+     ],
+     "title": "Franking: 5ch + 1ch = 6ch",
+     "text": "The internal letter rate, paid with the Ahmad Shah portrait issue of 1911 and tied by the Hamadan postmark."
+    },
+    {
+     "side": "front",
+     "x": 0.16,
+     "y": 0.62,
+     "box": [
+      0.07,
+      0.49,
+      0.26,
+      0.75
+     ],
+     "title": "Arrival, Isfahan",
+     "text": "Isfahan receiving postmark, 9 May 1917."
+    },
+    {
+     "side": "back",
+     "x": 0.5,
+     "y": 0.34,
+     "box": [
+      0.41,
+      0.24,
+      0.59,
+      0.45
+     ],
+     "title": "Sender’s seal",
+     "text": "A violet personal seal on the back flap, with a second seal below it."
+    }
+   ]
+  },
+  "40259": {
+   "kind": "Cover",
+   "from": "Senneh",
+   "to": "Hamadan",
+   "sent": "1917-02-26",
+   "rate": "6 chahis",
+   "stamps": "3ch Ahmad Shah portrait issue of 1911 (multiple)"
+  },
+  "40173": {
+   "kind": "Cover",
+   "from": "Sultanabad",
+   "to": "Tehran",
+   "sent": "1912-05-04",
+   "received": "1912-05-11",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911"
+  },
+  "40282": {
+   "kind": "Cover",
+   "from": "Sultanabad",
+   "to": "Tehran",
+   "sent": "1911-11-10",
+   "rate": "9 chahis",
+   "stamps": "9ch Ahmad Shah portrait issue of 1911"
+  },
+  "40284": {
+   "kind": "Cover",
+   "from": "Sultanabad",
+   "to": "Tehran",
+   "year": "1912",
+   "rate": "12 chahis",
+   "stamps": "2ch and 10ch Ahmad Shah portrait issue of 1911"
+  },
+  "40313": {
+   "kind": "Cover",
+   "from": "Senneh",
+   "to": "Hamadan",
+   "sent": "1911-09-03",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911"
+  },
+  "40314": {
+   "kind": "Cover",
+   "from": "Senneh",
+   "to": "Hamadan",
+   "sent": "1911-11-21",
+   "rate": "9 chahis",
+   "stamps": "9ch Ahmad Shah portrait issue of 1911"
+  },
+  "40320": {
+   "kind": "Cover",
+   "from": "Senneh",
+   "to": "Hamadan",
+   "sent": "1911-09-11",
+   "rate": "9 chahis",
+   "stamps": "9ch Ahmad Shah portrait issue of 1911"
+  },
+  "40113": {
+   "kind": "Cover",
+   "from": "Qazvin",
+   "to": "Tehran",
+   "sent": "1911-09-11",
+   "rate": "6 chahis",
+   "stamps": "three 2ch Ahmad Shah portrait issue of 1911",
+   "text": "Examined by the censor in Qazvin."
+  },
+  "40164": {
+   "kind": "Cover",
+   "from": "Qazvin",
+   "to": "Tehran",
+   "sent": "1911-09-10",
+   "received": "1911-09-12",
+   "rate": "9 chahis",
+   "stamps": "9ch Ahmad Shah portrait issue of 1911",
+   "text": "Examined by the censor in Qazvin."
+  },
+  "40253": {
+   "kind": "Cover",
+   "from": "Qazvin",
+   "to": "Tehran",
+   "sent": "1912-01-24",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911",
+   "text": "The date in the cancellation is wrong; the manuscript date is 24 January 1912."
+  },
+  "40309": {
+   "kind": "Cover",
+   "from": "Meched",
+   "to": "Neishabur",
+   "sent": "1911-12-12",
+   "rate": "6 chahis",
+   "stamps": "3ch Ahmad Shah portrait issue of 1911 (multiple)"
+  },
+  "40101": {
+   "kind": "Cover",
+   "from": "Kazerun",
+   "to": "Shiraz",
+   "year": "1917",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911 with the “Mellat-e Kazerun” handstamp of 1335",
+   "text": "Censored first by the Kazerun nationalists, then at Shiraz."
+  },
+  "40136": {
+   "kind": "Cover",
+   "from": "Tehran",
+   "to": "Isfahan",
+   "sent": "1917-03-08",
+   "received": "1917-03-13",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911"
+  },
+  "40261": {
+   "kind": "Cover",
+   "from": "Shiraz",
+   "to": "Isfahan",
+   "sent": "1917-02-19",
+   "received": "1917-02-22",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911"
+  },
+  "40301": {
+   "kind": "Cover",
+   "from": "Tehran",
+   "to": "Isfahan",
+   "sent": "1917-02-19",
+   "received": "1917-02-24",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911"
+  },
+  "40321": {
+   "kind": "Cover",
+   "from": "Tehran",
+   "to": "Isfahan",
+   "sent": "1917-03-26",
+   "received": "1917-03-31",
+   "rate": "27 chahis",
+   "stamps": "9ch Ahmad Shah portrait issue of 1911 (multiple)"
+  },
+  "40322": {
+   "kind": "Cover",
+   "from": "Rasht",
+   "to": "Isfahan",
+   "sent": "1916-12-17",
+   "received": "1916-12-27",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911"
+  },
+  "40323": {
+   "kind": "Cover",
+   "from": "Qazvin",
+   "to": "Isfahan",
+   "sent": "1917-04-01",
+   "received": "1917-04-06",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911"
+  },
+  "40260": {
+   "kind": "Cover",
+   "from": "Senneh",
+   "to": "Hamadan",
+   "sent": "1919-10-19",
+   "rate": "6 chahis",
+   "stamps": "3ch provisional issue of 1919",
+   "text": "Read by a Persian censor and by British forces."
+  },
+  "40305": {
+   "kind": "Cover",
+   "from": "Barforush",
+   "to": "Tehran",
+   "sent": "1919-08-28",
+   "rate": "6 chahis",
+   "stamps": "2ch Ahmad Shah portrait issue of 1911 (multiple)"
+  },
+  "40306": {
+   "kind": "Cover",
+   "from": "Barforush",
+   "to": "Tehran",
+   "sent": "1919-07-15",
+   "received": "1919-07-26",
+   "rate": "6 chahis",
+   "stamps": "6ch provisional issue of 1919"
+  },
+  "40080": {
+   "kind": "Registered cover with advice of receipt",
+   "from": "Qazvin",
+   "to": "Isfahan",
+   "via": "Tehran",
+   "sent": "1920-07-18",
+   "received": "1920-07-26",
+   "rate": "24 chahis",
+   "stamps": "24ch Ahmad Shah portrait issue of 1911",
+   "text": "Arrived in Tehran on 20 July 1920 and left the next day, after passing censor number 3."
+  },
+  "40071": {
+   "kind": "Cover",
+   "from": "Qazvin",
+   "to": "Yezd",
+   "via": "Tehran",
+   "sent": "1920-12-29",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911",
+   "text": "Routed through Tehran, where it passed censor number 4."
+  },
+  "40105": {
+   "kind": "Cover",
+   "from": "Qazvin",
+   "to": "Isfahan",
+   "via": "Tehran",
+   "sent": "1920-06-30",
+   "received": "1920-07-10",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911",
+   "text": "Routed through Tehran on 3 July 1920."
+  },
+  "40137": {
+   "kind": "Cover",
+   "from": "Kermanshah",
+   "to": "Meched",
+   "via": "Tehran",
+   "sent": "1920-05-11",
+   "received": "1920-05-28",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911",
+   "text": "Passed through Tehran on 18 May 1920, where it was censored."
+  },
+  "40036": {
+   "kind": "Cover",
+   "from": "Tabriz",
+   "to": "Isfahan",
+   "via": "Tehran",
+   "sent": "1920-04-18",
+   "received": "1920-04-25",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911",
+   "text": "Arrived in Tehran on 18 April 1920 and left the next day, censored by Tehran censor number 5."
+  },
+  "40250": {
+   "kind": "Cover",
+   "from": "Tabriz",
+   "to": "Kermanshah",
+   "sent": "1921-01-13",
+   "received": "1921-02-12",
+   "rate": "6 chahis",
+   "stamps": "2ch Ahmad Shah portrait issue of 1911 (multiple)",
+   "text": "Also shows a postage due marking."
+  },
+  "40108": {
+   "kind": "Cover",
+   "from": "Zanjan",
+   "to": "Hamadan",
+   "sent": "1917-11-24",
+   "received": "1917-11-30",
+   "rate": "6 chahis",
+   "stamps": "5ch Ahmad Shah portrait issue of 1911 and 1ch Coat of Arms with the 1335 handstamp",
+   "text": "Opened by the censor and resealed."
+  },
+  "40271": {
+   "kind": "Cover",
+   "from": "Hamadan",
+   "to": "Isfahan",
+   "year": "1917",
+   "rate": "9 chahis",
+   "stamps": "9ch Ahmad Shah portrait issue of 1911"
+  },
+  "40245": {
+   "kind": "Cover",
+   "sent": "1918-12-14",
+   "stamps": "Indian stamps",
+   "text": "Posted through an Indian field post office."
+  },
+  "40240": {
+   "kind": "Cover",
+   "from": "Tabriz",
+   "to": "Arak",
+   "via": "Tehran",
+   "sent": "1924-05-14",
+   "received": "1924-05-18",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1924"
+  },
+  "40312": {
+   "kind": "Cover",
+   "from": "Behbahan",
+   "to": "Shiraz",
+   "sent": "1925-01-27",
+   "rate": "6 chahis",
+   "stamps": "2ch Ahmad Shah portrait issue of 1924 (multiple)"
+  },
+  "40310": {
+   "kind": "Cover",
+   "from": "Ram Hormoz",
+   "to": "Bushire",
+   "sent": "1915-12-18",
+   "rate": "Postage paid",
+   "text": "No stamp: sent with a postage-paid marking."
+  },
+  "40012": {
+   "kind": "Cover",
+   "from": "Bushire",
+   "to": "Behbahan",
+   "received": "1916-12-08",
+   "rate": "9 chahis",
+   "stamps": "9ch Coat of Arms issue of 1909 with the 1333 overprint"
+  },
+  "40042": {
+   "kind": "Cover",
+   "from": "Bushire",
+   "to": "Behbahan",
+   "sent": "1918-02-05",
+   "rate": "6 chahis",
+   "stamps": "1ch and 5ch Ahmad Shah portrait issue of 1911",
+   "text": "Censored by British forces in Bushire."
+  },
+  "40148": {
+   "kind": "Cover",
+   "from": "Ram Hormoz",
+   "to": "Bushire",
+   "sent": "1918-06-30",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911"
+  },
+  "40160": {
+   "kind": "Cover",
+   "from": "Ram Hormoz",
+   "to": "Bushire",
+   "via": "Bandar Naseri and Mohammareh",
+   "sent": "1916-11-15",
+   "received": "1916-11-26",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911",
+   "text": "Went through Bandar Naseri on 17 November and Mohammareh on 22 November; censored on arrival in Bushire."
+  },
+  "40230": {
+   "kind": "Cover",
+   "from": "Behbahan",
+   "to": "Bushire",
+   "sent": "1918-05-02",
+   "rate": "10 chahis",
+   "stamps": "1ch and 6ch Ahmad Shah portrait issue of 1911"
+  },
+  "40280": {
+   "kind": "Cover",
+   "from": "Ram Hormoz",
+   "to": "Bushire",
+   "sent": "1918-04-21",
+   "text": "No stamp."
+  },
+  "40024": {
+   "kind": "Registered cover",
+   "from": "Hamadan",
+   "to": "Tehran",
+   "received": "1919-01-10",
+   "rate": "18 chahis + 1 chahi charity",
+   "stamps": "two 9ch Ahmad Shah portrait issue of 1911 and a 1ch charity stamp",
+   "text": "A note, probably by the postmaster, gives the rate as 95 dinars, equal to 19 chahis."
+  },
+  "40028": {
+   "kind": "Cover",
+   "from": "Tabriz",
+   "to": "Hamadan",
+   "sent": "1918-11-28",
+   "received": "1918-11-29",
+   "rate": "9 chahis",
+   "stamps": "3ch and 6ch Ahmad Shah portrait issue of 1911"
+  },
+  "40047": {
+   "kind": "Cover",
+   "from": "Qazvin",
+   "sent": "1919-09-04",
+   "rate": "6 chahis",
+   "stamps": "6ch provisional issue of 1919",
+   "text": "The cover has been cut short."
+  },
+  "40049": {
+   "kind": "Cover",
+   "from": "Tabriz",
+   "to": "Tehran",
+   "sent": "1919-06-21",
+   "received": "1919-06-25",
+   "rate": "6 chahis + 1 chahi charity",
+   "stamps": "6ch provisional issue of 1919 and the 1ch Tabriz famine relief charity stamp"
+  },
+  "40114": {
+   "kind": "Cover",
+   "from": "Qazvin",
+   "to": "Yezd",
+   "via": "Tehran",
+   "sent": "1919-02-17",
+   "received": "1919-03-27",
+   "rate": "6 chahis",
+   "stamps": "two 12ch Ahmad Shah portrait issue of 1911 revalued to 3ch with the 1337 handstamp",
+   "text": "Routed through Tehran on 2 March 1919."
+  },
+  "40248": {
+   "kind": "Cover",
+   "from": "Mianeh",
+   "to": "Tehran",
+   "sent": "1918-03-10",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911"
+  },
+  "40319": {
+   "kind": "Cover",
+   "from": "Rasht",
+   "to": "Tehran",
+   "sent": "1919-03-31",
+   "rate": "6 chahis",
+   "stamps": "10ch Ahmad Shah portrait issue of 1911 revalued to 6ch with the 1337 handstamp"
+  },
+  "200012": {
+   "kind": "Newspaper or telegraph item"
+  },
+  "40257": {
+   "kind": "Cover",
+   "from": "Rasht",
+   "to": "Tehran",
+   "received": "1919-11-03",
+   "stamps": "3ch provisional issue of 1919"
+  },
+  "40300": {
+   "kind": "Cover",
+   "from": "Qazvin",
+   "to": "Tehran",
+   "sent": "1920-01-20",
+   "received": "1920-01-31",
+   "rate": "6 chahis",
+   "stamps": "3ch Ahmad Shah portrait issue of 1911 (multiple)"
+  },
+  "40316": {
+   "kind": "Cover",
+   "from": "Qazvin",
+   "to": "Tehran",
+   "sent": "1919-12-11",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911"
+  },
+  "40317": {
+   "kind": "Cover",
+   "rate": "Postage paid",
+   "text": "No stamp: sent with a postage-paid marking."
+  },
+  "40318": {
+   "kind": "Cover",
+   "from": "Qazvin",
+   "to": "Tehran",
+   "sent": "1920-02-07",
+   "received": "1920-02-09",
+   "rate": "6 chahis",
+   "stamps": "2ch Ahmad Shah portrait issue of 1911 (multiple)"
+  },
+  "40239": {
+   "kind": "Cover",
+   "from": "Tehran",
+   "to": "Taiz",
+   "sent": "1919-10-14",
+   "received": "1919-10-23",
+   "rate": "6 chahis",
+   "stamps": "3ch Ahmad Shah portrait issue of 1911"
+  },
+  "200006": {
+   "kind": "Newspaper or telegraph item"
+  },
+  "40135": {
+   "kind": "Cover",
+   "from": "Qazvin",
+   "to": "Hamadan",
+   "sent": "1919-11-19",
+   "received": "1919-11-23",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911"
+  },
+  "40166": {
+   "kind": "Cover",
+   "from": "Tabriz",
+   "to": "Tehran",
+   "received": "1920-02-25",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911"
+  },
+  "200007": {
+   "kind": "Newspaper or telegraph item"
+  },
+  "200003": {
+   "kind": "Newspaper or telegraph item"
+  },
+  "200011": {
+   "kind": "Newspaper or telegraph item"
+  },
+  "40002": {
+   "kind": "Piece",
+   "from": "Bushire",
+   "to": "Shiraz",
+   "year": "1915",
+   "rate": "6 chahis",
+   "stamps": "“Bushire under British Occupation” overprint",
+   "text": "With the British preprinted censor label. Certified by Mr Sadri."
+  },
+  "40315": {
+   "kind": "Cover",
+   "from": "Shiraz",
+   "to": "Bushire",
+   "rate": "6 chahis",
+   "stamps": "6ch Ahmad Shah portrait issue of 1911",
+   "text": "With the British preprinted censor label."
+  }
+ },
+ "sources": [
+  {
+   "id": "persian",
+   "name": "Persian Government",
+   "name_fa": "دولت ایران",
+   "color": "#5b3f8c",
+   "text": "The constitutional government’s control marks of 1910–1912, often reading ممیزی شد (momayezi shod, “inspected”); its censors during the First World War; and the numbered censors who read mail passing through Tehran in 1919–1921."
+  },
+  {
+   "id": "kazerun",
+   "name": "Kazerun nationalists",
+   "name_fa": "ملیون کازرون",
+   "color": "#8a6d1f",
+   "text": "During the wartime rising in the south, the nationalists of Kazerun applied their own censor mark and overprinted stamps “Mellat-e Kazerun”."
+  },
+  {
+   "id": "russian",
+   "name": "Russian forces",
+   "name_fa": "نیروهای روسیه",
+   "color": "#b4532a",
+   "text": "Marks attributed to Russian military censors in the north and west of Persia. Both attributions are provisional.",
+   "provisional": true
+  },
+  {
+   "id": "ottoman",
+   "name": "Ottoman forces",
+   "name_fa": "نیروهای عثمانی",
+   "color": "#2f7d5b",
+   "text": "Ottoman troops occupied western Persia in 1916–1917. This attribution is provisional.",
+   "provisional": true
+  },
+  {
+   "id": "british-south",
+   "name": "British forces, south",
+   "name_fa": "نیروهای بریتانیا در جنوب",
+   "color": "#2e6fa7",
+   "text": "Bushire was occupied by British forces in August 1915. Mail to and from the port and its hinterland was read by British censors there."
+  },
+  {
+   "id": "indian-fpo",
+   "name": "Indian field post",
+   "name_fa": "پست صحرایی هند",
+   "color": "#2e6fa7",
+   "text": "Mail of the Indian Expeditionary Force, posted through its field post offices with Indian stamps."
+  },
+  {
+   "id": "british-north",
+   "name": "British forces, north",
+   "name_fa": "نیروهای بریتانیا در شمال",
+   "color": "#2e6fa7",
+   "text": "Dunsterforce, then the North Persia Force, held the road from Baghdad to the Caspian. Their censors read civilian mail along it."
+  },
+  {
+   "id": "reza-khan",
+   "name": "Reza Khan’s army",
+   "name_fa": "ارتش رضاخان",
+   "color": "#4d5a70",
+   "text": "Military censorship returned as Reza Khan’s army asserted central control over the south and west."
+  },
+  {
+   "id": "unattributed",
+   "name": "Not yet attributed",
+   "name_fa": "نامشخص",
+   "color": "#9aa3b2",
+   "text": "Marks whose authority is still unknown. If you recognise one, please get in touch."
+  }
+ ]
+}

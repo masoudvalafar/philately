@@ -1,164 +1,118 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ahmad Shah Era Postal History</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <script src="./js/helper.js"></script>
-    <script src="items.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reading a cover · Persian Postal History</title>
+<meta name="description" content="What you will find on a typical cover of the Ahmad Shah era, and the other markings to look for.">
+<link rel="stylesheet" href="assets/site.css">
+<script>document.documentElement.classList.add("js")</script>
 </head>
-
 <body>
-    <main id="main-main">
-        <div class="header">
-            <h4>Dedicated to the study of</h4>
-            <h1>Iran Postal History</h1>
-        </div>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+  <div class="wrap masthead__inner">
+    <a class="wordmark" href="index.html"><span>Persian Postal History</span><span class="wordmark__fa" lang="fa" dir="rtl">تاریخ پستی ایران</span></a>
+    <nav class="nav" aria-label="Main"><a href="index.html">Home</a><a href="education.html" aria-current="page">Education</a><a href="rate.html">Rates</a><a href="censors.html">Censors</a><a href="forgery.html">Forgeries</a><a href="collection.html">Collection</a><a href="resources.html">Resources</a></nav>
+  </div>
+</header>
+<main id="main">
 
-        <script>
-            getMenus("Education");
-        </script>
-
-        <div class="main-content">
-
-            <button type="button" class="collapsible">What can you find on a typical cover of Ahmad Shah era?</button>
-            <div class="content" id="q1-content">
-                <p>The rate for sending a cover to another city for the first 2
-                    Miskal was 6ch for the whole era except a short period in 1921. Most covers fall into this weight
-                    class and have 6ch rate (more on rates <a href="./rate.html">here</a>).
-                </p>
-                <p>The Ahmad Shah portrait issue of 1911 was in use from 1911 until 1920. As such, the combination of
-                    the rate and the stamp used make the cover demonstrated below a very typical cover of this era.</p>
-
-                <script>
-                    addItem(items["education-3"], 'q1-content');
-                </script>
-
-                <p>On the front of the cover, you can usually find the name of the destination city and the name of the
-                    receiver. Usually, the date is also included in Hegira calendar as it was the most popular
-                    among common people due to its religious significance.</p>
-
-                <img src="./images/40034_destination_city_name.png" style="width:20%">
-                <p>Destination city name: Kachan (کاشان)</p>
-
-                <img src="./images/40034_receiver_name.png" style="width:20%">
-                <p>Receiver's name</p>
-
-                <img src="./images/40034_date.png" style="width:20%">
-                <p>Manuscript date: 11th of Jamadi-alsani 1331 (18th of May 1913)</p>
-
-                <img src="./images/40034_prayer.png" style="width:20%">
-                <p>To ensure that the letter would get to the destination, the sender usually wrote the secret code for
-                    the gaurdian angle of the parcels. The secret codes was "2468" or "8642".</p>
-
-
-                <img src="./images/40034_stamp.jpg" style="width:20%">
-                <p>The stamp was usually added to the back and was canceled with the sender's post office postmark. This
-                    letter was sent from Kazvin (قزوین) and the Kazvin postmark has 18/5/1913 date on it.</p>
-
-
-                <img src="./images/40034_tehran.jpg" style="width:20%">
-                <p>Sometimes, you can find the postmark of other cities that the letter was routed through. In this
-                    case, there is a Tehran postmark with date 22/5/13.</p>
-
-
-                <img src="./images/40034_kachan.jpg" style="width:20%">
-                <p>Most often, there is a destination post office postmark as well. This letter was sent to Kachan and
-                    based on the Kachan's postmark was received on 25/5/1913.</p>
-            </div>
-
-            <button type="button" class="collapsible">What other markings can you find on a cover?</button>
-            <div class="content" id="q2-content">
-                <button type="button" class="collapsible">Postbox</button>
-                <div class="content" id="postbox-content">
-                    <p>A Postbox (صندوق) marking indicates that the letter was dropped in a postbox. This marking is
-                        usually a small circle with the farsi letter "ص" in the middle.</p>
-                    <img src="./images/40179_postbox.jpg" style="width:20%">
-                    <script>
-                        addItem(items["education-4"], 'postbox-content');
-                    </script>
-                </div>
-
-                <button type="button" class="collapsible">Postage Due</button>
-                <div class="content" id="postage-due-content">
-                    <p>A postage due marking is usually a small circle with English letter "T" in it. It indicate that
-                        the postage fee was not fully paid. Usually, the amount owed was paid by the receiver. In that
-                        era, some major merchants had accounts with the post office and in such circumstances, the post
-                        office would automatically withdraw what was owed from that account.</p>
-                    <img src="./images/40084_postage_due.jpg" style="width:20%">
-                    <script>
-                        addItem(items["education-5"], 'postage-due-content');
-                    </script>
-
-                    <p>At times, the post office cancelled stamps for what was owed and tied that to the envelope.</p>
-                    <script>
-                        addItem(items["education-6"], 'postage-due-content');
-                    </script>
-
-                </div>
-
-                <button type="button" class="collapsible">Postage Paid</button>
-                <div class="content" id="postage-paid-content">
-                    <p>The Ahmad Shah era was very chaotic and more often than not, post offices would run out of
-                        stamps. Despite no stamps being available the post offices continue their service by using a
-                        marking for showing the postage was paid.</p>
-                    <img src="./images/40122_postage_paid.jpg" style="width:20%">
-                    <script>
-                        addItem(items["education-7"], 'postage-paid-content');
-                    </script>
-
-                    <p>Sometimes, post offices would combine the postage for several letters together and cancel the
-                        postage with a larger denomination in a separate sheet.</p>
-
-                    <script>
-                        addItem(items["education-8"], 'postage-paid-content');
-                    </script>
-                </div>
-
-                <button type="button" class="collapsible">registration</button>
-                <div class="content" id="edu-reg-content">
-                    <p>The registered coves needed to get tracked along the way to the destination. In order to uniquely
-                        identify a registered letter, the sender post office assign a unique id to the letter. To
-                        communicate this number with foreign post offices, it was common to use a registration marking.
-                    </p>
-                    <img src="./images/40163_reg_mark.jpg" style="width:20%">
-                    <script>
-                        addItem(items["education-9"], 'edu-reg-content');
-                    </script>
-                </div>
-
-                <button type="button" class="collapsible">Censorship and Control</button>
-                <div class="content" id="censorship-content">
-                    <button type="button" class="collapsible">Control Markings</button>
-                    <div class="content" id="edu-control-content">
-                        <p>According to Goodarzi in [Impact of Political events on the Postal History of Persia in the
-                            Late 19th and Early 20th Centries, 2023], the constitutional goverment imposed these
-                            censorship to monitor the communication of various armed groups. These control markings were
-                            used in various shapre and form in multiple cities.</p>
-                        <img src="./images/40130_control.jpg" style="width:20%">
-                        <script>
-                            addItem(items["education-10"], 'edu-control-content');
-                        </script>
-                    </div>
-                    <button type="button" class="collapsible">Censorship Markings</button>
-                    <div class="content" id="edu-censor-content">
-                        <p>Multiple military forces and authorities enforced monitoring of postal communications.</p>
-
-                        <img src="./images/40108_censor.jpg" style=" width:20%">
-                        <script>
-                            addItem(items["education-11"], 'edu-censor-content');
-                        </script>
-                    </div>
-                </div>
-
-            </div>
-    </main>
-    <script src="./js/index.js"></script>
-
+<section class="wrap pagehead">
+  <h1 class="display">Reading a cover</h1>
+  <p class="lead">What you will find on a typical cover of the Ahmad Shah era, and the other markings to look for.</p>
+</section>
+<div class="wrap doc doc--toc">
+  <nav class="toc" aria-label="On this page"><details open><summary>On this page</summary><ol><li class="toc__l2"><a href="#what-can-you-find-on-a-typical-cover-of-ahmad-shah-era">What can you find on a typical cover of Ahmad Shah era?</a></li><li class="toc__l2"><a href="#what-other-markings-can-you-find-on-a-cover">What other markings can you find on a cover?</a></li><li class="toc__l3"><a href="#postbox">Postbox</a></li><li class="toc__l3"><a href="#postage-due">Postage Due</a></li><li class="toc__l3"><a href="#postage-paid">Postage Paid</a></li><li class="toc__l3"><a href="#registration">registration</a></li><li class="toc__l3"><a href="#censorship-and-control">Censorship and Control</a></li></ol></details></nav>
+  <article class="doc__body"><section class="sec" id="what-can-you-find-on-a-typical-cover-of-ahmad-shah-era">
+<h2>What can you find on a typical cover of Ahmad Shah era?</h2>
+<p>The rate for sending a cover to another city for the first 2 Miskal was 6ch for the whole era except a short period in 1921. Most covers fall into this weight class and have 6ch rate (more on rates <a href="rate.html">here</a>).</p>
+<p>The Ahmad Shah portrait issue of 1911 was in use from 1911 until 1920. As such, the combination of the rate and the stamp used make the cover demonstrated below a very typical cover of this era.</p><div class="items"><article class="item" id="item-education-3"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40034_front.jpg" data-zoom><img src="img/m/40034_front.jpg" alt="Front of item 40034" width="900" height="707" loading="lazy"></a><a class="scan__link" href="images/40034_back.jpg" data-zoom><img src="img/m/40034_back.jpg" alt="Back of item 40034" width="900" height="713" loading="lazy"></a></div><div class="item__body"><p class="item__title">Item 40034</p></div></article></div><p>On the front of the cover, you can usually find the name of the destination city and the name of the receiver. Usually, the date is also included in Hegira calendar as it was the most popular among common people due to its religious significance.</p>
+<div class="details">
+<figure class="detail"><a class="scan__link" href="images/40034_destination_city_name.png" data-zoom><img src="img/m/40034_destination_city_name.jpg" alt="" loading="lazy"></a>
+<figcaption>Destination city name: Kachan (کاشان)</figcaption>
+</figure>
+<figure class="detail"><a class="scan__link" href="images/40034_receiver_name.png" data-zoom><img src="img/m/40034_receiver_name.jpg" alt="" loading="lazy"></a>
+<figcaption>Receiver's name</figcaption>
+</figure>
+<figure class="detail"><a class="scan__link" href="images/40034_date.png" data-zoom><img src="img/m/40034_date.jpg" alt="" loading="lazy"></a>
+<figcaption>Manuscript date: 11th of Jamadi-alsani 1331 (18th of May 1913)</figcaption>
+</figure>
+<figure class="detail"><a class="scan__link" href="images/40034_prayer.png" data-zoom><img src="img/m/40034_prayer.jpg" alt="" loading="lazy"></a>
+<figcaption>To ensure that the letter would get to the destination, the sender usually wrote the secret code for the gaurdian angle of the parcels. The secret codes was "2468" or "8642".</figcaption>
+</figure>
+<figure class="detail"><a class="scan__link" href="images/40034_stamp.jpg" data-zoom><img src="img/m/40034_stamp.jpg" alt="" loading="lazy"></a>
+<figcaption>The stamp was usually added to the back and was canceled with the sender's post office postmark. This letter was sent from Kazvin (قزوین) and the Kazvin postmark has 18/5/1913 date on it.</figcaption>
+</figure>
+<figure class="detail"><a class="scan__link" href="images/40034_tehran.jpg" data-zoom><img src="img/m/40034_tehran.jpg" alt="" loading="lazy"></a>
+<figcaption>Sometimes, you can find the postmark of other cities that the letter was routed through. In this case, there is a Tehran postmark with date 22/5/13.</figcaption>
+</figure>
+<figure class="detail"><a class="scan__link" href="images/40034_kachan.jpg" data-zoom><img src="img/m/40034_kachan.jpg" alt="" loading="lazy"></a>
+<figcaption>Most often, there is a destination post office postmark as well. This letter was sent to Kachan and based on the Kachan's postmark was received on 25/5/1913.</figcaption>
+</figure>
+</div>
+</section>
+<section class="sec" id="what-other-markings-can-you-find-on-a-cover">
+<h2>What other markings can you find on a cover?</h2>
+<section class="sec" id="postbox">
+<h3>Postbox</h3>
+<p>A Postbox (صندوق) marking indicates that the letter was dropped in a postbox. This marking is usually a small circle with the farsi letter "ص" in the middle.</p>
+<div class="details">
+<figure class="detail"><a class="scan__link" href="images/40179_postbox.jpg" data-zoom><img src="img/m/40179_postbox.jpg" alt="" loading="lazy"></a>
+</figure>
+</div><div class="items"><article class="item" id="item-education-4"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40179_front.jpg" data-zoom><img src="img/m/40179_front.jpg" alt="Front of item 40179" width="900" height="748" loading="lazy"></a><a class="scan__link" href="images/40179_back.jpg" data-zoom><img src="img/m/40179_back.jpg" alt="Back of item 40179" width="900" height="750" loading="lazy"></a></div><div class="item__body"><p class="item__title">Item 40179</p></div></article></div></section>
+<section class="sec" id="postage-due">
+<h3>Postage Due</h3>
+<p>A postage due marking is usually a small circle with English letter "T" in it. It indicate that the postage fee was not fully paid. Usually, the amount owed was paid by the receiver. In that era, some major merchants had accounts with the post office and in such circumstances, the post office would automatically withdraw what was owed from that account.</p>
+<div class="details">
+<figure class="detail"><a class="scan__link" href="images/40084_postage_due.jpg" data-zoom><img src="img/m/40084_postage_due.jpg" alt="" loading="lazy"></a>
+</figure>
+</div><div class="items"><article class="item" id="item-education-5"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40084_front.jpg" data-zoom><img src="img/m/40084_front.jpg" alt="Front of item 40084" width="900" height="764" loading="lazy"></a><a class="scan__link" href="images/40084_back.jpg" data-zoom><img src="img/m/40084_back.jpg" alt="Back of item 40084" width="900" height="740" loading="lazy"></a></div><div class="item__body"><p class="item__title">Internal cover with postage due marking</p><p class="item__id">Item 40084</p></div></article></div><p>At times, the post office cancelled stamps for what was owed and tied that to the envelope.</p><div class="items"><article class="item" id="item-education-6"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40138_front.jpg" data-zoom><img src="img/m/40138_front.jpg" alt="Front of item 40138" width="900" height="733" loading="lazy"></a><a class="scan__link" href="images/40138_back.jpg" data-zoom><img src="img/m/40138_back.jpg" alt="Back of item 40138" width="900" height="739" loading="lazy"></a></div><div class="item__body"><p class="item__title">A cover from Kerbala with postage due</p><p class="item__id">Item 40138</p><p>Cover from Karbala to Tehran, franked with a 1909 1pi blue (Scott #154), cancelled with &quot;Kerbala 19 0910&quot; postmark. On arrival in Tehran, postage due marking and some instructions to collect the postage due was added to the cover by the postal clerk. The postage due was 1kr and got collected using 1kr Coat of Arms issue of 1909 which was tied to the cover with Tehran 1.X.10 postmark.</p></div></article></div></section>
+<section class="sec" id="postage-paid">
+<h3>Postage Paid</h3>
+<p>The Ahmad Shah era was very chaotic and more often than not, post offices would run out of stamps. Despite no stamps being available the post offices continue their service by using a marking for showing the postage was paid.</p>
+<div class="details">
+<figure class="detail"><a class="scan__link" href="images/40122_postage_paid.jpg" data-zoom><img src="img/m/40122_postage_paid.jpg" alt="" loading="lazy"></a>
+</figure>
+</div><div class="items"><article class="item" id="item-education-7"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40122_front.jpg" data-zoom><img src="img/m/40122_front.jpg" alt="Front of item 40122" width="900" height="765" loading="lazy"></a><a class="scan__link" href="images/40122_back.jpg" data-zoom><img src="img/m/40122_back.jpg" alt="Back of item 40122" width="900" height="782" loading="lazy"></a></div><div class="item__body"><p class="item__title">Soltan Abad Bazar postage paid marking</p><p class="item__id">Item 40122</p></div></article></div><p>Sometimes, post offices would combine the postage for several letters together and cancel the postage with a larger denomination in a separate sheet.</p><div class="items"><article class="item" id="item-education-8"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40070_front.jpg" data-zoom><img src="img/m/40070_front.jpg" alt="Front of item 40070" width="900" height="726" loading="lazy"></a><a class="scan__link" href="images/40070_back.jpg" data-zoom><img src="img/m/40070_back.jpg" alt="Back of item 40070" width="900" height="746" loading="lazy"></a></div><div class="item__body"><p class="item__title">Cancelled in a separate sheet</p><p class="item__id">Item 40070</p></div></article></div></section>
+<section class="sec" id="registration">
+<h3>registration</h3>
+<p>The registered coves needed to get tracked along the way to the destination. In order to uniquely identify a registered letter, the sender post office assign a unique id to the letter. To communicate this number with foreign post offices, it was common to use a registration marking.</p>
+<div class="details">
+<figure class="detail"><a class="scan__link" href="images/40163_reg_mark.jpg" data-zoom><img src="img/m/40163_reg_mark.jpg" alt="" loading="lazy"></a>
+</figure>
+</div><div class="items"><article class="item" id="item-education-9"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40163_front.jpg" data-zoom><img src="img/m/40163_front.jpg" alt="Front of item 40163" width="900" height="735" loading="lazy"></a><a class="scan__link" href="images/40163_back.jpg" data-zoom><img src="img/m/40163_back.jpg" alt="Back of item 40163" width="900" height="723" loading="lazy"></a></div><div class="item__body"><p class="item__title">Item 40163</p></div></article></div></section>
+<section class="sec" id="censorship-and-control">
+<h3>Censorship and Control</h3>
+<section class="sec" id="control-markings">
+<h4>Control Markings</h4>
+<p>According to Goodarzi in [Impact of Political events on the Postal History of Persia in the Late 19th and Early 20th Centries, 2023], the constitutional goverment imposed these censorship to monitor the communication of various armed groups. These control markings were used in various shapre and form in multiple cities.</p>
+<div class="details">
+<figure class="detail"><a class="scan__link" href="images/40130_control.jpg" data-zoom><img src="img/m/40130_control.jpg" alt="" loading="lazy"></a>
+</figure>
+</div><div class="items"><article class="item" id="item-education-10"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40130_front.jpg" data-zoom><img src="img/m/40130_front.jpg" alt="Front of item 40130" width="900" height="704" loading="lazy"></a><a class="scan__link" href="images/40130_back.jpg" data-zoom><img src="img/m/40130_back.jpg" alt="Back of item 40130" width="900" height="716" loading="lazy"></a></div><div class="item__body"><p class="item__title">Tehran Control Marking</p><p class="item__id">Item 40130</p><a class="item__link" href="covers/40130.html?from=persian">See this cover in Censors</a></div></article></div></section>
+<section class="sec" id="censorship-markings">
+<h4>Censorship Markings</h4>
+<p>Multiple military forces and authorities enforced monitoring of postal communications.</p>
+<div class="details">
+<figure class="detail"><a class="scan__link" href="images/40108_censor.jpg" data-zoom><img src="img/m/40108_censor.jpg" alt="" loading="lazy"></a>
+</figure>
+</div><div class="items"><article class="item" id="item-education-11"><div class="item__scans item__scans--2"><a class="scan__link" href="images/40108_front.jpg" data-zoom><img src="img/m/40108_front.jpg" alt="Front of item 40108" width="900" height="712" loading="lazy"></a><a class="scan__link" href="images/40108_back.jpg" data-zoom><img src="img/m/40108_back.jpg" alt="Back of item 40108" width="900" height="704" loading="lazy"></a></div><div class="item__body"><p class="item__title">Russian Military Censorship Marking</p><p class="item__id">Item 40108</p><a class="item__link" href="covers/40108.html?from=russian">See this cover in Censors</a></div></article></div></section>
+</section>
+</section>
+</article>
+</div>
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <p>Ahmad Shah era postal history, 1909–1925, from the collection of Masoud Valafar.</p>
+    <p>Corrections and additions are welcome: <a href="mailto:mvalafar84@gmail.com">mvalafar84@gmail.com</a></p>
+  </div>
+</footer>
+<dialog class="zoom" aria-label="Enlarged scan">
+  <form method="dialog"><button class="zoom__close">Close</button></form>
+  <div class="zoom__stage fit"><img alt=""></div>
+</dialog>
+<script src="assets/site.js" defer></script>
 </body>
-
 </html>
