@@ -45,7 +45,10 @@
    "meaning": "Tehran censor number 5",
    "place": "Tehran censor number 5"
   },
-  "CP-42": {},
+  "CP-42": {
+   "meaning": "Numbered Tehran censor, in the same series as CP-38 to CP-45",
+   "place": "Tehran numbered censor"
+  },
   "CP-56": {},
   "CP-65": {},
   "CP-72": {},
@@ -502,7 +505,7 @@
    "CP-42",
    "",
    "200007",
-   "unattributed"
+   "persian"
   ],
   [
    "CP-65",
