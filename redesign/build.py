@@ -71,11 +71,12 @@ def pct(y):
 
 
 # ---------------------------------------------------------------- model
-sources = DATA["sources"]
-src_by_id = {s["id"]: s for s in sources}
 covers = DATA["covers"]
 marks = DATA["marks"]
 strikes = [dict(cp=a, ink=b, cover=c, src=d) for a, b, c, d in DATA["strikes"]]
+# A source with no strikes (e.g. "Not yet attributed" once everything is attributed) is not shown.
+sources = [s for s in DATA["sources"] if any(x["src"] == s["id"] for x in strikes)]
+src_by_id = {s["id"]: s for s in sources}
 
 
 def ordered_unique(xs):

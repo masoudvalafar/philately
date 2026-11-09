@@ -68,7 +68,9 @@
   },
   "CP-85": {},
   "CP-88": {},
-  "CP-90": {},
+  "CP-90": {
+   "meaning": "British military censor, north Persia, in the same series as CP-86 to CP-97"
+  },
   "CP-95": {},
   "CP-96": {},
   "CP-97": {},
@@ -521,7 +523,7 @@
    "CP-90",
    "",
    "200011",
-   "unattributed"
+   "british-north"
   ],
   [
    "MBA",
