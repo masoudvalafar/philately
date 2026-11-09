@@ -75,7 +75,9 @@
   "CP-96": {},
   "CP-97": {},
   "CP-98": {},
-  "CP-103": {},
+  "CP-103": {
+   "meaning": "Ottoman military censor (attributed by Mossavar-Rahmani)"
+  },
   "Label": {
    "name": "Preprinted censor label",
    "meaning": "British preprinted label used at Bushire"
@@ -1479,8 +1481,7 @@
    "name": "Ottoman forces",
    "name_fa": "نیروهای عثمانی",
    "color": "#2f7d5b",
-   "text": "Ottoman troops occupied western Persia in 1916–1917. This attribution is provisional.",
-   "provisional": true
+   "text": "Ottoman troops occupied western Persia in 1916–1917. Mossavar-Rahmani attributes CP-103 to their military censors."
   },
   {
    "id": "british-south",
