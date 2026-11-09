@@ -925,7 +925,76 @@
    "sent": "1919-10-19",
    "rate": "6 chahis",
    "stamps": "3ch provisional issue of 1919",
-   "text": "Read by a Persian censor and by British forces."
+   "text": "Read by two censors on the way from Senneh to Hamadan: a Persian censor (CP-34) and British forces (CP-97).",
+   "features": [
+    {
+     "side": "front",
+     "x": 0.8,
+     "y": 0.45,
+     "box": [
+      0.73,
+      0.35,
+      0.87,
+      0.56
+     ],
+     "censor": true,
+     "title": "CP-34 (black)",
+     "text": "The Persian censor’s seal, struck in black beside the address."
+    },
+    {
+     "side": "front",
+     "x": 0.6,
+     "y": 0.3,
+     "box": [
+      0.46,
+      0.09,
+      0.74,
+      0.46
+     ],
+     "censor": true,
+     "title": "CP-97",
+     "text": "A faint octagonal mark, attributed to British forces, above the address."
+    },
+    {
+     "side": "front",
+     "x": 0.5,
+     "y": 0.73,
+     "box": [
+      0.4,
+      0.6,
+      0.62,
+      0.86
+     ],
+     "title": "Arrival: Hamadan",
+     "text": "HAMADAN (ARRIVÉE), 23 October 1919."
+    },
+    {
+     "side": "back",
+     "x": 0.45,
+     "y": 0.45,
+     "box": [
+      0.1,
+      0.16,
+      0.8,
+      0.74
+     ],
+     "title": "Franking and departure",
+     "text": "Two 3 chahi provisionals of 1919 (6 chahis), cancelled at Senneh on 19 October 1919."
+    },
+    {
+     "side": "back",
+     "x": 0.44,
+     "y": 0.51,
+     "box": [
+      0.39,
+      0.44,
+      0.5,
+      0.59
+     ],
+     "title": "Sender’s seal",
+     "text": "A small red seal over the flap."
+    }
+   ]
   },
   "40305": {
    "kind": "Cover",
