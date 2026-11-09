@@ -805,7 +805,64 @@
    "year": "1917",
    "rate": "6 chahis",
    "stamps": "6ch Ahmad Shah portrait issue of 1911 with the “Mellat-e Kazerun” handstamp of 1335",
-   "text": "Censored first by the Kazerun nationalists, then at Shiraz."
+   "text": "Read by two censors: the Kazerun nationalists (CP-27) and CP-22, whose violet-struck strip of sheet margin reseals the envelope over the edge.",
+   "features": [
+    {
+     "side": "front",
+     "x": 0.17,
+     "y": 0.05,
+     "box": [
+      0.13,
+      0.0,
+      0.39,
+      0.28
+     ],
+     "censor": true,
+     "title": "CP-27 (violet)",
+     "text": "The oval seal of the Kazerun nationalists, struck in violet at top left."
+    },
+    {
+     "side": "front",
+     "x": 0.86,
+     "y": 0.55,
+     "box": [
+      0.83,
+      0.5,
+      1.0,
+      0.8
+     ],
+     "censor": true,
+     "title": "CP-22 (violet)",
+     "text": "A strip of stamp-sheet margin used to seal the envelope after it was opened, struck with the violet CP-22 mark. It folds over the edge onto the back."
+    },
+    {
+     "side": "back",
+     "x": 0.86,
+     "y": 0.27,
+     "box": [
+      0.83,
+      0.22,
+      1.0,
+      0.5
+     ],
+     "censor": true,
+     "title": "CP-22, back",
+     "text": "The other half of the CP-22 sealing strip, over the back flap."
+    },
+    {
+     "side": "back",
+     "x": 0.2,
+     "y": 0.58,
+     "box": [
+      0.15,
+      0.5,
+      0.5,
+      0.86
+     ],
+     "title": "Franking",
+     "text": "Ahmad Shah stamp with the “Mellat-e Kazerun” handstamp, tied by the Kazerun postmark."
+    }
+   ]
   },
   "40136": {
    "kind": "Cover",
