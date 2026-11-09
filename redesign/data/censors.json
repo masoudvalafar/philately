@@ -590,7 +590,7 @@
    "received": "1917-05-09",
    "rate": "6 chahis",
    "stamps": "1ch and 5ch Ahmad Shah portrait issue of 1911",
-   "text": "Read by three censors on one journey: two Persian marks and one attributed to Russian forces.",
+   "text": "Read by three censors on one journey: two Persian marks (CP-10 and CP-30) and one attributed to Russian forces (CP-98).",
    "name_fa": {
     "from": "همدان",
     "to": "اصفهان"
@@ -624,17 +624,31 @@
     },
     {
      "side": "front",
-     "x": 0.66,
-     "y": 0.27,
+     "x": 0.62,
+     "y": 0.2,
      "box": [
-      0.58,
-      0.14,
-      0.76,
+      0.27,
+      0.04,
+      0.78,
       0.38
      ],
      "censor": true,
-     "title": "Boxed mark",
-     "text": "A faint boxed handstamp beside the departure postmark, one of the three censor marks recorded on this cover."
+     "title": "CP-98 (black)",
+     "text": "A large, faint mark struck across the Hamadan departure postmark. CP-98 is attributed, provisionally, to Russian forces."
+    },
+    {
+     "side": "front",
+     "x": 0.57,
+     "y": 0.52,
+     "box": [
+      0.52,
+      0.47,
+      0.79,
+      0.76
+     ],
+     "censor": true,
+     "title": "CP-30",
+     "text": "A faint boxed mark above the stamps and beside the oval HAMADAN mark, applied by the Persian government censors."
     },
     {
      "side": "front",
@@ -647,8 +661,8 @@
       0.79
      ],
      "censor": true,
-     "title": "Oval mark",
-     "text": "An oval handstamp lettered HAMADAN, one of the three censor marks recorded on this cover."
+     "title": "CP-10 (black)",
+     "text": "An oval handstamp lettered HAMADAN, the Persian government censor mark of Hamadan."
     },
     {
      "side": "front",
