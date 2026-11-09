@@ -524,6 +524,12 @@
    "",
    "30010",
    "bandar-abbas"
+  ],
+  [
+   "CP-65",
+   "violet",
+   "100041",
+   "unattributed"
   ]
  ],
  "covers": {
@@ -1317,7 +1323,8 @@
    "kind": "Newspaper or telegraph item"
   },
   "200003": {
-   "kind": "Newspaper or telegraph item"
+   "kind": "Newspaper wrapper",
+   "text": "Addressed to Mirza Masih Khan, with a HAMADAN postmark of 23 April. The boxed violet CP-65 is struck across the 1ch stamp."
   },
   "200011": {
    "kind": "Newspaper or telegraph item"
@@ -1422,6 +1429,13 @@
      "text": "ISPAHAN receiving postmark, 6 May 1909."
     }
    ]
+  },
+  "100041": {
+   "kind": "Postal card",
+   "to": "Hamadan",
+   "received": "1923-03-27",
+   "stamps": "Persian postal card, the imprinted stamp with a red overprint",
+   "text": "A printed New Year (Nowruz 1302) greeting of March 1923, wishing Iran freedom and independence, addressed to Mirza Masih Khan at Hamadan. HAMADAN (ARRIVÉE) postmark of 27 March 1923; the boxed violet CP-65 is struck across the imprinted stamp."
   }
  },
  "sources": [
