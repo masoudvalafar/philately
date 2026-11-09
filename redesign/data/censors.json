@@ -74,7 +74,9 @@
   "CP-95": {},
   "CP-96": {},
   "CP-97": {},
-  "CP-98": {},
+  "CP-98": {
+   "meaning": "Russian military censor (attributed by Mossavar-Rahmani)"
+  },
   "CP-103": {
    "meaning": "Ottoman military censor (attributed by Mossavar-Rahmani)"
   },
@@ -1473,8 +1475,7 @@
    "name": "Russian forces",
    "name_fa": "نیروهای روسیه",
    "color": "#b4532a",
-   "text": "Marks attributed to Russian military censors in the north and west of Persia. Both attributions are provisional.",
-   "provisional": true
+   "text": "Marks of the Russian military censors in the north and west of Persia. Mossavar-Rahmani attributes CP-98 to them."
   },
   {
    "id": "ottoman",
