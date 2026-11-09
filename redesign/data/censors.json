@@ -50,7 +50,11 @@
    "place": "Tehran numbered censor"
   },
   "CP-56": {},
-  "CP-65": {},
+  "CP-65": {
+   "name": "Western Republican Censor 1303",
+   "meaning": "سانسور جمهوری طلبان غرب ۱۳۰۳, “Censor of the Western Republicans, 1303” (IPSC 12P27; 46 × 15 mm, dark blue or black)",
+   "place": "Hamadan"
+  },
   "CP-72": {},
   "CP-78": {},
   "CP-79": {
@@ -509,9 +513,9 @@
   ],
   [
    "CP-65",
-   "",
+   "dark blue",
    "200003",
-   "unattributed"
+   "republicans"
   ],
   [
    "CP-90",
@@ -527,9 +531,9 @@
   ],
   [
    "CP-65",
-   "violet",
+   "dark blue",
    "100041",
-   "unattributed"
+   "republicans"
   ]
  ],
  "covers": {
@@ -1324,7 +1328,7 @@
   },
   "200003": {
    "kind": "Newspaper wrapper",
-   "text": "Addressed to Mirza Masih Khan, with a HAMADAN postmark of 23 April. The boxed violet CP-65 is struck across the 1ch stamp."
+   "text": "Addressed to Mirza Massih Khan, with a HAMADAN postmark of 23 April (year not legible). The CP-65 strike across the 1ch stamp is one of the many Massih Khan applied to mail addressed to him; if the year is 1924, it falls in the one month of recorded genuine use."
   },
   "200011": {
    "kind": "Newspaper or telegraph item"
@@ -1435,7 +1439,7 @@
    "to": "Hamadan",
    "received": "1923-03-27",
    "stamps": "Persian postal card, the imprinted stamp with a red overprint",
-   "text": "A printed New Year (Nowruz 1302) greeting of March 1923, wishing Iran freedom and independence, addressed to Mirza Masih Khan at Hamadan. HAMADAN (ARRIVÉE) postmark of 27 March 1923; the boxed violet CP-65 is struck across the imprinted stamp."
+   "text": "A printed New Year (Nowruz 1302) greeting of March 1923, wishing Iran freedom and independence, addressed to Mirza Massih Khan at Hamadan. HAMADAN (ARRIVÉE) postmark of 27 March 1923. The CP-65 strike across the imprinted stamp cannot be a censorship of 1923, because the mark is dated 1303 (1924): like the card Mossavar-Rahmani illustrates, it was added later by Massih Khan, who kept the handstamp."
   }
  },
  "sources": [
@@ -1503,6 +1507,13 @@
    "name_fa": "ارتش رضاخان",
    "color": "#4d5a70",
    "text": "Military censorship returned as Reza Khan’s army asserted central control over the south and west."
+  },
+  {
+   "id": "republicans",
+   "name": "Western republicans",
+   "name_fa": "جمهوری‌طلبان غرب",
+   "color": "#8c4a5a",
+   "text": "In the spring of 1924, during Reza Khan’s short-lived campaign for a republic, a censor at Hamadan used a boxed mark reading سانسور جمهوری طلبان غرب ۱۳۰۳ (“Censor of the Western Republicans, 1303”). Mossavar-Rahmani records genuine use in April 1924. Most surviving strikes were applied by Mirza Massih Khan, the postal inspector (nazem des postes) at Hamadan, who kept the handstamp and struck it freely, including on older mail addressed to him."
   },
   {
    "id": "unattributed",
