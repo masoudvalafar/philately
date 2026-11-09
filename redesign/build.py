@@ -546,7 +546,7 @@ def build_censors():
   <h1 class="display">Who read the mail, and when</h1>
   <p class="fa-sub" lang="fa" dir="rtl">مهرهای سانسور و ممیزی</p>
   <p class="lead">Each bar shows when one source’s censor marks appear on covers in this collection. Select a source to see its covers, grouped by mark, then select a cover to see everything it shows.</p>
-  <p class="note">Marks are numbered as in {esc(ref['author'])}, <a href="{ref['url']}"><cite>{esc(ref['title'])}</cite></a>.</p>
+  <p class="note">All CP numbers are from {esc(ref['author'])}’s catalogue, <a href="{ref['url']}"><cite>{esc(ref['title'])}</cite></a>.</p>
 </section>
 <section class="wrap" aria-label="Timeline by source">
   <div class="sheet tl-sheet">{timeline(root)}</div>
@@ -698,7 +698,8 @@ def build_marks():
         rows = [("Applied by", ", ".join(f'<a href="{root}censors.html#{s}">{esc(src_by_id[s]["name"])}</a>' for s in sids)),
                 ("Reads", esc(marks.get(cp, {}).get("meaning", ""))), ("Ink", esc(inks(cp))),
                 ("Seen", f"{int(min(ys))}–{int(max(ys))}" if ys and int(min(ys)) != int(max(ys)) else (str(int(ys[0])) if ys else "")),
-                ("Covers", str(len(cids)))]
+                ("Covers", str(len(cids))),
+                ("Catalogue", f'{esc(cp)} in {esc(DATA["reference"]["author"])}, <a href="{DATA["reference"]["url"]}"><cite>{esc(DATA["reference"]["title"])}</cite></a>' if cp.startswith("CP-") else "")]
         dl = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in rows if v)
         prev_l = f'<a href="{mark_slug(allcps[i - 1])}.html">Previous mark: {esc(mark_name(allcps[i - 1]))}</a>' if i else "<span></span>"
         next_l = f'<a href="{mark_slug(allcps[i + 1])}.html">Next mark: {esc(mark_name(allcps[i + 1]))}</a>' if i < len(allcps) - 1 else "<span></span>"
