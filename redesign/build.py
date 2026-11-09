@@ -30,7 +30,7 @@ except ImportError:
 esc = html.escape
 MONTHS = ["January", "February", "March", "April", "May", "June", "July",
           "August", "September", "October", "November", "December"]
-START, END = 1910, 1926          # timeline span, in years
+START, END = 1909, 1926          # timeline span, in years
 EVENTS = [(1911.9, "1911: Majles closed"), (1914.6, "1914: war begins"),
           (1915.6, "1915: Bushire occupied"), (1918.1, "1918: Dunsterforce"),
           (1921.15, "1921: the coup"), (1925.8, "1925: Qajars deposed")]
@@ -319,7 +319,7 @@ def timeline(root, active=None, only=None, marker=None, compact=False):
             continue
         segs = segments(s["id"])
         bars = "".join(
-            f'<span class="bar" style="left:{pct(a):.2f}%;width:{max(pct(b) - pct(a), 0.9):.2f}%;background:{s["color"]}"></span>'
+            f'<span class="bar" style="left:{max(pct(a), 0):.2f}%;width:{max(min(pct(b), 100) - max(pct(a), 0), 0.9):.2f}%;background:{s["color"]}"></span>'
             for a, b in segs) or '<span class="bar__none">No dated covers yet</span>'
         n = len(src_covers[s["id"]])
         cur = ' aria-current="true"' if s["id"] == active else ""
@@ -327,13 +327,14 @@ def timeline(root, active=None, only=None, marker=None, compact=False):
                     f'<span class="tl__label"><span class="tl__name">{esc(s["name"])}</span><span class="tl__count">{n}</span></span>'
                     f'<span class="tl__track">{bars}</span></a>')
     years = "".join(f"<span>{y}</span>" for y in range(START, END))
+    ycols = f' style="grid-template-columns:repeat({END - START},minmax(0,1fr))"'
     events = "" if compact else "".join(
         f'<span class="tl__event" style="left:{pct(y):.2f}%">{esc(t)}</span>' for y, t in EVENTS)
     mark = (f'<span class="tl__marker" style="left:{pct(marker):.2f}%"></span>' if marker else "")
     return f"""<div class="tl{' tl--compact' if compact else ''}">
   {'' if compact else f'<div class="tl__head"><span></span><span class="tl__events">{events}</span></div>'}
   <div class="tl__rows">{''.join(rows)}<div class="tl__markerlane"><span></span><span class="tl__markertrack">{mark}</span></div></div>
-  <div class="tl__axis"><span></span><span class="tl__years">{years}</span></div>
+  <div class="tl__axis"><span></span><span class="tl__years"{ycols}>{years}</span></div>
 </div>"""
 
 
