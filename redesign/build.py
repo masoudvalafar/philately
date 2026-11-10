@@ -387,6 +387,9 @@ def asset(name):
     return _img_cache[name]
 
 
+MISSING_SCANS = set()
+
+
 def item_card(key, root, show_stamps=False):
     it = ITEMS.get(key)
     if not it:
@@ -399,6 +402,10 @@ def item_card(key, root, show_stamps=False):
             m, l = im["m"], im["l"]
             dims = f' width="{m[1]}" height="{m[2]}"' if m[1] else ""
             figs.append(f'<a class="scan__link" href="{root}{l[0]}" data-zoom><img src="{root}{m[0]}" alt="{label} of item {cid}"{dims} loading="lazy"></a>')
+    if show_stamps and not figs:
+        # On the Collection page an item waits for its scan before it is shown.
+        MISSING_SCANS.add(cid)
+        return f"<!-- item {esc(key)} ({esc(cid)}) has no scan yet -->"
     scans = f'<div class="item__scans item__scans--{len(figs)}">{"".join(figs)}</div>' if figs else ""
     title = it.get("title") or (f"Item {cid}" if cid.isdigit() else "")
     link = (f'<a class="item__link" href="{root}covers/{cid}.html?from={cover_srcs[cid][0]}">See this cover in Censors</a>'
@@ -735,3 +742,5 @@ build_marks()
 copy_assets()
 print(f"Built {len(DOCS) + 1} pages, the timeline, {len(cover_srcs)} cover pages and {len(mark_covers)} mark pages into {OUT}"
       + ("" if HAVE_PIL else " (Pillow not installed: linking original scans, no detail crops)"))
+if MISSING_SCANS:
+    print("Collection items waiting for scans in images/: " + ", ".join(sorted(MISSING_SCANS)))
