@@ -341,6 +341,8 @@ def timeline(root, active=None, only=None, marker=None, compact=False):
 
 # ---------------------------------------------------------------- document pages
 ITEMS = json.load(open(os.path.join(HERE, "data", "items.json"), encoding="utf-8"))
+# Persiphila stamp numbers per cover, from the "stamps persiphila" column of the Inventory sheet.
+STAMPS = json.load(open(os.path.join(HERE, "data", "stamps.json"), encoding="utf-8"))
 DOCS = [
     ("education", "Reading a cover", "What you will find on a typical cover of the Ahmad Shah era, and the other markings to look for."),
     ("rate", "Postal rates", "A study of the rates of postal items during the Ahmad Shah era, 1909–1925, each shown on a cover that paid it."),
@@ -385,7 +387,7 @@ def asset(name):
     return _img_cache[name]
 
 
-def item_card(key, root):
+def item_card(key, root, show_stamps=False):
     it = ITEMS.get(key)
     if not it:
         return f"<!-- unknown item {esc(key)} -->"
@@ -405,8 +407,10 @@ def item_card(key, root):
     # Only real inventory numbers are shown; internal ids like "forge1" are not.
     meta = f'<p class="item__id">Item {cid}</p>' if cid.isdigit() and title != f"Item {cid}" else ""
     title_html = f'<p class="item__title">{esc(title)}</p>' if title else ""
+    st = STAMPS.get(cid) if show_stamps else None
+    stamps = f'<p class="item__id">Stamps: {esc(", ".join(st))}</p>' if st else ""
     return (f'<article class="item" id="item-{esc(key)}">{scans}<div class="item__body">'
-            f'{title_html}{meta}{desc}{link}</div></article>')
+            f'{title_html}{meta}{stamps}{desc}{link}</div></article>')
 
 
 def build_doc(name, title, lead):
@@ -414,7 +418,7 @@ def build_doc(name, title, lead):
     src = open(os.path.join(HERE, "content", f"{name}.html"), encoding="utf-8").read()
     src = re.sub(r"^<!--.*?-->\n?", "", src, flags=re.S)
     src = re.sub(r'(?:<x-item key="[^"]+"></x-item>\s*)+',
-                 lambda m: '<div class="items">' + "".join(item_card(k, root) for k in re.findall(r'key="([^"]+)"', m.group(0))) + "</div>",
+                 lambda m: '<div class="items">' + "".join(item_card(k, root, name == "collection") for k in re.findall(r'key="([^"]+)"', m.group(0))) + "</div>",
                  src)
 
     def detail(m):
