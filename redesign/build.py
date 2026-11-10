@@ -402,7 +402,8 @@ def item_card(key, root):
     link = (f'<a class="item__link" href="{root}covers/{cid}.html?from={cover_srcs[cid][0]}">See this cover in Censors</a>'
             if cid in cover_srcs else "")
     desc = f'<p>{rich(it["description"])}</p>' if it.get("description") else ""
-    meta = f'<p class="item__id">Item {cid}</p>' if cid and title != f"Item {cid}" else ""
+    # Only real inventory numbers are shown; internal ids like "forge1" are not.
+    meta = f'<p class="item__id">Item {cid}</p>' if cid.isdigit() and title != f"Item {cid}" else ""
     title_html = f'<p class="item__title">{esc(title)}</p>' if title else ""
     return (f'<article class="item" id="item-{esc(key)}">{scans}<div class="item__body">'
             f'{title_html}{meta}{desc}{link}</div></article>')
