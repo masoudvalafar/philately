@@ -1300,8 +1300,8 @@
   "id": "40265"
  },
  "waybill-45002": {
-  "title": "Waybill",
-  "description": "A waybill franked with the Coronation issue of 1915.",
+  "title": "Waybill from Tehran to Isfahan, 1916",
+  "description": "A parcel delivery notice franked with the Coronation issue of 1915, posted at Tehran on 17 November 1916 and delivered at Isfahan on 24 November 1916.",
   "id": "45002"
  },
  "waybill-45003": {
@@ -1315,18 +1315,18 @@
   "id": "45004"
  },
  "waybill-45005": {
-  "title": "Waybill",
-  "description": "A waybill franked with the Coronation issue of 1915.",
+  "title": "Waybill from Recht, 1915",
+  "description": "Part of a parcel waybill franked 3 kran and 5 kran with the Coronation issue of 1915, cancelled at Recht on 30 May 1915.",
   "id": "45005"
  },
  "waybill-45006": {
-  "title": "Waybill",
-  "description": "A waybill franked with the Coronation issue of 1915.",
+  "title": "Waybill from Recht, 1915",
+  "description": "Part of a parcel waybill franked 1 toman and 5 kran with the Coronation issue of 1915, cancelled at Recht on 30 May 1915.",
   "id": "45006"
  },
  "waybill-45007": {
-  "title": "Waybill",
-  "description": "A waybill franked with the Coronation issue of 1915.",
+  "title": "Waybill from Tehran, 1915",
+  "description": "Part of a parcel waybill franked with the 2 toman Coronation stamp of 1915, cancelled at Tehran in June 1915.",
   "id": "45007"
  },
  "waybill-45008": {
@@ -1420,33 +1420,58 @@
   "id": "45031"
  },
  "waybill-45034": {
-  "title": "Waybill, 3 toman 1 kran",
-  "description": "A waybill franked with the Coronation issue of 1915, 3 toman 1 kran in all.",
+  "title": "Waybill from Recht to Tauris, 1916, 3 toman 1 kran",
+  "description": "A parcel waybill from Recht to Tauris franked 3 toman 1 kran with the Coronation issue of 1915, with Recht, Kazvin and Tauris postmarks of 1916.",
   "id": "45034"
  },
  "waybill-45037": {
-  "title": "Waybill, 3 toman 6 kran 10 chahi",
-  "description": "A waybill franked with the Coronation issue of 1915, 3 toman 6 kran 10 chahi in all.",
+  "title": "Waybill to Koum, 1916, 3 toman 6 kran 10 chahi",
+  "description": "A parcel waybill franked 3 toman 6 kran 10 chahi with the Coronation issue of 1915, received at Koum on 9 May 1916.",
   "id": "45037"
  },
  "waybill-45038": {
-  "title": "Waybill",
-  "description": "A waybill franked with the Ahmad Shah portrait issue of 1911.",
+  "title": "Waybill from Tehran to Meched, 1918",
+  "description": "A parcel waybill franked with high values of the Ahmad Shah portrait issue of 1911, posted at Tehran on 23 February 1918 and received at Meched on 14 March 1918.",
   "id": "45038"
  },
  "waybill-45042": {
-  "title": "Waybill",
-  "description": "A waybill franked with the Coat of Arms issue of 1909.",
+  "title": "Waybill from Tabriz to Djoulfa",
+  "description": "A parcel delivery notice franked with three 30 kran and two 3 kran stamps of the Coat of Arms issue of 1909, cancelled at Tabriz and received at Djoulfa.",
   "id": "45042"
  },
  "postcard-100016": {
-  "title": "Postcard from Recht to Tehran, 1913",
-  "description": "A postcard from Recht to Tehran, 1913, franked 2 chahi with the Ahmad Shah portrait issue of 1911.",
+  "title": "2 chahi postcard from Recht to Tehran, 1916",
+  "description": "A postcard from Recht to Tehran franked 2 chahi with the Ahmad Shah portrait issue of 1911, with a Tehran arrival postmark of 18 August 1916.",
   "id": "100016"
  },
  "postcard-100029": {
-  "title": "4 chahi postcard",
-  "description": "A postcard franked 4 chahi with the Ahmad Shah portrait issue of 1924, most probably sent at the printed matter (imprimes) rate.",
+  "title": "Printed matter postcard from Meched to Argentina, 1925",
+  "description": "A picture postcard sent as printed matter (IMPRIME) from Meched to Córdoba, Argentina, franked 4 chahi with the 1 and 3 chahi values of the Ahmad Shah portrait issue of 1924, dated December 1925.",
   "id": "100029"
+ },
+ "newspaper-200000": {
+  "title": "1 chahi on a newspaper from Tehran to Yazd",
+  "description": "A folded newspaper sent from Tehran to Yazd under a band franked 1 chahi with the Ahmad Shah portrait issue of 1911. The Yazd arrival postmark reads 6.11.23.",
+  "id": "200000"
+ },
+ "newspaper-200001": {
+  "title": "6 chahi on a newspaper from Tehran",
+  "description": "A folded newspaper sent from Tehran under a band franked 6 chahi with the Ahmad Shah portrait issue of 1911.",
+  "id": "200001"
+ },
+ "newspaper-200002": {
+  "title": "2 chahi on a cover to Isfahan, 1910",
+  "description": "An envelope to Isfahan franked 2 chahi with the Coat of Arms issue of 1909, dated by the sender 29 Zihajjeh 1328 (the last days of December 1910).",
+  "id": "200002"
+ },
+ "wrapper-200003": {
+  "title": "1 chahi on a newspaper wrapper to Hamadan",
+  "description": "A newspaper wrapper franked 1 chahi with the Ahmad Shah portrait issue of 1911, addressed to Mirza Massih Khan, the postal inspector at Hamadan. It also carries the Western Republican censor mark (CP-65).",
+  "id": "200003"
+ },
+ "service-200010": {
+  "title": "1 chahi Service stamp on a newspaper",
+  "description": "A newspaper franked 1 chahi with the official Service issue of 1911.",
+  "id": "200010"
  }
 }
