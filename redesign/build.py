@@ -550,7 +550,7 @@ def build_censors():
     <h2 class="h1" id="h-{sid}">{esc(s['name'])}</h2>
     <p class="source__summary">{summary}</p>
   </div>
-  <p class="source__text">{rich(s['text'])}</p>{prov}
+  {"".join(f'<p class="source__text">{rich(para)}</p>' for para in s['text'].split(chr(10) + chr(10)))}{prov}
   {''.join(groups)}
 </section>""")
     body = f"""
@@ -715,10 +715,12 @@ def build_marks():
         dl = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in rows if v)
         prev_l = f'<a href="{mark_slug(allcps[i - 1])}.html">Previous mark: {esc(mark_name(allcps[i - 1]))}</a>' if i else "<span></span>"
         next_l = f'<a href="{mark_slug(allcps[i + 1])}.html">Next mark: {esc(mark_name(allcps[i + 1]))}</a>' if i < len(allcps) - 1 else "<span></span>"
+        mtext = marks.get(cp, {}).get("text", "")
+        mark_text = ('<section class="context">' + "".join(f"<p>{rich(p)}</p>" for p in mtext.split(chr(10) + chr(10))) + "</section>") if mtext else ""
         body = f"""
 <div class="wrap">
   <nav class="crumbs crumbs--page" aria-label="Breadcrumb"><a href="{root}censors.html">Censors</a><span>/</span><a href="{root}censors.html#{sids[0]}">{esc(src_by_id[sids[0]]['name'])}</a><span>/</span><span aria-current="page">{esc(mark_name(cp))}</span></nav>
-  <section class="markhead"><h1 class="markhead__cp">{esc(mark_name(cp))}</h1><dl class="facts">{dl}</dl></section>
+  <section class="markhead"><h1 class="markhead__cp">{esc(mark_name(cp))}</h1><dl class="facts">{dl}</dl></section>{mark_text}
   <div class="cards cards--wide">{''.join(card(c, root, sids[0]) for c in cids)}</div>
   <nav class="bottomnav">{prev_l}<span></span>{next_l}</nav>
 </div>"""
