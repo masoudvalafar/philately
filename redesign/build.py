@@ -711,7 +711,7 @@ def build_marks():
                 ("Reads", esc(marks.get(cp, {}).get("meaning", ""))), ("Ink", esc(inks(cp))),
                 ("Seen", f"{int(min(ys))}–{int(max(ys))}" if ys and int(min(ys)) != int(max(ys)) else (str(int(ys[0])) if ys else "")),
                 ("Covers", str(len(cids))),
-                ("Catalogue", f'{esc(cp)} in {esc(DATA["reference"]["author"])}, <a href="{DATA["reference"]["url"]}"><cite>{esc(DATA["reference"]["title"])}</cite></a>' if cp.startswith("CP-") else "")]
+                ("Catalogue", f'{esc(cp)} in {esc(DATA["reference"]["author"])}, <a href="{DATA["reference"]["url"]}"><cite>{esc(DATA["reference"]["title"])}</cite></a>' if cp.startswith("CP-") else esc(marks.get(cp, {}).get("catalogue", "")))]
         dl = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in rows if v)
         prev_l = f'<a href="{mark_slug(allcps[i - 1])}.html">Previous mark: {esc(mark_name(allcps[i - 1]))}</a>' if i else "<span></span>"
         next_l = f'<a href="{mark_slug(allcps[i + 1])}.html">Next mark: {esc(mark_name(allcps[i + 1]))}</a>' if i < len(allcps) - 1 else "<span></span>"
