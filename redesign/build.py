@@ -492,10 +492,10 @@ def build_home():
     im = scan(feat, "front")
     total = len(cover_srcs)
     sections = [
-        ("Education", "education.html", "What you will find on a typical cover of the era: addresses, manuscript dates, postmarks, postbox, postage due and registration marks, and the postal rates of the era, each shown on a cover that paid it."),
-        ("Censors", "censors.html", f"Who read the mail, and when: {total} censored items from nine sources, from the first Persian controls of 1910 to Reza Khan’s army."),
-        ("Forgeries", "forgery.html", "Common and less common forgeries, and how to tell them apart."),
         ("Collection", "collection.html", "Notable items: the many ways to make up a rate, charity stamps, mixed frankings and more."),
+        ("Censors", "censors.html", f"Who read the mail, and when: {total} censored items from nine sources, from the first Persian controls of 1910 to Reza Khan’s army."),
+        ("Education", "education.html", "What you will find on a typical cover of the era: addresses, manuscript dates, postmarks, postbox, postage due and registration marks, and the postal rates of the era, each shown on a cover that paid it."),
+        ("Forgeries", "forgery.html", "Common and less common forgeries, and how to tell them apart."),
         ("Resources", "resources.html", "Books, catalogues and societies for the postal history of Iran."),
     ]
     idx = "".join(f'<li><a href="{h}"><span class="index__name">{n}</span><span class="index__text">{t}</span></a></li>'
