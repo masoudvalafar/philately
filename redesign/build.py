@@ -247,7 +247,7 @@ def crop(cid, side, box, n):
 
 
 # ---------------------------------------------------------------- layout
-NAV = [("Home", "index.html"), ("Education", "education.html"), ("Rates", "rate.html"),
+NAV = [("Home", "index.html"), ("Education", "education.html"),
        ("Censors", "censors.html"), ("Forgeries", "forgery.html"),
        ("Collection", "collection.html"), ("Resources", "resources.html")]
 
@@ -344,7 +344,7 @@ ITEMS = json.load(open(os.path.join(HERE, "data", "items.json"), encoding="utf-8
 # Persiphila stamp numbers per cover, from the "stamps persiphila" column of the Inventory sheet.
 STAMPS = json.load(open(os.path.join(HERE, "data", "stamps.json"), encoding="utf-8"))
 DOCS = [
-    ("education", "Reading a cover", "What you will find on a typical cover of the Ahmad Shah era, and the other markings to look for."),
+    ("education", "Reading a cover", "What you will find on a typical cover of the Ahmad Shah era, what it cost to send, and the other markings to look for."),
     ("rate", "Postal rates", "A study of the rates of postal items during the Ahmad Shah era, 1909–1925, each shown on a cover that paid it."),
     ("forgery", "Forgeries", "How to approach counterfeit covers, a short list of checks, and examples."),
     ("collection", "Collection", "Notable items from the collection: stamps of every issue on cover, and mixed frankings."),
@@ -459,7 +459,12 @@ def build_doc(name, title, lead):
         lis = "".join(f'<li class="toc__l{l}"><a href="#{i}">{esc(html.unescape(t))}</a></li>' for l, i, t in toc)
         toc_html = (f'<nav class="toc" aria-label="On this page"><details open><summary>On this page</summary>'
                     f'<ol>{lis}</ol></details></nav>')
-    body = f"""
+    # Postal rates is part of Education: it carries a breadcrumb and a way back.
+    crumbs = (f'<div class="wrap"><nav class="crumbs crumbs--page" aria-label="Breadcrumb"><a href="{root}education.html">Education</a>'
+              f'<span>/</span><span aria-current="page">{esc(title)}</span></nav></div>') if name == "rate" else ""
+    back = (f'<div class="wrap"><nav class="bottomnav"><a href="{root}education.html">Back to Reading a cover</a></nav></div>'
+            if name == "rate" else "")
+    body = f"""{crumbs}
 <section class="wrap pagehead">
   <h1 class="display">{esc(title)}</h1>
   <p class="lead">{esc(lead)}</p>
@@ -467,12 +472,12 @@ def build_doc(name, title, lead):
 <div class="wrap doc{' doc--toc' if toc_html else ''}">
   {toc_html}
   <article class="doc__body">{src}</article>
-</div>"""
+</div>{back}"""
     write(f"{name}.html", page(f"{title} · Persian Postal History", body, root, title_nav(name), lead))
 
 
 def title_nav(name):
-    return {"education": "Education", "rate": "Rates", "forgery": "Forgeries",
+    return {"education": "Education", "rate": "Education", "forgery": "Forgeries",
             "collection": "Collection", "resources": "Resources"}[name]
 
 
@@ -482,8 +487,7 @@ def build_home():
     im = scan(feat, "front")
     total = len(cover_srcs)
     sections = [
-        ("Education", "education.html", "What you will find on a typical cover of the era: addresses, manuscript dates, postmarks, postbox, postage due and registration marks."),
-        ("Rates", "rate.html", "Postal rates for letters, registration, receipts and foreign mail, each shown on a cover that paid it."),
+        ("Education", "education.html", "What you will find on a typical cover of the era: addresses, manuscript dates, postmarks, postbox, postage due and registration marks, and the postal rates of the era, each shown on a cover that paid it."),
         ("Censors", "censors.html", f"Who read the mail, and when: {total} censored items from nine sources, from the first Persian controls of 1910 to Reza Khan’s army."),
         ("Forgeries", "forgery.html", "Common and less common forgeries, and how to tell them apart."),
         ("Collection", "collection.html", "Notable items: the many ways to make up a rate, charity stamps, mixed frankings and more."),
