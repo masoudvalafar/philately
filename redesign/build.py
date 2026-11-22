@@ -247,9 +247,9 @@ def crop(cid, side, box, n):
 
 
 # ---------------------------------------------------------------- layout
-NAV = [("Home", "index.html"), ("Education", "education.html"),
-       ("Censors", "censors.html"), ("Forgeries", "forgery.html"),
-       ("Collection", "collection.html"), ("Resources", "resources.html")]
+NAV = [("Home", "index.html"), ("Collection", "collection.html"),
+       ("Censors", "censors.html"), ("Education", "education.html"),
+       ("Forgeries", "forgery.html"), ("Resources", "resources.html")]
 
 
 def page(title, body, root, active, description=""):
