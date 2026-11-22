@@ -459,9 +459,14 @@ def build_doc(name, title, lead):
         lis = "".join(f'<li class="toc__l{l}"><a href="#{i}">{esc(html.unescape(t))}</a></li>' for l, i, t in toc)
         toc_html = (f'<nav class="toc" aria-label="On this page"><details open><summary>On this page</summary>'
                     f'<ol>{lis}</ol></details></nav>')
-    # Postal rates is part of Education: it carries a breadcrumb and a way back.
-    crumbs = (f'<div class="wrap"><nav class="crumbs crumbs--page" aria-label="Breadcrumb"><a href="{root}education.html">Education</a>'
-              f'<span>/</span><span aria-current="page">{esc(title)}</span></nav></div>') if name == "rate" else ""
+    # Education has two pages, Reading a cover and Postal rates, joined by tabs.
+    CURRENT = ' aria-current="page"'
+    crumbs = ""
+    if name in ("education", "rate"):
+        tabs = [("education", "Reading a cover"), ("rate", "Postal rates")]
+        crumbs = ('<div class="wrap"><nav class="subnav" aria-label="Education">'
+                  + "".join(f'<a href="{root}{n}.html"{CURRENT if n == name else ""}>{esc(l)}</a>' for n, l in tabs)
+                  + '</nav></div>')
     back = (f'<div class="wrap"><nav class="bottomnav"><a href="{root}education.html">Back to Reading a cover</a></nav></div>'
             if name == "rate" else "")
     body = f"""{crumbs}

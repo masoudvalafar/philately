@@ -271,3 +271,9 @@ main { padding-bottom: 72px; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
 @media print { .masthead, .footer, .ctxbar, .bottomnav { display: none; } body { background: #fff; } }
+
+/* Education sub-pages */
+.subnav { display: flex; gap: 8px; flex-wrap: wrap; padding-top: 28px; margin-bottom: 16px; }
+.subnav a { text-decoration: none; color: var(--muted); padding: 6px 14px; border: 1px solid #c9cfda; border-radius: 999px; font-size: 0.95rem; }
+.subnav a:hover { color: var(--ink); border-color: var(--ink); }
+.subnav a[aria-current="page"] { color: #fff; background: var(--ink); border-color: var(--ink); }
